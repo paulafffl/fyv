@@ -46,21 +46,20 @@
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
+}
 
-    & img {
-        max-width: 24vw;
-    }
+.Grid-image {
+    max-width: 24vw;
 }
 
 .Thumbnail-container {
     padding: 1vw;
 }
 
-/* The Modal (background) */
-.modal {
+.modal-bckg {
     position: fixed; /* Stay in place */
     z-index: 1; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
+    padding-top: 50px; /* Location of the box */
     left: 0;
     top: 0;
     width: 100%; /* Full width */
@@ -70,25 +69,61 @@
     background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
 }
 
-/* Modal Content */
-.modal-content {
+.modal-box {
+    display: block;
+    padding: 5vh;
+    width: 70vw;
     background-color: #fefefe;
     margin: auto;
-    padding: 20px;
-    border: 1px solid #888;
-    width: 80%;
+    @media only screen and (max-width: 769px){
+        display: block;
+        max-width: 75vw;
+        overflow: auto; 
+    }
 }
 
-/* The Close Button */
-.close {
+.modal-content {
+    display: flex;
+    padding: 1vw 3vw;
+    max-height: 65vh;
+    color: #888;
+    text-align: left;
+    font-family:'Courier New', Courier, monospace;
+    img {
+        height: 100%;
+        max-height: 55vh;
+        max-width: 50%;
+        object-fit: contain;
+    }
+    p {
+        overflow: auto; 
+        padding: 0rem 2rem;
+        margin-block-start: 0px; /* Overides default margin */
+    }
+    @media only screen and (max-width: 769px){
+        display: block;
+        padding: 0;
+        max-height: 75vh;
+        text-align: center;
+        img {
+            max-width: 80%;
+        }
+        p {
+            overflow: unset;
+            padding: 2rem 2rem;
+        }
+    }
+}
+
+.modal-close {
+    text-align: right;
     color: #aaaaaa;
-    float: right;
-    font-size: 28px;
+    font-size: 20px;
     font-weight: bold;
 }
 
-.close:hover,
-.close:focus {
+.modal-close:hover,
+.modal-close:focus {
     color: #000;
     text-decoration: none;
     cursor: pointer;

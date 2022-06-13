@@ -1,19 +1,23 @@
 import React from "react";
 
-export const Modal = ({ content, setModal }) => {
+export const Modal = ({ content, setModal, children }) => {
   return (
-    <div id="myModal" className="modal">
-      <div className="modal-content">
-        <span
-          className="close"
-          onClick={(e) => {
-            e.stopPropagation();
-            setModal(false);
-          }}
-        >
-          &times;
-        </span>
-        <p>{content}</p>
+    <div className="modal-bckg">
+      <div className="modal-box">
+        <div className="modal-close">
+          <span
+            onClick={(e) => {
+              e.stopPropagation();
+              setModal(false);
+            }}
+          >
+            &times;
+          </span>
+        </div>
+        <div className="modal-content">
+          {children}
+          {content}
+        </div>
       </div>
     </div>
   );

@@ -10,10 +10,12 @@ export const Thumbnail = ({ imgSrc, imgUrl, content }) => {
         setModal(true);
       }}
     >
-      {/* <a target="blank" href={imgUrl} id="myBtn"> */}
-      <img src={imgSrc} alt={imgSrc} />
-      {/* </a> */}
-      {modal && <Modal content={content} setModal={setModal} />}
+      <img className="Grid-image" src={imgSrc} alt={imgSrc} />
+      {modal && (
+        <Modal content={content} setModal={setModal}>
+          <img src={imgSrc} alt={imgSrc} />
+        </Modal>
+      )}
     </div>
   );
 };
