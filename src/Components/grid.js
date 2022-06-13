@@ -3,6 +3,7 @@ import { Thumbnail } from "./thumbnail";
 
 const thumbnailsInfo = [
   {
+    title: "F.Y.V. Manifesto",
     content: (
       <p>
         📜 F.Y.V. Manifesto - Our 3 Pillars
@@ -35,118 +36,117 @@ const thumbnailsInfo = [
         #selfknowledge #freeyourvulva #pleasure #womenspleasure #empowerment
       </p>
     ),
-    imgUrl: "https://www.instagram.com/p/CelB-ywtHJP/",
-    imgSrc: require("../Thumbnails/instagram_post_12.png"),
+    imgList: [12, 11, 10],
   },
   {
+    title: "F.Y.V. Manifesto",
     content: (
       <p>
         📜 F.Y.V. Manifesto - Our 3 Pillars
         <br></br>
       </p>
     ),
-    imgUrl: "https://www.instagram.com/p/CelB-ywtHJP/",
-    imgSrc: require("../Thumbnails/instagram_post_11.png"),
+    imgList: [11],
   },
   {
+    title: "F.Y.V. Manifesto",
     content: (
       <p>
         📜 F.Y.V. Manifesto - Our 3 Pillars
         <br></br>
       </p>
     ),
-    imgUrl: "https://www.instagram.com/p/CelB-ywtHJP/",
-    imgSrc: require("../Thumbnails/instagram_post_10.png"),
+    imgList: [10],
   },
   {
+    title: "F.Y.V. Manifesto",
     content: (
       <p>
         📜 F.Y.V. Manifesto - Our 3 Pillars
         <br></br>
       </p>
     ),
-    imgUrl: "https://www.instagram.com/p/CelB-ywtHJP/",
-    imgSrc: require("../Thumbnails/instagram_post_9.png"),
+    imgList: [9],
   },
   {
+    title: "F.Y.V. Manifesto",
     content: (
       <p>
         📜 F.Y.V. Manifesto - Our 3 Pillars
         <br></br>
       </p>
     ),
-    imgUrl: "https://www.instagram.com/p/CelB-ywtHJP/",
-    imgSrc: require("../Thumbnails/instagram_post_8.png"),
+    imgList: [8],
   },
   {
+    title: "F.Y.V. Manifesto",
     content: (
       <p>
         📜 F.Y.V. Manifesto - Our 3 Pillars
         <br></br>
       </p>
     ),
-    imgUrl: "https://www.instagram.com/p/CelB-ywtHJP/",
-    imgSrc: require("../Thumbnails/instagram_post_7.png"),
+    imgList: [7],
   },
   {
+    title: "F.Y.V. Manifesto",
     content: (
       <p>
         📜 F.Y.V. Manifesto - Our 3 Pillars
         <br></br>
       </p>
     ),
-    imgUrl: "https://www.instagram.com/p/CelB-ywtHJP/",
-    imgSrc: require("../Thumbnails/instagram_post_6.png"),
+    imgList: [6],
   },
   {
+    title: "F.Y.V. Manifesto",
     content: (
       <p>
         📜 F.Y.V. Manifesto - Our 3 Pillars
         <br></br>
       </p>
     ),
-    imgUrl: "https://www.instagram.com/p/CelB-ywtHJP/",
-    imgSrc: require("../Thumbnails/instagram_post_5.png"),
+    imgList: [5],
   },
   {
+    title: "F.Y.V. Manifesto",
     content: (
       <p>
         📜 F.Y.V. Manifesto - Our 3 Pillars
         <br></br>
       </p>
     ),
-    imgUrl: "https://www.instagram.com/p/CelB-ywtHJP/",
-    imgSrc: require("../Thumbnails/instagram_post_4.png"),
+    imgList: [4],
   },
   {
+    title: "F.Y.V. Manifesto",
     content: (
       <p>
         📜 F.Y.V. Manifesto - Our 3 Pillars
         <br></br>
       </p>
     ),
-    imgUrl: "https://www.instagram.com/p/CelB-ywtHJP/",
-    imgSrc: require("../Thumbnails/instagram_post_3.png"),
+    imgList: [3],
   },
   {
+    title: "F.Y.V. Manifesto",
     content: (
       <p>
         📜 F.Y.V. Manifesto - Our 3 Pillars
         <br></br>
       </p>
     ),
-    imgUrl: "https://www.instagram.com/p/CelB-ywtHJP/",
-    imgSrc: require("../Thumbnails/instagram_post_2.png"),
+    imgList: [2],
   },
   {
+    title: "F.Y.V. Manifesto",
     content: (
       <p>
         📜 F.Y.V. Manifesto - Our 3 Pillars
         <br></br>
       </p>
     ),
-    imgUrl: "https://www.instagram.com/p/CelB-ywtHJP/",
-    imgSrc: require("../Thumbnails/instagram_post_1.png"),
+    imgList: [1],
   },
 ];
 
@@ -154,9 +154,9 @@ const thumbnailsMapped = thumbnailsInfo.map((item, i) => {
   return (
     <Thumbnail
       key={item + i}
-      imgSrc={item.imgSrc}
-      imgUrl={item.imgUrl}
+      title={item.title}
       content={item.content}
+      imgList={item.imgList}
     ></Thumbnail>
   );
 });

@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 import { Modal } from "./modal";
 
-export const Thumbnail = ({ imgSrc, imgUrl, content }) => {
+export const Thumbnail = ({ title, content, imgList }) => {
   const [modal, setModal] = useState(false);
+
   return (
     <div
       className="Thumbnail-container"
@@ -10,11 +11,18 @@ export const Thumbnail = ({ imgSrc, imgUrl, content }) => {
         setModal(true);
       }}
     >
-      <img className="Grid-image" src={imgSrc} alt={imgSrc} />
+      <img
+        className="Grid-image"
+        src={require(`../Thumbnails/instagram_post_${imgList[0]}.png`)}
+        alt={title}
+      />
       {modal && (
-        <Modal content={content} setModal={setModal}>
-          <img src={imgSrc} alt={imgSrc} />
-        </Modal>
+        <Modal
+          title={title}
+          content={content}
+          setModal={setModal}
+          imgList={imgList}
+        ></Modal>
       )}
     </div>
   );

@@ -128,3 +128,17 @@
     text-decoration: none;
     cursor: pointer;
 }
+
+.carousel{
+    display: block;
+    button {
+        border-radius: 100%;
+        padding: 0.25rem;
+        margin: 0.25rem;
+        border: none;
+        background-color: #ddd;
+        &:hover {
+            background-color: #aaa;
+        }
+    }
+}

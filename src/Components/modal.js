@@ -1,6 +1,16 @@
-import React from "react";
+import React, { useState } from "react";
 
-export const Modal = ({ content, setModal, children }) => {
+export const Modal = ({ title, content, setModal, imgList }) => {
+  const [shownImg, setShownImg] = useState(imgList[0]);
+  const carousel = imgList.map((imgNo) => {
+    return (
+      <button
+        onClick={() => {
+          setShownImg(imgNo);
+        }}
+      ></button>
+    );
+  });
   return (
     <div className="modal-bckg">
       <div className="modal-box">
@@ -15,7 +25,11 @@ export const Modal = ({ content, setModal, children }) => {
           </span>
         </div>
         <div className="modal-content">
-          {children}
+          <img
+            src={require(`../Thumbnails/instagram_post_${shownImg}.png`)}
+            alt={title}
+          />
+          {imgList.length > 1 && <div className="carousel">{carousel}</div>}
           {content}
         </div>
       </div>
