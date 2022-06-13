@@ -25,11 +25,13 @@ export const Modal = ({ title, content, setModal, imgList }) => {
           </span>
         </div>
         <div className="modal-content">
-          <img
-            src={require(`../Thumbnails/instagram_post_${shownImg}.png`)}
-            alt={title}
-          />
-          {imgList.length > 1 && <div className="carousel">{carousel}</div>}
+          <div className="modal-img">
+            <img
+              src={require(`../Thumbnails/instagram_post_${shownImg}.png`)}
+              alt={title}
+            />
+            {imgList.length > 1 && <div className="carousel">{carousel}</div>}
+          </div>
           {content}
         </div>
       </div>
