@@ -6,6 +6,7 @@ export const Modal = ({ title, content, setModal, imgList }) => {
     return (
       <button
         key={"carousel" + imgNo}
+        data-testid={`carousel-img-${imgNo}`}
         onClick={() => {
           setShownImg(imgNo);
         }}
@@ -29,6 +30,7 @@ export const Modal = ({ title, content, setModal, imgList }) => {
           <div className="modal-img">
             <img
               src={require(`../Thumbnails/instagram_post_${shownImg}.png`)}
+              data-testid={`modal-img-${shownImg}`}
               alt={title}
             />
             {imgList.length > 1 && (

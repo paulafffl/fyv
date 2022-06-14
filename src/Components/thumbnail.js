@@ -12,9 +12,10 @@ export const Thumbnail = ({ title, content, imgList }) => {
       }}
     >
       <img
-        className="Grid-image"
+        className="grid-img"
         src={require(`../Thumbnails/instagram_post_${imgList[0]}.png`)}
         alt={title}
+        data-testid={`grid-img-${imgList[0]}`}
       />
       {modal && (
         <Modal
