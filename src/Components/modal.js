@@ -5,6 +5,7 @@ export const Modal = ({ title, content, setModal, imgList }) => {
   const carousel = imgList.map((imgNo) => {
     return (
       <button
+        key={"carousel" + imgNo}
         onClick={() => {
           setShownImg(imgNo);
         }}
@@ -30,7 +31,9 @@ export const Modal = ({ title, content, setModal, imgList }) => {
               src={require(`../Thumbnails/instagram_post_${shownImg}.png`)}
               alt={title}
             />
-            {imgList.length > 1 && <div className="carousel">{carousel}</div>}
+            {imgList.length > 1 && (
+              <div className="modal-carousel">{carousel}</div>
+            )}
           </div>
           {content}
         </div>

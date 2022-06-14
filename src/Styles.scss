@@ -1,34 +1,37 @@
-.App {
-    text-align: center;
-  }
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+
+$color-brown: #A07058;
+$color-sand: #DDA479;
+$color-pink: #F5CAB7;
+$color-grey-light: #DDD;
+$color-grey-dark: #888;
+
+body {
+    // font-family: 'Montserrat', sans-serif;
+    // font-family: 'Permanent Marker', cursive;
+    font-family:'Courier New', Courier, monospace;
+}
   
-.App-logo {
-    height: 40vmin;
-    // pointer-events: none;
-    // :hover{
-    //     cursor: 
-    // }
-}
-
-@media (prefers-reduced-motion: no-preference) {
-/* .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-} */
-}
-
 .App-header {
-    background-color: #F5CAB7;
-    min-height: 50vh;
+    background-color: $color-pink;
+    color: $color-brown;
+    min-height: 10vh;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
-    color: white;
+    justify-content: right;
+    font-size: calc(10px + 1vmin);
+    padding: 2vw 11vw;
 }
 
-.App-link {
-    color: #61dafb;
+.App-logo {
+    height: 15vh;
+    margin-left: 2vh;
+    animation: App-logo-spin infinite 20s linear;
+    &:hover{
+        cursor: pointer; 
+    }
 }
 
 @keyframes App-logo-spin {
@@ -50,6 +53,11 @@
 
 .Grid-image {
     max-width: 24vw;
+    transition: box-shadow 100ms;
+    &:hover {
+        cursor: pointer;
+        box-shadow: 7px 7px $color-grey-light;
+    }
 }
 
 .Thumbnail-container {
@@ -73,7 +81,7 @@
     display: block;
     padding: 5vh;
     width: 70vw;
-    background-color: #fefefe;
+    background-color: white;
     margin: auto;
     @media only screen and (max-width: 769px){
         display: block;
@@ -88,7 +96,7 @@
     display: flex;
     padding: 1vw 3vw;
     max-height: 65vh;
-    color: #888;
+    color: $color-grey-dark;
     text-align: left;
     font-family:'Courier New', Courier, monospace;
     p {
@@ -122,28 +130,29 @@
 
 .modal-close {
     text-align: right;
-    color: #aaaaaa;
+    color: $color-sand;
     font-size: 20px;
     font-weight: bold;
+    span {
+        &:hover{
+            cursor: pointer;
+            color: $color-brown;
+            text-decoration: none;
+        }
+    }
 }
 
-.modal-close:hover,
-.modal-close:focus {
-    color: #000;
-    text-decoration: none;
-    cursor: pointer;
-}
-
-.carousel{
+.modal-carousel{
     display: block;
     button {
         border-radius: 100%;
         padding: 0.3rem;
         margin: 0.3rem;
         border: none;
-        background-color: #ddd;
+        background-color: $color-pink;
         &:hover {
-            background-color: #aaa;
+            cursor: pointer;
+            background-color: $color-brown;
         }
     }
 }
