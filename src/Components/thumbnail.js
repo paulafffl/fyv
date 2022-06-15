@@ -10,10 +10,10 @@ export const Thumbnail = ({ title, content, imgList }) => {
         onClick={() => {
           setModal(true);
         }}
-        className="grid-img"
+        className="section-img"
         src={require(`../Thumbnails/instagram_post_${imgList[0]}.png`)}
         alt={title}
-        data-testid={`grid-img-${imgList[0]}`}
+        data-testid={`section-img-${imgList[0]}`}
       />
       {modal && (
         <Modal

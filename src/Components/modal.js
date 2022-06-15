@@ -5,6 +5,9 @@ export const Modal = ({ title, content, setModal, imgList }) => {
   const carousel = imgList.map((imgNo) => {
     return (
       <button
+        className={`modal__carousel ${
+          shownImg === imgNo ? "modal__carousel--selected" : ""
+        }`}
         key={"carousel" + imgNo}
         data-testid={`carousel-img-${imgNo}`}
         onClick={() => {
@@ -14,9 +17,9 @@ export const Modal = ({ title, content, setModal, imgList }) => {
     );
   });
   return (
-    <div className="modal-bckg">
-      <div className="modal-box">
-        <div className="modal-close">
+    <div className="modal__bckg">
+      <div className="modal__box">
+        <div className="modal__close">
           <span
             onClick={(e) => {
               e.stopPropagation();
@@ -26,16 +29,14 @@ export const Modal = ({ title, content, setModal, imgList }) => {
             &times;
           </span>
         </div>
-        <div className="modal-content">
-          <div className="modal-img">
+        <div className="modal__content">
+          <div className="modal__img">
             <img
               src={require(`../Thumbnails/instagram_post_${shownImg}.png`)}
-              data-testid={`modal-img-${shownImg}`}
+              data-testid={`modal__img-${shownImg}`}
               alt={title}
             />
-            {imgList.length > 1 && (
-              <div className="modal-carousel">{carousel}</div>
-            )}
+            {imgList.length > 1 && <div display="flex">{carousel}</div>}
           </div>
           {content}
         </div>
