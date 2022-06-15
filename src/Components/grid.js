@@ -4,6 +4,21 @@ import { Thumbnail } from "./thumbnail";
 const thumbnailsInfo = [
   {
     title: "F.Y.V. Manifesto",
+    content: <p>📜 F.Y.V. Manifesto - Our 3 Pillars</p>,
+    imgList: [23, 24],
+  },
+  {
+    title: "F.Y.V. Manifesto",
+    content: <p>📜 F.Y.V. Manifesto - Our 3 Pillars</p>,
+    imgList: [22],
+  },
+  {
+    title: "F.Y.V. Manifesto",
+    content: <p>📜 F.Y.V. Manifesto - Our 3 Pillars</p>,
+    imgList: [20, 21],
+  },
+  {
+    title: "F.Y.V. Manifesto",
     content: (
       <p>
         📜 F.Y.V. Manifesto - Our 3 Pillars
@@ -36,7 +51,7 @@ const thumbnailsInfo = [
         #selfknowledge #freeyourvulva #pleasure #womenspleasure #empowerment
       </p>
     ),
-    imgList: [15, 16, 17, 18],
+    imgList: [15, 16, 17, 18, 19],
   },
   {
     title: "F.Y.V. Manifesto",
@@ -144,7 +159,7 @@ const thumbnailsInfo = [
         #selfknowledge #freeyourvulva #pleasure #womenspleasure #empowerment
       </p>
     ),
-    imgList: [12, 11, 10],
+    imgList: [12],
   },
   {
     title: "F.Y.V. Manifesto",
@@ -166,96 +181,6 @@ const thumbnailsInfo = [
     ),
     imgList: [10],
   },
-  {
-    title: "F.Y.V. Manifesto",
-    content: (
-      <p>
-        📜 F.Y.V. Manifesto - Our 3 Pillars
-        <br></br>
-      </p>
-    ),
-    imgList: [9],
-  },
-  {
-    title: "F.Y.V. Manifesto",
-    content: (
-      <p>
-        📜 F.Y.V. Manifesto - Our 3 Pillars
-        <br></br>
-      </p>
-    ),
-    imgList: [8],
-  },
-  {
-    title: "F.Y.V. Manifesto",
-    content: (
-      <p>
-        📜 F.Y.V. Manifesto - Our 3 Pillars
-        <br></br>
-      </p>
-    ),
-    imgList: [7],
-  },
-  {
-    title: "F.Y.V. Manifesto",
-    content: (
-      <p>
-        📜 F.Y.V. Manifesto - Our 3 Pillars
-        <br></br>
-      </p>
-    ),
-    imgList: [6],
-  },
-  {
-    title: "F.Y.V. Manifesto",
-    content: (
-      <p>
-        📜 F.Y.V. Manifesto - Our 3 Pillars
-        <br></br>
-      </p>
-    ),
-    imgList: [5],
-  },
-  {
-    title: "F.Y.V. Manifesto",
-    content: (
-      <p>
-        📜 F.Y.V. Manifesto - Our 3 Pillars
-        <br></br>
-      </p>
-    ),
-    imgList: [4],
-  },
-  {
-    title: "F.Y.V. Manifesto",
-    content: (
-      <p>
-        📜 F.Y.V. Manifesto - Our 3 Pillars
-        <br></br>
-      </p>
-    ),
-    imgList: [3],
-  },
-  {
-    title: "F.Y.V. Manifesto",
-    content: (
-      <p>
-        📜 F.Y.V. Manifesto - Our 3 Pillars
-        <br></br>
-      </p>
-    ),
-    imgList: [2],
-  },
-  {
-    title: "F.Y.V. Manifesto",
-    content: (
-      <p>
-        📜 F.Y.V. Manifesto - Our 3 Pillars
-        <br></br>
-      </p>
-    ),
-    imgList: [1],
-  },
 ];
 
 const thumbnailsMapped = thumbnailsInfo.map((item, i) => {
@@ -270,5 +195,5 @@ const thumbnailsMapped = thumbnailsInfo.map((item, i) => {
 });
 
 export const Grid = () => {
-  return <div className="Grid-container">{thumbnailsMapped}</div>;
+  return <div className="grid-container">{thumbnailsMapped}</div>;
 };

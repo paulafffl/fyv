@@ -5,13 +5,11 @@ export const Thumbnail = ({ title, content, imgList }) => {
   const [modal, setModal] = useState(false);
 
   return (
-    <div
-      className="Thumbnail-container"
-      onClick={() => {
-        setModal(true);
-      }}
-    >
+    <>
       <img
+        onClick={() => {
+          setModal(true);
+        }}
         className="grid-img"
         src={require(`../Thumbnails/instagram_post_${imgList[0]}.png`)}
         alt={title}
@@ -25,6 +23,6 @@ export const Thumbnail = ({ title, content, imgList }) => {
           imgList={imgList}
         ></Modal>
       )}
-    </div>
+    </>
   );
 };
