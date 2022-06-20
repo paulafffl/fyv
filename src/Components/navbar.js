@@ -5,9 +5,9 @@ export const Navbar = () => {
   return (
     <div className="navbar">
       <div>
-        <span>ABOUT</span>
-        <span>POSTS</span>
-        <span>SUPPORT</span>
+        <a href="#about us">ABOUT</a>
+        <a href="#posts">POSTS</a>
+        <a href="#support">SUPPORT</a>
       </div>
     </div>
   );

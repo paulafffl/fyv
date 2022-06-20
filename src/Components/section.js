@@ -1,7 +1,7 @@
 import React from "react";
 import { Thumbnail } from "./thumbnail";
 
-export const Section = ({ content, title }) => {
+export const Section = ({ content, title, id }) => {
   const thumbnailsMapped = content.map((item, i) => {
     return (
       <Thumbnail
@@ -14,9 +14,9 @@ export const Section = ({ content, title }) => {
   });
 
   return (
-    <>
+    <div id={id}>
       <h1 className="section-title">{title}</h1>
       <div className="section-container">{thumbnailsMapped}</div>
-    </>
+    </div>
   );
 };

@@ -7,6 +7,8 @@ $color-sand: #DDA479;
 $color-pink: #F5CAB7;
 $color-grey-light: #DDD;
 $color-grey-dark: #888;
+$padding-container: 10vw 5vw;
+$margin-children: 2vw;
 
 body {
     // font-family: 'Montserrat', sans-serif;
@@ -17,6 +19,10 @@ body {
         margin-block-start: 0;
         margin-block-end: 0;
     }
+}
+
+html {
+    scroll-behavior: smooth;
 }
   
 .navbar {
@@ -36,8 +42,21 @@ body {
     div {
         padding: 2vw 11vw;
     }
-    span {
+    a {
+        font-weight: 800;
+        text-decoration: none;
+        color: $color-pink;
         margin-left: 2vw;
+        &:hover{
+            color: $color-sand
+        }
+    }
+}
+
+.about-us{
+    padding: $padding-container; 
+    p {
+        margin: $margin-children;
     }
 }
 
@@ -79,7 +98,7 @@ body {
 
 .section-container {
     display: flex;
-    padding: 10vw 5vw;
+    padding: $padding-container;
     flex-direction: row;
     justify-content: center;
     flex-wrap: wrap;
