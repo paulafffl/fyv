@@ -15,8 +15,8 @@ export const Section = ({ content, title, id }) => {
 
   return (
     <div id={id}>
-      <h1 className="section-title">{title}</h1>
-      <div className="section-container">{thumbnailsMapped}</div>
+      <h1 className="section__title">{title}</h1>
+      <div className="section__container">{thumbnailsMapped}</div>
     </div>
   );
 };

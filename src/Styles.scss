@@ -1,23 +1,20 @@
-@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
-// @import url('./Fonts/WCManoNegraBta.ttf');
 
 $color-brown: #84614f;
 $color-sand: #DDA479;
 $color-pink: #F5CAB7;
 $color-grey-light: #DDD;
 $color-grey-dark: #888;
-$padding-container: 10vw 5vw;
-$margin-children: 2vw;
 
 body {
-    // font-family: 'Montserrat', sans-serif;
-    // font-family: 'Permanent Marker', cursive;
     font-family:'Courier New', Courier, monospace;
-    // font-family: 'WCManoNegraBta', cursive;
+    color: $color-grey-dark;
     h1 {
+        // font-family: 'Montserrat', sans-serif;
         margin-block-start: 0;
         margin-block-end: 0;
+        color: $color-sand;
+        font-size: 5vmin;
     }
 }
 
@@ -29,12 +26,11 @@ html {
     z-index: 1;
     background-color: $color-brown;
     color: $color-pink;
-    min-height: 10vh;
+    height: 10vh;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: right;
-    font-size: calc(10px + 1vmin);
     position: fixed;
     width: 100%;
     display: flex;
@@ -42,7 +38,8 @@ html {
     div {
         padding: 2vw 11vw;
     }
-    a {
+    &__link{
+        font-size: calc(0.3em + 2vmin);
         font-weight: 800;
         text-decoration: none;
         color: $color-pink;
@@ -50,75 +47,51 @@ html {
         &:hover{
             color: $color-sand
         }
+        &--active{
+            color: white;
+        }
     }
-}
 
-.about-us{
-    padding: $padding-container; 
-    p {
-        margin: $margin-children;
-    }
-}
-
-.footer {
-    background-color: $color-pink;
-    color: $color-brown;
-    min-height: 10vh;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: right;
-    font-size: calc(10px + 1vmin);
-    padding: 2vw 11vw;
-}
-
-.footer-logo {
-    height: 15vh;
-    margin-left: 2vh;
-    animation: footer-logo-spin infinite 20s linear;
-    &:hover{
-        cursor: pointer; 
-    }
-}
-
-@keyframes footer-logo-spin {
-    from { transform: rotate(0deg) };
-    to { transform: rotate(360deg) };
 }
 
 .header {
     position: relative;
-    top: 10vh;
-}
-
-.header-img {
-    width: 33.33%;
-    margin-bottom: 9vh;
-}
-
-.section-container {
-    display: flex;
-    padding: $padding-container;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
-}
-
-.section-title {
-    color: $color-sand;
-    text-align: center;
-    background-color: $color-pink;
-    padding: 5vw;
-}
-
-.section-img {
-    margin: 1vw;
-    max-width: 24vw;
-    transition: box-shadow 100ms;
-    &:hover {
-        cursor: pointer;
-        box-shadow: 0.5vw 0.5vw $color-grey-light;
+    top: 5vh;
+    img {
+        width: 100%;
+        margin-bottom: 9vh;
     }
+}
+
+.section {
+
+    &__container {
+        display: flex;
+        padding: 5vw 5vw;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    &__title {
+        color: $color-sand;
+        text-align: left;
+        padding-top: 3vw;
+        border-top: 0.5vh solid $color-pink;
+        margin-left: 11.5vw; 
+        margin-top: 7vw;
+    }
+
+    &__img {
+        margin: 1vw;
+        max-width: 24vw;
+        transition: box-shadow 100ms;
+        &:hover {
+            cursor: pointer;
+            box-shadow: 0.5vw 0.5vw $color-grey-light;
+        }
+    }
+
 }
 
 .modal {
@@ -221,4 +194,85 @@ html {
             background-color: $color-pink;
         }
     }
+}
+
+.about{
+    padding: 5vw 12vw; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+    &__info{
+        width: 30vw;
+        margin-right: 3vw;
+        @media only screen and (max-width: 769px){
+            width: 70vw;
+        }
+    }
+
+    &__bio{
+        width: 40vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        @media only screen and (max-width: 769px){
+            width: 70vw;
+        }
+    }
+
+    &__block{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        width: 18vw;
+        @media only screen and (max-width: 769px){
+            width: 70vw;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: space-between;
+            margin-top: 2vh;
+            p {
+                margin-top: 0;
+                margin-left: 3vw;
+            }
+        }
+        img {
+            width: 18vw;
+            height: 18vw;
+            margin-bottom: 2vh;
+            object-fit: cover;
+        }
+        span {
+            color: $color-sand;
+            font-weight: bold;
+        }
+    }
+}
+
+.footer {
+    background-color: $color-pink;
+    color: $color-brown;
+    min-height: 10vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: right;
+    font-size: calc(10px + 1vmin);
+    padding: 2vw 11vw;
+    
+    &__logo {
+        height: 15vh;
+        margin-left: 2vh;
+        animation: footer__logo-spin infinite 20s linear;
+        &:hover{
+            cursor: pointer; 
+        }
+    }
+}
+
+@keyframes footer__logo-spin {
+    from { transform: rotate(0deg) };
+    to { transform: rotate(360deg) };
 }

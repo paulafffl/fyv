@@ -7,17 +7,7 @@ export const Header = () => {
       <div className="header">
         <img
           className="header-img"
-          src={require(`../Thumbnails/instagram_post_${9}.png`)}
-          alt={"header-img"}
-        />
-        <img
-          className="header-img"
-          src={require(`../Thumbnails/instagram_post_${8}.png`)}
-          alt={"header-img"}
-        />
-        <img
-          className="header-img"
-          src={require(`../Thumbnails/instagram_post_${7}.png`)}
+          src={require(`../Images/fyv_hero.png`)}
           alt={"header-img"}
         />
       </div>

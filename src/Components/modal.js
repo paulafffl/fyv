@@ -32,7 +32,7 @@ export const Modal = ({ title, content, setModal, imgList }) => {
         <div className="modal__content">
           <div className="modal__img">
             <img
-              src={require(`../Thumbnails/instagram_post_${shownImg}.png`)}
+              src={require(`../Images/Thumbnails/instagram_post_${shownImg}.png`)}
               data-testid={`modal__img-${shownImg}`}
               alt={title}
             />

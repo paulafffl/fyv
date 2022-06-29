@@ -1,6 +1,6 @@
 import React from "react";
 import "../Styles.scss";
-import logoOuter from "../fyv_logo_outer.png";
+import logoOuter from "../Images/fyv_logo_outer.png";
 
 export const Footer = ({ id }) => {
   return (
@@ -10,7 +10,7 @@ export const Footer = ({ id }) => {
         href="mailto:freeyourvulva@gmail.com?subject=Mail from Our Site"
         target={"blank"}
       >
-        <img src={logoOuter} className="footer-logo" alt="logoOuter" />
+        <img src={logoOuter} className="footer__logo" alt="logoOuter" />
       </a>
     </div>
   );
