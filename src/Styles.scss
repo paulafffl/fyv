@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
 
 $color-brown: #84614f;
 $color-sand: #DDA479;
@@ -7,8 +7,9 @@ $color-grey-light: #DDD;
 $color-grey-dark: #888;
 
 body {
-    font-family:'Courier New', Courier, monospace;
+    font-family: 'Montserrat', sans-serif;
     color: $color-grey-dark;
+
     h1 {
         // font-family: 'Montserrat', sans-serif;
         margin-block-start: 0;
@@ -21,7 +22,7 @@ body {
 html {
     scroll-behavior: smooth;
 }
-  
+
 .navbar {
     z-index: 1;
     background-color: $color-brown;
@@ -35,19 +36,23 @@ html {
     width: 100%;
     display: flex;
     flex-direction: row;
+
     div {
         padding: 2vw 11vw;
     }
-    &__link{
+
+    &__link {
         font-size: calc(0.3em + 2vmin);
         font-weight: 800;
         text-decoration: none;
         color: $color-pink;
         margin-left: 2vw;
-        &:hover{
+
+        &:hover {
             color: $color-sand
         }
-        &--active{
+
+        &--active {
             color: white;
         }
     }
@@ -57,6 +62,7 @@ html {
 .header {
     position: relative;
     top: 5vh;
+
     img {
         width: 100%;
         margin-bottom: 9vh;
@@ -78,7 +84,7 @@ html {
         text-align: left;
         padding-top: 3vw;
         border-top: 0.5vh solid $color-pink;
-        margin-left: 11.5vw; 
+        margin-left: 11.5vw;
         margin-top: 7vw;
     }
 
@@ -86,6 +92,7 @@ html {
         margin: 1vw;
         max-width: 24vw;
         transition: box-shadow 100ms;
+
         &:hover {
             cursor: pointer;
             box-shadow: 0.5vw 0.5vw $color-grey-light;
@@ -97,16 +104,24 @@ html {
 .modal {
 
     &__bckg {
-        position: fixed; /* Stay in place */
-        z-index: 1; /* Sit on top */
-        padding-top: 50px; /* Location of the box */
+        position: fixed;
+        /* Stay in place */
+        z-index: 1;
+        /* Sit on top */
+        padding-top: 50px;
+        /* Location of the box */
         left: 0;
         top: 0;
-        width: 100%; /* Full width */
-        height: 100%; /* Full height */
-        overflow: auto; /* Enable scroll if needed */
-        background-color: rgb(0,0,0); /* Fallback color */
-        background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+        width: 100%;
+        /* Full width */
+        height: 100%;
+        /* Full height */
+        overflow: auto;
+        /* Enable scroll if needed */
+        background-color: rgb(0, 0, 0);
+        /* Fallback color */
+        background-color: rgba(0, 0, 0, 0.4);
+        /* Black w/ opacity */
     }
 
 
@@ -117,12 +132,13 @@ html {
         width: 70vw;
         background-color: white;
         margin: auto;
-        @media only screen and (max-width: 769px){
+
+        @media only screen and (max-width: 769px) {
             display: block;
             width: 80vw;
             height: 85vh;
             padding: 1vw;
-            overflow: auto; 
+            overflow: auto;
         }
     }
 
@@ -133,15 +149,19 @@ html {
         max-height: 65vh;
         color: $color-grey-dark;
         text-align: left;
-        font-family:'Courier New', Courier, monospace;
+        font-family: 'Courier New', Courier, monospace;
+
         p {
-            overflow: auto; 
+            overflow: auto;
             padding: 0rem 2rem;
-            margin-block-start: 0px; /* Overides default margin */
+            margin-block-start: 0px;
+            /* Overides default margin */
         }
-        @media only screen and (max-width: 769px){
+
+        @media only screen and (max-width: 769px) {
             display: block;
             text-align: center;
+
             p {
                 overflow: unset;
                 padding: 2rem 2rem;
@@ -152,13 +172,15 @@ html {
 
     &__img {
         display: block;
-        text-align: center;  
+        text-align: center;
         min-width: 45%;
+
         img {
             width: 100%;
             max-height: 60vh;
             object-fit: contain;
-            @media only screen and (max-width: 769px){
+
+            @media only screen and (max-width: 769px) {
                 max-width: 80%;
             }
         }
@@ -170,8 +192,9 @@ html {
         color: $color-sand;
         font-size: 20px;
         font-weight: bold;
+
         span {
-            &:hover{
+            &:hover {
                 cursor: pointer;
                 color: $color-brown;
                 text-decoration: none;
@@ -180,70 +203,78 @@ html {
     }
 
 
-    &__carousel{
+    &__carousel {
         border-radius: 100%;
         padding: 0.3rem;
         margin: 0.3rem;
         border: none;
         background-color: $color-grey-light;
+
         &:hover {
             cursor: pointer;
             background-color: $color-sand;
         }
-        &--selected{
+
+        &--selected {
             background-color: $color-pink;
         }
     }
 }
 
-.about{
-    padding: 5vw 12vw; 
+.about {
+    padding: 5vw 12vw;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
 
-    &__info{
+    &__info {
         width: 30vw;
         margin-right: 3vw;
-        @media only screen and (max-width: 769px){
+
+        @media only screen and (max-width: 769px) {
             width: 70vw;
         }
     }
 
-    &__bio{
+    &__bio {
         width: 40vw;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
         flex-wrap: wrap;
-        @media only screen and (max-width: 769px){
+
+        @media only screen and (max-width: 769px) {
             width: 70vw;
         }
     }
 
-    &__block{
+    &__block {
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
         width: 18vw;
-        @media only screen and (max-width: 769px){
+
+        @media only screen and (max-width: 769px) {
             width: 70vw;
             flex-direction: row;
             flex-wrap: nowrap;
             justify-content: space-between;
             margin-top: 2vh;
+
             p {
                 margin-top: 0;
                 margin-left: 3vw;
             }
         }
+
         img {
             width: 18vw;
             height: 18vw;
             margin-bottom: 2vh;
             object-fit: cover;
         }
+
         span {
             color: $color-sand;
             font-weight: bold;
@@ -261,18 +292,28 @@ html {
     justify-content: right;
     font-size: calc(10px + 1vmin);
     padding: 2vw 11vw;
-    
+
     &__logo {
         height: 15vh;
         margin-left: 2vh;
         animation: footer__logo-spin infinite 20s linear;
-        &:hover{
-            cursor: pointer; 
+
+        &:hover {
+            cursor: pointer;
         }
     }
 }
 
 @keyframes footer__logo-spin {
-    from { transform: rotate(0deg) };
-    to { transform: rotate(360deg) };
+    from {
+        transform: rotate(0deg)
+    }
+
+    ;
+
+    to {
+        transform: rotate(360deg)
+    }
+
+    ;
 }
