@@ -11,7 +11,7 @@ function App() {
   return (
     <div>
       <Navbar />
-      <Header />
+      <Header id="header" />
       <Section
         id="manifesto"
         title={"manifesto"}
