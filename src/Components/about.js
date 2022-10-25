@@ -52,7 +52,6 @@ export const About = ({ id, title }) => {
           </div>
         </div>
       </div>
-      ;
     </div>
   );
 };

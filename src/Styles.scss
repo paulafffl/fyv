@@ -15,7 +15,7 @@ body {
         margin-block-start: 0;
         margin-block-end: 0;
         color: $color-sand;
-        font-size: 5vmin;
+        font-size: 4vmin;
     }
 }
 
@@ -27,7 +27,7 @@ html {
     z-index: 1;
     background-color: $color-brown;
     color: $color-pink;
-    height: 10vh;
+    height: 7vh;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -42,7 +42,7 @@ html {
     }
 
     &__link {
-        font-size: calc(0.3em + 2vmin);
+        font-size: calc(2vmin);
         font-weight: 800;
         text-decoration: none;
         color: $color-pink;
@@ -82,10 +82,10 @@ html {
     &__title {
         color: $color-sand;
         text-align: left;
-        padding-top: 3vw;
-        border-top: 0.5vh solid $color-pink;
+        padding-top: 6vw;
+        padding-bottom: 1vw;
+        border-bottom: 0.5vh solid $color-pink;
         margin-left: 11.5vw;
-        margin-top: 7vw;
     }
 
     &__img {
@@ -289,18 +289,32 @@ html {
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: right;
-    font-size: calc(10px + 1vmin);
+    justify-content: space-between;
     padding: 2vw 11vw;
 
+    &__contact {
+        display: flex;
+        align-items: center;
+
+        h3 {
+            font-size: calc(10px + 1vmin);
+        }
+    }
+
     &__logo {
-        height: 15vh;
+        height: 10vw;
+        max-height: 12vh;
         margin-left: 2vh;
         animation: footer__logo-spin infinite 20s linear;
 
         &:hover {
             cursor: pointer;
         }
+    }
+
+    &__insta {
+        height: 3vw;
+        max-height: 3vh;
     }
 }
 
