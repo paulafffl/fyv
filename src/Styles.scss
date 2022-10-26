@@ -57,7 +57,7 @@ html {
     }
 
     &__link {
-        font-size: calc(2vmin);
+        font-size: calc(2.5vmin);
         text-decoration: none;
         color: $color-pink;
         margin-left: 2vw;
@@ -80,17 +80,17 @@ html {
 .bckg {
     position: fixed;
     z-index: 1;
+    top: 7vh;
 
     img {
-        width: 100%;
-        margin-top: 7vh;
+        width: 100vw;
     }
 }
 
 .content {
     position: relative;
     z-index: 2;
-    top: 10vh;
+    top: 5vh;
 }
 
 .header {
@@ -123,6 +123,7 @@ html {
         margin: 1vw;
         max-width: 24vw;
         transition: box-shadow 100ms;
+        box-shadow: 0.5vw 0.5vw white;
 
         &:hover {
             cursor: pointer;
