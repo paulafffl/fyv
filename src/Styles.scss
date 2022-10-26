@@ -6,15 +6,13 @@ $color-sand: #DDA479;
 $color-pink: #F5CAB7;
 $color-grey-light: #DDD;
 $color-grey-dark: #888;
-$font-headings: 'Figtree', sans-serif;
-$font-body: 'Trispace', sans-serif;
 
 body {
-    font-family: $font-body;
+    font-family: 'Trispace', sans-serif;
     color: $color-grey-dark;
 
     h1 {
-        font-family: $font-headings;
+        font-family: 'Figtree', sans-serif;
         margin-block-start: 0;
         margin-block-end: 0;
         color: $color-sand;
@@ -27,7 +25,7 @@ html {
 }
 
 .navbar {
-    z-index: 1;
+    z-index: 3;
     background-color: $color-brown;
     color: $color-pink;
     height: 7vh;
@@ -40,7 +38,8 @@ html {
     flex-direction: row;
 
     div {
-        padding: 2vw 8vw;
+        padding: 2vw 9vw;
+        width: auto;
         display: flex;
         align-items: center;
     }
@@ -63,6 +62,10 @@ html {
         color: $color-pink;
         margin-left: 2vw;
 
+        &:first-of-type {
+            margin-left: 0;
+        }
+
         &:hover {
             color: $color-sand
         }
@@ -74,12 +77,27 @@ html {
 
 }
 
-.header {
-    position: relative;
+.bckg {
+    position: fixed;
+    z-index: 1;
 
     img {
         width: 100%;
-        margin-bottom: 9vh;
+        margin-top: 7vh;
+    }
+}
+
+.content {
+    position: relative;
+    z-index: 2;
+    top: 10vh;
+}
+
+.header {
+    img {
+        top: 0px;
+        position: relative;
+        width: 100%;
     }
 }
 
@@ -94,7 +112,6 @@ html {
     }
 
     &__title {
-        color: $color-sand;
         text-align: left;
         padding-top: 6vw;
         padding-bottom: 1vw;
@@ -119,23 +136,15 @@ html {
 
     &__bckg {
         position: fixed;
-        /* Stay in place */
-        z-index: 1;
-        /* Sit on top */
+        z-index: 4;
         padding-top: 50px;
-        /* Location of the box */
         left: 0;
         top: 0;
         width: 100%;
-        /* Full width */
         height: 100%;
-        /* Full height */
         overflow: auto;
-        /* Enable scroll if needed */
         background-color: rgb(0, 0, 0);
-        /* Fallback color */
         background-color: rgba(0, 0, 0, 0.4);
-        /* Black w/ opacity */
     }
 
 
@@ -168,7 +177,6 @@ html {
             overflow: auto;
             padding: 0rem 2rem;
             margin-block-start: 0px;
-            /* Overides default margin */
         }
 
         @media only screen and (max-width: 769px) {
@@ -240,6 +248,7 @@ html {
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
+    background-color: rgba(white, 0.5);
 
     &__info {
         width: 30vw;
@@ -296,6 +305,7 @@ html {
 }
 
 .footer {
+    position: relative;
     background-color: $color-pink;
     color: $color-brown;
     min-height: 10vh;
