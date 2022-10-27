@@ -7,7 +7,14 @@ $color-pink: #F5CAB7;
 $color-grey-light: #DDD;
 $color-grey-dark: #888;
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
+    background-image: url('./Images/fyv_hero.jpg');
+    background-attachment: fixed;
+    background-size: 100% auto;
     font-family: 'Trispace', sans-serif;
     color: $color-grey-dark;
 
@@ -28,10 +35,6 @@ body {
         font-weight: bold;
     }
 
-}
-
-html {
-    scroll-behavior: smooth;
 }
 
 .navbar {
@@ -85,21 +88,6 @@ html {
         }
     }
 
-}
-
-.bckg {
-    position: fixed;
-    z-index: 1;
-    top: 7vh;
-
-    img {
-        width: 100vw;
-    }
-}
-
-.content {
-    position: relative;
-    z-index: 2;
 }
 
 .header {
