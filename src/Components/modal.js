@@ -39,7 +39,9 @@ export const Modal = ({ title, content, setModal, imgList }) => {
 						/>
 						{imgList.length > 1 && <div display="flex">{carousel}</div>}
 					</div>
-					{content}
+					<div className="modal__text">
+						{content}
+					</div>
 				</div>
 			</div>
 		</>

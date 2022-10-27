@@ -15,6 +15,7 @@ body {
     background-image: url('./Images/fyv_hero.jpg');
     background-attachment: fixed;
     background-size: 100% auto;
+    background-position-y: 5vh;
     font-family: 'Trispace', sans-serif;
     color: $color-grey-dark;
 
@@ -171,31 +172,29 @@ body {
         display: flex;
         padding: 1vw 1vw;
         max-height: 70vh;
+
+        @media only screen and (max-width: 769px) {
+            display: block;
+        }
+
+    }
+
+    &__text {
+        overflow: auto;
+        padding: 0rem 2rem;
         color: $color-grey-dark;
-        text-align: left;
 
         p {
-            overflow: auto;
-            padding: 0rem 2rem;
             margin-block-start: 0px;
         }
 
         @media only screen and (max-width: 769px) {
-            display: block;
-            text-align: center;
-
-            p {
-                overflow: unset;
-                padding: 2rem;
-                font-size: 2.7vmin;
-            }
+            padding: 7vw;
+            overflow: unset;
+            font-size: 3vmin;
         }
 
-        @media only screen and (max-width: 500px) {
-            text-align: left;
-        }
     }
-
 
     &__img {
         display: block;
@@ -213,12 +212,12 @@ body {
         }
     }
 
-
     &__close {
         text-align: right;
         color: $color-sand;
         font-size: 20px;
         font-weight: bold;
+        padding-right: 1vw;
 
         span {
             &:hover {
