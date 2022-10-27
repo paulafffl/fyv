@@ -11,9 +11,9 @@ import { contentManifesto } from "./Images/Thumbnails/content";
 function App() {
 	return (
 		<div>
-			<Navbar />
 			<Bckg />
 			<div className="content">
+				<Navbar />
 				<Header id="header" />
 				<Section id="manifesto" title={"manifesto"} content={contentManifesto} />
 				<Section id="posts" title={"posts"} content={contentPosts} />

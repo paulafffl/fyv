@@ -16,7 +16,9 @@ export const Modal = ({ title, content, setModal, imgList }) => {
 		);
 	});
 	return (
-		<div className="modal__bckg">
+		<>
+			<div className="modal__bckg" onClick={() => setModal(false)}>
+			</div>
 			<div className="modal__box">
 				<div className="modal__close">
 					<span
@@ -40,6 +42,6 @@ export const Modal = ({ title, content, setModal, imgList }) => {
 					{content}
 				</div>
 			</div>
-		</div>
+		</>
 	);
 };
