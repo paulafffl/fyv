@@ -1,15 +1,27 @@
-import React from "react";
+import React, { useState } from "react";
+import { Modal } from "./modal";
 import { Thumbnail } from "./thumbnail";
 
 export const Section = ({ content, title, id }) => {
+	const [selectedImg, setSelectedImg] = useState("");
+
 	const thumbnailsMapped = content.map((item, i) => {
 		return (
-			<Thumbnail
-				key={item + i}
-				title={item.title}
-				content={item.content}
-				imgList={item.imgList}
-			></Thumbnail>
+			<>
+				<Thumbnail
+					onClick={() => setSelectedImg(i)}
+					key={`thumbnail-${item.title}`}
+					title={item.title}
+					imgList={item.imgList}
+				/>
+				{selectedImg === i && (
+					<Modal
+						content={content[selectedImg]}
+						setSelectedImg={setSelectedImg}
+						selectedImg={selectedImg}
+					/>
+				)}
+			</>
 		);
 	});
 

@@ -6,6 +6,8 @@ $color-sand: #DDA479;
 $color-pink: #F5CAB7;
 $color-grey-light: #DDD;
 $color-grey-dark: #888;
+$breakpoint-small: 769px;
+$breakpoint-large: 1366px;
 
 html {
     scroll-behavior: smooth;
@@ -86,7 +88,7 @@ body {
             fill: $color-pink;
         }
 
-        @media only screen and (max-width: 1366px) {
+        @media only screen and (max-width: $breakpoint-large) {
             display: flex;
         }
 
@@ -104,7 +106,7 @@ body {
         display: flex;
         align-items: center;
 
-        @media only screen and (max-width: 1366px) {
+        @media only screen and (max-width: $breakpoint-large) {
             display: none;
         }
 
@@ -124,11 +126,11 @@ body {
             color: white;
         }
 
-        @media only screen and (max-width: 1366px) {
+        @media only screen and (max-width: $breakpoint-large) {
             font-size: 3vmin;
         }
 
-        @media only screen and (max-width: 769px) {
+        @media only screen and (max-width: $breakpoint-small) {
             font-size: 5vmin;
         }
     }
@@ -202,20 +204,45 @@ body {
         background-color: rgba(0, 0, 0, 0.4);
     }
 
+    &__button {
+        position: fixed;
+        top: 40vh;
+        height: 3vw;
+        width: 3vw;
+        margin: 2vw;
+        z-index: 6;
+        background-color: $color-pink;
+        ;
+        border-radius: 100%;
+        fill: $color-brown;
+
+        &--previous {
+            left: 0;
+        }
+
+        &--next {
+            right: 0;
+        }
+
+        @media only screen and (max-width: $breakpoint-small) {
+            margin: 4vw;
+            height: 10vw;
+            width: 10vw;
+        }
+    }
 
     &__box {
         position: fixed;
         z-index: 5;
-        top: 7vh;
+        top: 6vh;
         overflow: auto;
         display: block;
-        padding: 5vh;
-        padding-bottom: 7vh;
+        padding: 1vw 2vw 4vw 2vw;
         width: 75vw;
-        height: 75vh;
+        height: auto;
         background-color: white;
 
-        @media only screen and (max-width: 769px) {
+        @media only screen and (max-width: $breakpoint-small) {
             display: block;
             width: 80vw;
             height: 85vh;
@@ -229,7 +256,7 @@ body {
         padding: 1vw 1vw;
         max-height: 70vh;
 
-        @media only screen and (max-width: 769px) {
+        @media only screen and (max-width: $breakpoint-small) {
             display: block;
         }
 
@@ -244,7 +271,7 @@ body {
             margin-block-start: 0px;
         }
 
-        @media only screen and (max-width: 769px) {
+        @media only screen and (max-width: $breakpoint-small) {
             padding: 7vw;
             overflow: unset;
             font-size: 3vmin;
@@ -262,7 +289,7 @@ body {
             max-height: 60vh;
             object-fit: contain;
 
-            @media only screen and (max-width: 769px) {
+            @media only screen and (max-width: $breakpoint-small) {
                 max-width: 80%;
             }
         }
@@ -271,9 +298,8 @@ body {
     &__close {
         text-align: right;
         color: $color-sand;
-        font-size: 20px;
+        font-size: 2rem;
         font-weight: bold;
-        padding-right: 1vw;
 
         span {
             &:hover {
@@ -281,10 +307,6 @@ body {
                 color: $color-brown;
                 text-decoration: none;
             }
-        }
-
-        @media only screen and (max-width: 769px) {
-            font-size: 30px;
         }
     }
 
@@ -319,7 +341,7 @@ body {
         width: 30vw;
         margin-right: 3vw;
 
-        @media only screen and (max-width: 769px) {
+        @media only screen and (max-width: $breakpoint-small) {
             width: 70vw;
         }
     }
@@ -331,7 +353,7 @@ body {
         justify-content: space-between;
         flex-wrap: wrap;
 
-        @media only screen and (max-width: 769px) {
+        @media only screen and (max-width: $breakpoint-small) {
             width: 70vw;
         }
     }
@@ -342,7 +364,7 @@ body {
         flex-direction: column;
         width: 18vw;
 
-        @media only screen and (max-width: 769px) {
+        @media only screen and (max-width: $breakpoint-small) {
             width: 70vw;
             flex-direction: row;
             flex-wrap: nowrap;
