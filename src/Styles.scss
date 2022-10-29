@@ -395,7 +395,11 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    padding: 2vw 9vw;
+    padding: 4vh 9vw;
+
+    @media only screen and (max-width: $breakpoint-small) {
+        flex-direction: column;
+    }
 
     &__contact {
         display: flex;
@@ -403,13 +407,16 @@ body {
 
         h3 {
             font-size: calc(10px + 1vmin);
+            margin: 2vh;
+        }
+
+        @media only screen and (max-width: $breakpoint-small) {
+            flex-direction: column;
         }
     }
 
     &__logo {
-        height: 10vw;
-        max-height: 12vh;
-        margin-left: 2vh;
+        height: 10vh;
         animation: footer__logo-spin infinite 20s linear;
 
         &:hover {
@@ -418,8 +425,7 @@ body {
     }
 
     &__insta {
-        height: 3vw;
-        max-height: 3vh;
+        height: 3vh;
     }
 }
 
