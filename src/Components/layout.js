@@ -6,7 +6,7 @@ export const Layout = () => {
 	return (
 		<>
 			<Navbar />
-			<Footer id="support" />
+			<Footer />
 		</>
 	);
 }

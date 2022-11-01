@@ -14,12 +14,15 @@ html {
 }
 
 body {
-    background-image: url('./Images/fyv_hero.jpg');
+    background-image: url('./Images/fyv_hero.png');
     background-attachment: fixed;
     background-size: 100% auto;
-    background-position-y: 5vh;
     font-family: 'Trispace', sans-serif;
     color: $color-grey-dark;
+
+    @media only screen and (max-width: $breakpoint-small) {
+        background-position-y: 6vh;
+    }
 
     h1 {
         font-family: 'Figtree', sans-serif;
@@ -27,6 +30,11 @@ body {
         margin-block-end: 0;
         color: $color-sand;
         font-size: 4vmin;
+
+        @media only screen and (max-width: $breakpoint-small) {
+            padding-top: 3vh;
+            font-size: 7vmin;
+        }
     }
 
     p {
@@ -44,7 +52,7 @@ body {
     z-index: 3;
     background-color: $color-brown;
     color: $color-pink;
-    height: 6vh;
+    height: 7vh;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -155,7 +163,8 @@ body {
         top: 0px;
         position: relative;
         width: 100%;
-        top: 5vh;
+        margin-top: 8vh;
+        margin-bottom: 2vh;
     }
 }
 
@@ -181,11 +190,16 @@ body {
         margin: 1vw;
         max-width: 24vw;
         transition: box-shadow 100ms;
-        box-shadow: 0.5vw 0.5vw white;
+        box-shadow: 1vh 1vh white;
 
         &:hover {
             cursor: pointer;
-            box-shadow: 0.5vw 0.5vw $color-grey-light;
+            box-shadow: 1vh 1vh $color-grey-light;
+        }
+
+        @media only screen and (max-width: $breakpoint-small) {
+            margin: 3vw;
+            max-width: 65vw;
         }
     }
 
@@ -234,7 +248,7 @@ body {
     &__box {
         position: fixed;
         z-index: 5;
-        top: 6vh;
+        top: 7vh;
         overflow: auto;
         display: block;
         padding: 1vw 2vw 4vw 2vw;
@@ -299,6 +313,7 @@ body {
         text-align: right;
         color: $color-sand;
         font-size: 2rem;
+        margin-right: 0.5rem;
         font-weight: bold;
 
         span {
@@ -336,6 +351,10 @@ body {
     justify-content: space-between;
     flex-wrap: wrap;
     background-color: rgba(white, 0.5);
+
+    @media only screen and (max-width: $breakpoint-small) {
+        padding-left: 15vw;
+    }
 
     &__info {
         width: 30vw;
@@ -395,6 +414,7 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    margin-top: 7vh;
     padding: 4vh 9vw;
 
     @media only screen and (max-width: $breakpoint-small) {

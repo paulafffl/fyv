@@ -1,10 +1,11 @@
 import React from "react";
 import "../Styles.scss";
+import { Manifesto } from "./manifesto";
 
-export const About = ({ id, title }) => {
+export const About = () => {
 	return (
-		<div id={id}>
-			<h1 className="section__title">{title}</h1>
+		<>
+			<h1 className="section__title">{ }</h1>
 			<div className="about">
 				<div className="about__info">
 					<h1>about us</h1>
@@ -52,6 +53,7 @@ export const About = ({ id, title }) => {
 					</div>
 				</div>
 			</div>
-		</div>
+			<Manifesto />
+		</>
 	);
 };

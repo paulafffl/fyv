@@ -3,9 +3,9 @@ import "../Styles.scss";
 import logoOuter from "../Images/fyv_logo_outer.png";
 import logoInsta from "../Images/instagram_logo.svg";
 
-export const Footer = ({ id }) => {
+export const Footer = () => {
 	return (
-		<div id={id} className="footer">
+		<div className="footer">
 			<a
 				href="https://www.instagram.com/freeyourvulva/"
 				target={"blank"}

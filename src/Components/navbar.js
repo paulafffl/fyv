@@ -11,16 +11,14 @@ export const Navbar = () => {
 		<>
 			<div className={`navbar ${menuOpen ? "navbar--expanded" : ""}`}>
 				{!menuOpen &&
-					<a href="#header"
-						onClick={() => setActive("header")}
-					>
+					<Link to="/" onClick={() => setMenuOpen(false)}>
 						<img src={logoInner} className="navbar__logo--small" alt="logoOuter" />
-						<Link to="/">FREE YOUR VULVA</Link>
-					</a>
+						FREE YOUR VULVA
+					</Link>
 				}
 				<div
-					className={`navbar__button ${menuOpen ? "navbar__button--expanded" : ""}`}
 					onClick={() => setMenuOpen(!menuOpen)}
+					className={`navbar__button ${menuOpen ? "navbar__button--expanded" : ""}`}
 				>
 					{menuOpen
 						? <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48"><path d="m12.45 37.65-2.1-2.1L21.9 24 10.35 12.45l2.1-2.1L24 21.9l11.55-11.55 2.1 2.1L26.1 24l11.55 11.55-2.1 2.1L24 26.1Z" /></svg>
@@ -28,31 +26,26 @@ export const Navbar = () => {
 					}
 				</div>
 				{menuOpen &&
-					<a href="#header"
-						onClick={() => { setMenuOpen(false); setActive("header") }}
-					>
+					<Link to="/" onClick={() => setMenuOpen(false)}>
 						<img src={logoMain} className="navbar__logo--large" alt="logo" />
-					</a>
+					</Link>
 				}
 				<div className={`navbar__routes ${menuOpen ? "navbar__routes--expanded" : ""}`}>
-					<a href="#manifesto"
+					<Link to="/manifesto"
 						onClick={() => { setMenuOpen(false); setActive("manifesto") }}
-						className={`navbar__route ${active === "manifesto" ? "navbar__route--active" : ""}`}
-					>
-						<Link to="/manifesto">MANIFESTO</Link>
-					</a>
-					<a href="#posts"
+						className={`navbar__route ${active === "manifesto" ? "navbar__route--active" : ""}`}>
+						MANIFESTO
+					</Link>
+					<Link to="/posts"
 						onClick={() => { setMenuOpen(false); setActive("posts") }}
-						className={`navbar__route ${active === "posts" ? "navbar__route--active" : ""}`}
-					>
-						<Link to="/posts">POSTS</Link>
-					</a>
-					<a href="#about"
+						className={`navbar__route ${active === "posts" ? "navbar__route--active" : ""}`}>
+						POSTS
+					</Link>
+					<Link to="/about"
 						onClick={() => { setMenuOpen(false); setActive("about") }}
-						className={`navbar__route ${active === "about" ? "navbar__route--active" : ""}`}
-					>
-						<Link to="/about">ABOUT</Link>
-					</a>
+						className={`navbar__route ${active === "about" ? "navbar__route--active" : ""}`}>
+						ABOUT
+					</Link>
 				</div>
 			</div >
 			<Outlet />

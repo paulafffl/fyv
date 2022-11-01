@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Modal } from "./modal";
 import { Thumbnail } from "./thumbnail";
 
-export const Section = ({ content, title, id }) => {
+export const Section = ({ content, title }) => {
 	const [selectedImg, setSelectedImg] = useState("");
 
 	const thumbnailsMapped = content.map((item, i) => {
@@ -26,9 +26,9 @@ export const Section = ({ content, title, id }) => {
 	});
 
 	return (
-		<div id={id}>
+		<>
 			<h1 className="section__title">{title}</h1>
 			<div className="section__container">{thumbnailsMapped}</div>
-		</div>
+		</>
 	);
 };
