@@ -20,6 +20,10 @@ body {
     font-family: 'Trispace', sans-serif;
     color: $color-grey-dark;
 
+    a {
+        color: $color-brown;
+    }
+
     @media only screen and (max-width: $breakpoint-small) {
         background-position-y: 6vh;
     }
