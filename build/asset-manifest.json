@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.513668d6.css",
-    "main.js": "/static/js/main.0ef1ed49.js",
+    "main.css": "/static/css/main.585dc4e0.css",
+    "main.js": "/static/js/main.4ec5cd4f.js",
     "static/js/787.5f63606c.chunk.js": "/static/js/787.5f63606c.chunk.js",
     "static/media/instagram_post_25.png": "/static/media/instagram_post_25.fc30d2f50d919497e4c5.png",
     "static/media/instagram_post_22.png": "/static/media/instagram_post_22.da73556a8e6ba03a770c.png",
@@ -18,9 +18,9 @@
     "static/media/instagram_post_38.png": "/static/media/instagram_post_38.b82d01fca7e9a8e7f4fa.png",
     "static/media/instagram_post_35.png": "/static/media/instagram_post_35.3a07fff6537762ac8858.png",
     "static/media/instagram_post_40.png": "/static/media/instagram_post_40.011bf91335a49733c73a.png",
-    "static/media/bea.jpg": "/static/media/bea.07d7903ba1b8c03e0422.jpg",
-    "static/media/paula.jpg": "/static/media/paula.74e3785915e6143f9695.jpg",
-    "static/media/fyv_hero.png": "/static/media/fyv_hero.568feab2645c742909dd.png",
+    "static/media/paula.jpg": "/static/media/paula.b3e19d284556ce8058f2.jpg",
+    "static/media/fyv_hero.png": "/static/media/fyv_hero.857f1efb4fdfd6ec5270.png",
+    "static/media/fyv_logo_Outline_Pink.png": "/static/media/fyv_logo_Outline_Pink.64340d8f2553ea8136fe.png",
     "static/media/instagram_post_19.png": "/static/media/instagram_post_19.8c07884df8439947b4e0.png",
     "static/media/instagram_post_34.png": "/static/media/instagram_post_34.8e6689fb9b2279727945.png",
     "static/media/fyv_logo_outer.png": "/static/media/fyv_logo_outer.88be6d99b4fdbc8b5653.png",
@@ -30,6 +30,7 @@
     "static/media/instagram_post_21.png": "/static/media/instagram_post_21.2560563802688b07ce39.png",
     "static/media/instagram_post_24.png": "/static/media/instagram_post_24.b17921afb3a4492eee1e.png",
     "static/media/instagram_post_18.png": "/static/media/instagram_post_18.81a79278fce859b634df.png",
+    "static/media/fyv_hero_front.png": "/static/media/fyv_hero_front.7c9dc3bdbe60a27ccfc8.png",
     "static/media/instagram_post_10.png": "/static/media/instagram_post_10.43980a0da3ac26a89ee8.png",
     "static/media/instagram_post_29.png": "/static/media/instagram_post_29.c2b51572487c3fe9cd87.png",
     "static/media/instagram_post_6.png": "/static/media/instagram_post_6.da0605616ebe581d1189.png",
@@ -42,17 +43,20 @@
     "static/media/instagram_post_32.png": "/static/media/instagram_post_32.3ef1e514144cc2b5b9cd.png",
     "static/media/instagram_post_17.png": "/static/media/instagram_post_17.389e9525114f665ed813.png",
     "static/media/instagram_post_23.png": "/static/media/instagram_post_23.cc8946e5139ac751b055.png",
+    "static/media/bea.jpg": "/static/media/bea.cd248cdf8f29ca0c6855.jpg",
     "static/media/instagram_post_8.png": "/static/media/instagram_post_8.702445072f69eb546726.png",
     "static/media/instagram_post_5.png": "/static/media/instagram_post_5.ff8e737566aa4503f6b4.png",
+    "static/media/fyv_logo_inner.png": "/static/media/fyv_logo_inner.05d68f02e2bff7d57ebf.png",
     "static/media/instagram_post_4.png": "/static/media/instagram_post_4.57e08cbd80b7b70f2b18.png",
     "static/media/instagram_post_9.png": "/static/media/instagram_post_9.abd947c30a7116b0b607.png",
+    "static/media/instagram_logo.svg": "/static/media/instagram_logo.7a29772d55776b9f8f99f89ef90dc930.svg",
     "index.html": "/index.html",
-    "main.513668d6.css.map": "/static/css/main.513668d6.css.map",
-    "main.0ef1ed49.js.map": "/static/js/main.0ef1ed49.js.map",
+    "main.585dc4e0.css.map": "/static/css/main.585dc4e0.css.map",
+    "main.4ec5cd4f.js.map": "/static/js/main.4ec5cd4f.js.map",
     "787.5f63606c.chunk.js.map": "/static/js/787.5f63606c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.513668d6.css",
-    "static/js/main.0ef1ed49.js"
+    "static/css/main.585dc4e0.css",
+    "static/js/main.4ec5cd4f.js"
   ]
 }
