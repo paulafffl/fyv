@@ -1,9 +1,9 @@
 import "../Styles.scss";
 import { Section } from "./section";
-import { contentPosts } from "../Images/Thumbnails/content";
+import { contentPosts } from "../Content/content_posts";
 
 export const Posts = () => {
 	return (
-		<Section id="posts" title={"posts"} content={contentPosts} />
+		<Section title={"posts"} content={contentPosts} />
 	);
 }

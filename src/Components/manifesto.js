@@ -1,9 +1,9 @@
 import "../Styles.scss";
 import { Section } from "./section";
-import { contentManifesto } from "../Images/Thumbnails/content";
+import { contentManifesto } from "../Content/content_manifesto";
 
 export const Manifesto = () => {
 	return (
-		<Section id="manifesto" title={"manifesto"} content={contentManifesto} />
+		<Section title={"manifesto"} content={contentManifesto} />
 	);
 }
