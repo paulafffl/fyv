@@ -17,12 +17,7 @@ body {
     background-image: url('./Images/fyv_hero.png');
     background-attachment: fixed;
     background-size: 100% auto;
-    font-family: 'Trispace', sans-serif;
     color: $color-grey-dark;
-
-    a {
-        color: $color-brown;
-    }
 
     @media only screen and (max-width: $breakpoint-small) {
         background-position-y: 6vh;
@@ -41,13 +36,22 @@ body {
         }
     }
 
+    h3 {
+        font-family: 'Trispace', sans-serif;
+    }
+
     p {
         margin-bottom: 10px;
+        font-family: 'Trispace', sans-serif;
     }
 
     span {
         color: $color-sand;
         font-weight: bold;
+    }
+
+    a {
+        color: $color-brown;
     }
 
 }
