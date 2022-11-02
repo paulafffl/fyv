@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom/client';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { Layout } from './Components/layout';
 import { Home } from './Components/home';
-import { Manifesto } from './Components/manifesto';
+import { Advent } from './Components/advent';
 import { Posts } from './Components/posts';
 import { About } from './Components/about';
 import reportWebVitals from './reportWebVitals';
@@ -17,7 +17,7 @@ function App() {
 			<Routes>
 				<Route path="/" element={<Layout />}>
 					<Route index element={<Home />} />
-					<Route path="manifesto" element={<Manifesto />} />
+					<Route path="advent" element={<Advent />} />
 					<Route path="posts" element={<Posts />} />
 					<Route path="about" element={<About />} />
 				</Route>
