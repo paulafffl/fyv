@@ -200,6 +200,11 @@ body {
         transition: box-shadow 100ms;
         box-shadow: 1vh 1vh white;
 
+        &--advent {
+            margin: 0.8vw;
+            max-width: 14vw;
+        }
+
         &:hover {
             cursor: pointer;
             box-shadow: 1vh 1vh $color-grey-light;
@@ -276,10 +281,11 @@ body {
     &__content {
         display: flex;
         padding: 1vw 1vw;
-        max-height: 70vh;
+        height: 60vh;
 
         @media only screen and (max-width: $breakpoint-small) {
-            display: block;
+            flex-direction: column;
+            height: 70vh;
         }
 
     }
@@ -288,6 +294,7 @@ body {
         overflow: auto;
         padding: 0rem 2rem;
         color: $color-grey-dark;
+        word-wrap: break-word;
 
         p {
             margin-block-start: 0px;
@@ -295,7 +302,7 @@ body {
 
         @media only screen and (max-width: $breakpoint-small) {
             padding: 7vw;
-            overflow: unset;
+            overflow: auto;
             font-size: 3vmin;
         }
 
@@ -308,11 +315,11 @@ body {
 
         img {
             width: 100%;
-            max-height: 60vh;
+            height: 60vh;
             object-fit: contain;
 
             @media only screen and (max-width: $breakpoint-small) {
-                max-width: 80%;
+                height: 30vh;
             }
         }
     }
@@ -321,7 +328,7 @@ body {
         text-align: right;
         color: $color-sand;
         font-size: 2rem;
-        margin-right: 0.5rem;
+        margin-right: 1rem;
         font-weight: bold;
 
         span {
@@ -330,6 +337,28 @@ body {
                 color: $color-brown;
                 text-decoration: none;
             }
+        }
+    }
+
+    &__follow {
+        vertical-align: bottom;
+        text-align: right;
+        margin-right: 1rem;
+        margin-top: 1rem;
+
+        a {
+            font-family: 'Trispace', sans-serif;
+            text-decoration: none;
+            font-weight: bold;
+            color: $color-sand;
+
+            &:hover {
+                color: $color-brown;
+            }
+        }
+
+        img {
+            height: 2vh;
         }
     }
 
