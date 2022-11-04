@@ -190,7 +190,7 @@ body {
         text-align: left;
         padding-top: 6vw;
         padding-bottom: 1vw;
-        border-bottom: 0.5vh solid $color-pink;
+        border-bottom: 0.4vh solid rgba($color-sand, 0.5);
         margin-left: 11.5vw;
     }
 
@@ -394,8 +394,11 @@ body {
     }
 
     &__info {
-        width: 30vw;
-        margin-right: 3vw;
+        width: 31vw;
+
+        p {
+            margin-top: 0;
+        }
 
         @media only screen and (max-width: $breakpoint-small) {
             width: 70vw;
