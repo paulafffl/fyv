@@ -30,17 +30,7 @@ export const About = () => {
 				</div>
 				<div className="about__bio">
 					<div className="about__block">
-						<img src={require(`../Images/bea.jpg`)} alt={"img-about-Bea"} />
-						<p>
-							<span>I’m Beatriz</span> (she/her), 30, also called Bea. I have a
-							Latin Brazilian soul, Polish blood and a travelled mind. I can’t
-							live without a good laugh and I like to think that unicorns
-							existed. Sharing about our inner power is something that makes me
-							happy and fulfilled!
-						</p>
-					</div>
-					<div className="about__block">
-						<img src={require(`../Images/paula.jpg`)} alt={"img-about-Paula"} />
+						<img src={require(`../Images/paula_headshot.jpg`)} alt={"img-about-Paula"} />
 						<p>
 							<span>I’m Paula</span> (she/her), a 31 years old Brazilian that
 							only recently fell in love with her vulva. It was such a
@@ -49,6 +39,16 @@ export const About = () => {
 							pleasures. I called it Vulverarsy. I had my first one this year
 							and it was the most empowering experience to celebrate myself like
 							that.
+						</p>
+					</div>
+					<div className="about__block">
+						<img src={require(`../Images/bea_headshot.jpg`)} alt={"img-about-Bea"} />
+						<p>
+							<span>I’m Beatriz</span> (she/her), 30, also called Bea. I have a
+							Latin Brazilian soul, Polish blood and a travelled mind. I can’t
+							live without a good laugh and I like to think that unicorns
+							existed. Sharing about our inner power is something that makes me
+							happy and fulfilled!
 						</p>
 					</div>
 				</div>
