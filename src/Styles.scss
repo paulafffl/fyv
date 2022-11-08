@@ -201,8 +201,21 @@ body {
         box-shadow: 1vh 1vh white;
 
         &--advent {
-            margin: 0.8vw;
+            max-width: 12vw;
+            min-width: 14vw;
+            min-height: 14vw;
             max-width: 14vw;
+            max-height: 14vw;
+            object-fit: cover;
+
+
+            @media only screen and (max-width: $breakpoint-small) {
+                margin: 3vw;
+                min-width: 65vw;
+                min-height: 65vw;
+                max-width: 65vw;
+                max-height: 65vw;
+            }
         }
 
         &:hover {

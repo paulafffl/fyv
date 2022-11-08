@@ -2,7 +2,6 @@ import "../Styles.scss";
 import React, { useState } from "react";
 import { contentAdvent } from "../Content/content_advent";
 import { Modal } from "./modal";
-import { Thumbnail } from "./thumbnail";
 import moment from "moment";
 
 export const Advent = () => {
@@ -15,13 +14,15 @@ export const Advent = () => {
 		const shownImgs = isPostReleased ? lockedPosts : item.imgList;
 		return (
 			<>
-				<Thumbnail
+				<img
 					onClick={() =>
-						isPostReleased ? setSelectedImg(i) : alert(`🎄 Coming soon 🎄`)}
+						isPostReleased ? setSelectedImg(i) : alert(`🎄 Coming on ${item.releaseDate} 🎄`)}
 					key={`thumbnail-${item.title}`}
-					title={item.title}
-					imgList={shownImgs}
-					advent={false}
+
+					className={'section__img section__img--advent'}
+					src={require(`../Images/Thumbnails/Advent/${shownImgs[0]}.jpg`)}
+					alt={item.title}
+					data-testid={`section__img-${shownImgs[0]}`}
 				/>
 				{selectedImg === i && (
 					<Modal
