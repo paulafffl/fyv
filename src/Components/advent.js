@@ -16,7 +16,7 @@ export const Advent = () => {
 			<>
 				<img
 					onClick={() =>
-						isPostReleased ? setSelectedImg(i) : alert(`🎄 Coming on ${item.releaseDate} 🎄`)}
+						isPostReleased ? setSelectedImg(i) : alert(`🎄 Coming on ${moment(item.releaseDate).format('MMMM Do YYYY')} 🎄`)}
 					key={`thumbnail-${item.title}`}
 
 					className={'section__img section__img--advent'}
