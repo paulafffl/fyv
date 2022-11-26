@@ -397,6 +397,7 @@ body {
 .about {
     padding: 5vw 11.5vw;
     display: flex;
+    letter-spacing: -0.01rem;
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -407,7 +408,7 @@ body {
     }
 
     &__info {
-        width: 31vw;
+        width: 29vw;
 
         p {
             margin-top: 0;
@@ -419,7 +420,7 @@ body {
     }
 
     &__bio {
-        width: 40vw;
+        width: 42vw;
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -434,7 +435,7 @@ body {
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
-        width: 18vw;
+        width: 19vw;
 
         @media only screen and (max-width: $breakpoint-small) {
             width: 70vw;
@@ -450,8 +451,8 @@ body {
         }
 
         img {
-            width: 18vw;
-            height: 18vw;
+            width: 19vw;
+            height: 19vw;
             margin-bottom: 2vh;
             object-fit: cover;
         }

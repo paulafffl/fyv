@@ -9,23 +9,23 @@ export const About = () => {
 			<div className="about">
 				<div className="about__info">
 					<p>
-						We’re friends that share, among many other things, a natural curiosity about the pleasures of life. Born and raised in Brazil, but our paths only crossed in London 3 years ago. And what brought us together was our passion for learning about sexuality. Whenever one of us learned something new and inspiring, we’d share it with the other. One step at a time and each one on its own timing, we grew together. What started with a sex toy showcase for Bea and a Pompoir / Kegel course for Paula, evolved into a deep and beautiful journey of self-knowledge. Through courses in Women's Sexuality, Women’s Pleasure, Tantric Massage, and Orgasmic Therapy, we discovered and unlocked a revolutionary level of self-love and empowerment.
-						<br></br>
-						<br></br>
-						Our mission is defined in the manifesto below. But before getting there, we must recognise that our privileges as two white, cisgender, and able-bodied women shaped our life experiences and consequently how we see the world. So we’re continuously striving to broaden our views and confront our unconscious biases. Our goal is to share knowledge with the potential to empower others, but we’re aware that we’re just learners. And the path of self-actualisation is never-ending. So we hope to keep expanding our sight and to bring others to join us in an open conversation.
+					We are two friends passionate about the pleasures of life. We are both from Brazil but our paths only crossed here in London a few years ago: what brought us together was our interest in sexuality. Whenever one of us learns something new and inspiring, we share it with the other: we have been growing together, each on their own timing. What started with a sex toy showcase and a Pompoir / Kegel exercises, evolved into a transformative journey of self-knowledge. Through courses in Women's Sexuality, Women’s Pleasure, Tantric Massage and Orgasmic Therapy, we discovered and unlocked a revolutionary level of self-love and empowerment.						
+					<br></br>
+					<br></br>
+					You can read about our mission in the F.Y.V. manifesto below. But first, we must recognise that our privileges as two white, cisgender and able-bodied women have shaped our life experiences and consequently how we see the world. So we are continuously striving to broaden our views and confront our unconscious biases. The path of self-actualisation is never-ending. Our goal is to share what we learn along the way and which has the potential of empowering others. We hope to keep expanding our vision and to invite you to join us in an open conversation.
 					</p>
 				</div>
 				<div className="about__bio">
 					<div className="about__block">
 						<img src={require(`../Images/paula_headshot.jpg`)} alt={"img-about-Paula"} />
 						<p>
-							<span>Paula</span> (she/her) took 30 years to fall in love with her vulva. It was such a transformative moment that she promised to commemorate it every year, by taking herself out and having a night filled with all of her favourite pleasures. She named it Vulversary. And it was the most empowering experience to celebrate herself and her vulva.
+							<span>I'm Paula</span> (she/her) and it took me 30 years to fall in love with my vulva. It was such a transformative moment that I commemorate it every year by taking her out on a night filled with my favourite pleasures. I named it Vulversary. Celebrating myself and my vulva is the most empowering experience! So I want all women to unlock the power of loving themselves completely.
 						</p>
 					</div>
 					<div className="about__block">
 						<img src={require(`../Images/bea_headshot.jpg`)} alt={"img-about-Bea"} />
 						<p>
-							<span>Beatriz</span> (she/her), also called Bea, has a Latin Brazilian soul, Polish blood and a travelled mind. She can’t live without a good laugh and she likes to think that unicorns existed. Sharing about our inner power is something that makes her happy and fulfilled!
+							<span>I'm Beatriz</span> (she/her), but you can call me Bea. I have a Latin Brazilian soul, Polish blood and a travelled mind. I saw the positive impact I had on my friend's life by introducing their very first sex toys. Through the journey of pleasure, we became stronger as women. And since then, I knew I wanted to continue to boost their inner power through sexuality.
 						</p>
 					</div>
 				</div>
