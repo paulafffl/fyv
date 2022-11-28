@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg version="1.1" viewBox="0 0 1024 1024" xmlns="http://www.w3.org/2000/svg">
+ <desc>local_cafe icon - Licensed under Apache License v2.0 (http://www.apache.org/licenses/LICENSE-2.0) - Created with Iconfu.com - Derivative work of Material icons (Copyright Google Inc.)</desc>
+ <g transform="matrix(1.5168 0 0 1.5168 -226.27 -226.94)" fill="#dda479" style="mix-blend-mode:normal">
+  <path d="m151.51 516.83v-301.87c0-33.93 27.51-61.44 61.44-61.44h474.66c121.6 0 136.54 60.91 136.54 136.53v73.415c0 111.85-29.443 136.54-136.54 136.54h-13.65v16.827c0 176.37-160.02 206.41-262.54 206.41s-259.92-36.022-259.92-206.41zm536.1-301.87h-474.66v292.64c0 104.99 85.865 154.14 198.06 154.14s201.52-39.824 201.52-155.38v-67.791h75.09c41.68 0 75.1-33.42 75.1-75.1v-73.415c0-41.68-33.42-75.09-75.1-75.09zm-10.549 148.5h-64.541v-73.415h64.541z" fill="#dda479"/>
+ </g>
+ <path d="m46.183 975.96h725.87" fill="#fff" stroke="#dda479" stroke-linecap="round" stroke-linejoin="round" stroke-width="93.46"/>
+</svg>

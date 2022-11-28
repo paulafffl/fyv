@@ -298,7 +298,7 @@ body {
 
         @media only screen and (max-width: $breakpoint-small) {
             flex-direction: column;
-            height: 70vh;
+            height: 70.5vh;
         }
 
     }
@@ -358,12 +358,21 @@ body {
         text-align: right;
         margin-right: 1rem;
         margin-top: 1rem;
+        display: flex;
+        align-items: baseline;
+        justify-content: flex-end;
+
+        @media only screen and (max-width: $breakpoint-small) {
+            justify-content: space-evenly;
+        }
 
         a {
             font-family: 'Trispace', sans-serif;
             text-decoration: none;
             font-weight: bold;
             color: $color-sand;
+            display: flex;
+            align-items: top;
 
             &:hover {
                 color: $color-brown;
@@ -372,6 +381,7 @@ body {
 
         img {
             height: 2vh;
+            margin: 1px 5px 0px 20px;
         }
     }
 
@@ -475,7 +485,7 @@ body {
         flex-direction: column;
     }
 
-    &__contact {
+    div {
         display: flex;
         align-items: center;
 
@@ -489,6 +499,27 @@ body {
         }
     }
 
+    a {
+        display: hidden;
+        font-family: 'Trispace', sans-serif;
+        text-decoration: none;
+        font-weight: bold;
+        color: $color-sand;
+        display: flex;
+        align-items: center;
+        margin-right: 3vh;
+
+        &:hover {
+            color: $color-brown;
+            display: normal;
+        }
+
+        @media only screen and (max-width: $breakpoint-small) {
+            flex-direction: column;
+            margin: 0 0 2vh 0;
+        }
+    }
+
     &__logo {
         height: 10vh;
         animation: footer__logo-spin infinite 20s linear;
@@ -498,8 +529,9 @@ body {
         }
     }
 
-    &__insta {
+    &__icons {
         height: 3vh;
+        margin: 1vh 1vh 1vh 0;
     }
 }
 

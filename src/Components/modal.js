@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import logoInsta from "../Images/instagram_logo.svg";
+import iconSupport from "../Images/icon_support.svg";
 
 export const Modal = ({ content, selectedImg, setSelectedImg, prevAndNext = true }) => {
 	const [shownImg, setShownImg] = useState(content.imgList[0]);
@@ -52,7 +53,15 @@ export const Modal = ({ content, selectedImg, setSelectedImg, prevAndNext = true
 						href="https://www.instagram.com/freeyourvulva/"
 						target={"blank"}
 					>
-						>>> Follow us <img src={logoInsta} alt="logoInstagram" />
+						<img src={logoInsta} alt="logoInstagram" />
+						Follow us 
+					</a>
+					<a
+						href="https://www.buymeacoffee.com/freeyourvulva"
+						target={"blank"}
+					>
+						<img src={iconSupport} alt="iconSupport" />
+						Support us 
 					</a>
 				</div>
 			</div>
