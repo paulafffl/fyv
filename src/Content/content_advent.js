@@ -1,9 +1,20 @@
 export const contentAdvent = [
     {
         title: "F.Y.V. Advent Calendar",
-        imgList: [1, 1],
+        imgList: [1, 2, 3],
         releaseDate: "2022-12-01",
-        content: "",
+        content: 
+            <div>
+                <p>
+                    <span>
+                    Write down a list of at least 3 things you're grateful for yourself.             
+                    </span>
+                </p>
+                <br />
+                <p>
+                    Choose a keyword for each and read it out loud, starting with the words "I am...". Then write it anywhere you'll see at least once a day - it can even be with lipstick on your mirror. Or if you want a free  personalised wallpaper,  just like and comment!
+                </p>
+            </div>,
     },
     {
         title: "F.Y.V. Advent Calendar",
