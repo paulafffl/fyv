@@ -1,8 +1,8 @@
 import "../Styles.scss";
 import React, { useState } from "react";
 import { contentAdvent } from "../Content/content_advent";
-import { Modal } from "./modal";
 import moment from "moment";
+import { ModalAdvent } from "./modal_advent";
 
 export const Advent = () => {
 	const [selectedImg, setSelectedImg] = useState("");
@@ -18,8 +18,8 @@ export const Advent = () => {
 					onClick={() =>
 						isPostReleased 
 						? 
-						// setSelectedImg(i) 
-						alert(`🎄 It's live on our Instagram page! 🎄`)
+						setSelectedImg(i) 
+						// alert(`🎄 It's live on our Instagram page! 🎄`)
 						: 
 						alert(`🎄 Coming on ${moment(item.releaseDate).format('MMMM Do YYYY')} 🎄`)
 					}
@@ -32,7 +32,7 @@ export const Advent = () => {
 					data-testid={`section__img-${item.imgList[0]}`}
 				/>
 				{selectedImg === i && (
-					<Modal
+					<ModalAdvent
 						content={contentAdvent[selectedImg]}
 						setSelectedImg={setSelectedImg}
 						selectedImg={selectedImg}

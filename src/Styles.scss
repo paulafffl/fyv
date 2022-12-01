@@ -291,6 +291,26 @@ body {
         }
     }
 
+    &__boxAdvent {
+        position: fixed;
+        z-index: 5;
+        top: 7vh;
+        overflow: auto;
+        display: block;
+        padding: 1vw 2vw 4vw 2vw;
+        width: 60vw;
+        height: auto;
+        background-color: white;
+
+        @media only screen and (max-width: $breakpoint-small) {
+            display: block;
+            width: 80vw;
+            height: 85vh;
+            padding: 1vw;
+            overflow: auto;
+        }
+    }
+
     &__content {
         display: flex;
         padding: 1vw 1vw;
@@ -321,6 +341,25 @@ body {
 
     }
 
+    &__textAdvent {
+        overflow: auto;
+        padding-right: 2rem;
+        color: $color-grey-dark;
+        word-wrap: break-word;
+        font-size: 3vmin;
+
+        p {
+            margin-block-start: 0px;
+        }
+
+        @media only screen and (max-width: $breakpoint-small) {
+            padding: 7vw;
+            overflow: auto;
+            font-size: 3vmin;
+        }
+
+    }
+
     &__img {
         display: block;
         text-align: center;
@@ -333,6 +372,23 @@ body {
 
             @media only screen and (max-width: $breakpoint-small) {
                 height: 30vh;
+            }
+        }
+    }
+
+    &__imgAdvent {
+        display: block;
+        text-align: center;
+
+        img {
+            width: 60vh;
+            height: 60vh;
+            object-fit: contain;
+
+            @media only screen and (max-width: $breakpoint-large) {
+                width: 30vh;
+                height: 30vh;
+                object-fit: cover;
             }
         }
     }
