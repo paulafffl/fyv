@@ -1,5 +1,156 @@
 export const contentPosts = [
     {
+        title: "The Vulva Gallery",
+        imgList: [89, 90, 91, 92, 93, 94, 95, 96],
+        content: <div>
+            <p><span>The Vulva Gallery</span></p>
+            <br />
+            <p>
+            Celebrating vulva diversity, @the.vulva.gallery is a page created by @hildeatalanta, an amazing Illustrator and oil painter.
+            </p>
+            <p>
+            Our hearts get filled with happiness when we see that more than 780k people follow this page and have access to such a wide variety of vulvas!
+            </p>
+            <p>
+            Did you love it as much as we did? You can support the artist by following their Instagram page @the.vulva.gallery or buying one of the amazing products! Swipe to see our personal favourites, but do also check their store for even more! https://www.thevulvagallery.com/webshop
+            </p>
+        </div>,
+    },
+    {
+        title: "Festivals, body positivity & liberation",
+        imgList: [83, 84, 85, 86, 87],
+        content: <div>
+            <p><span>Festivals, body positivity & liberation</span></p>
+            <br />
+            <p>
+            Last month, Paula had the privilege of attending @secretgardenparty. A lot has been said about its poor infrastructure, but not enough about the amazing people that made the festival so worth it and magical even so. She said:
+            </p>
+            <p>
+            "It was so liberating to be in the presence of confident women owning and loving their bodies, and that inspired me to free my body even more. Coming from a country where I couldn’t even show my legs without being extremely sexualised, I can’t explain the freedom and power that I felt from being topless in a festival”.
+            </p>
+            <p>
+            If that wasn’t enough, she also had the honour to meet one of our inspiring muses there, @lydiareeves_artist ! A Female Body Casting Artist, Lydia allows people to celebrate their incredible bodies, and helps to eradicate any shame, embarrassment or negative thoughts that they may have encountered throughout their lives.
+            </p>
+            <p>
+            And bringing body positivity and liberation to a new level, Paula also had the absolute pleasure of attending @bodymovementsfestival last month. The event is described as "Queer Bodies in Electronic Music". But she felt it should be sold as "The utopia of free bodies". She said:
+            </p>
+            <p>
+            “The energy there was exhilarating and revitalising. I’ve never been surrounded by so many authentic and liberated people, who were celebrating themselves and each other. Walking with just a nipple cover in plain delight in Hackney Wick felt surreal. And this feeling says a lot about how far we are from being able to show and own our bodies however and wherever we chose. As long as something as natural as showing our skin feels surreal, we are still confined. So thank f*ck for Secret Garden Party and Body Movements! For giving me an escape from this sexually repressed society. For giving me the sweet taste of this liberated future that we’re working towards ❤️”.
+            </p>
+        </div>,
+    },
+    {
+        title: "Erika Lourenço",
+        imgList: [79, 80, 81, 82],
+        content: <div>
+            <p><span>Erika Lourenço</span></p>
+            <br />
+            <p>
+            @erika.lourencoo is an artist and illustrator, and she is responsible for creating those beautiful vulva & clit art. It’s rather magical how much beauty we have in our own bodies when we look at the talented work from Erika.
+            </p>
+            <p>
+            She made this beautiful art for an article about vulva anatomy. The article is written in Portuguese, but if you’re interested in it, check it out at the link: https://www.uol.com.br/universa/reportagens-especiais/dia-v---leia-seus-labios/#page3
+            </p>
+            <p>
+            Body, beauty and art inspiration for you all, loves!
+            </p>
+        </div>,
+    },
+    {
+        title: "Free Your Vulva at a Festival",
+        imgList: [77, 78],
+        content: <div>
+            <p><span>Free Your Vulva at a Festival</span></p>
+            <br />
+            <p> 🌿 WIN 1x TICKET TO MEDICINE FESTIVAL THAT STARTS TOMORROW 🌻
+            <br />
+            </p>
+            <p>
+            Still haven't been to a festival this year and happen to be free this week? We're going to the Medicine Festival together and we're giving away 1 ticket to one lucky winner! Medicine, a festival for the people and the planet, is about interweaving communities and bridging cultures 💚 It's happening near Reading/UK from this Thursday to Sunday.
+            <br />
+            </p>
+            <p>
+            🚨 You have until midnight to enter 🚨
+            <br />
+            </p>
+            <p>
+            All you have to do to enter is...
+            <br />
+            </p>
+            <p>
+            🍀 Like this post and tag 1 friend
+            <br />
+            🌼 Follow us @freeyourvulva
+            <br />
+            🧘🏽‍♀️ And share this post in your stories
+            <br />            
+            </p>
+            <p>
+               You have until Wednesday 17th 23h59 to enter, so get going!
+            Ts&Cs: Competition will run until Wed 17th Aug 23h59 and the winner will be selected at random at midnight. The winner will be contacted via dm by @freeyourvulva. 1 comment = 1 entry. Good luck 🙏
+            </p>
+        </div>,
+    },
+    {
+        title: "Female Orgasm Day",
+        imgList: [73, 74, 75, 76],
+        content: <div>
+            <p><span>Female Orgasm Day</span></p>
+            <br />
+            <p> Today is Female Orgasm Day and as much as we’d like to be only celebrating what our powerful vulvas can do for us, we must raise awareness of orgasm inequality.
+
+                According to the International Academy of S3x Research, heterosexual men orgasm 95% of the time, gay men 89%, bisexual men 88%, gay women 86%, bisexual women 66%, and heterosexual women 65%.
+
+                This striking gap of 30% between hetero men and women is just one of the many symptoms of a deeply patriarchal society, where women’s pleasure is not a priority., Laurie Mintz Ph.D. said, “the orgasm gap is a cultural problem.” And if you read more about it on On Psychology Today, you’ll see that the roots of this problem spread widely and they are not easily fixed. But we could tie the F.Y.V. manifesto to every single cause, which is even more validation of the importance of our work.
+                </p>
+                <br />
+                <p>
+                And the great news is that this is one inequality that you can fight against with pleasure! According to the study, women who orgasmed more frequently were more likely to:
+
+                -Receive more oral s3x
+                -Have a longer duration of s3x
+                -Be more satisfied with their relationship
+                -Ask for what they want in bed
+                -Wear s3xy lingerie
+                -Act out fantasies
+                -Praise their partner for s3x
+                -Call or email to tease about s3x
+                -Incorporate s3xy talk
+                -Try new s3xual positions
+                -Have anal stimulation
+                -Express love during s3x
+                </p>
+                <br />
+                <p>
+                A lot of the items listed in the study involve being with a partner, but believe us when we say that nobody can please you as you can. It takes a lot of self-care and self-discovery, but it’s SO worth it.
+
+                So honour this day by dressing s3xy just for yourself, taking a sweet long time m@sturbating yourself*, and maybe even acting out on fantasies on your own mind! Let’s fill this gap, one juicy orgasm at a time. 💦
+
+                *We recommend at least 20 minutes, we’ll explain why in future posts 👀
+                </p>
+                <br />
+                <p>
+                Sources: https://tinyurl.com/studyOnOrgasmFrequency https://tinyurl.com/psychologyTodayOrgasmGap
+            </p>
+            <p>
+            </p>
+        </div>,
+    },
+    {
+        title: "Laurie Melia Ceramics",
+        imgList: [63, 64, 65, 66, 67, 68, 69, 70, 71, 72],
+        content: <div>
+            <p><span>Laurie Melia Ceramics</span></p>
+            <br />
+            <p>
+            We’re delighted to find this unique artwork from @laurie_melia_ceramics, a self-taught ceramic artist. 
+            </p>
+            <p>
+            Unfortunately, her pieces are sold out, but we still love to admire these stunning vulvas from the distance.            
+            </p>
+        </div>,
+    },
+    {
         title: "It’s orgasm day",
         imgList: [57, 58, 59, 60, 61, 62],
         content: <div>
@@ -33,7 +184,7 @@ export const contentPosts = [
     },
     {
         title: "Vegan Vulva Raises £2.6 for charity",
-        imgList: [52, 53, 54, 55, 56],
+        imgList: [52, 53, 55, 56],
         content: <div>
             <p><span>Vegan Vulva Raises £2.6 for charity</span></p>
             <br />
