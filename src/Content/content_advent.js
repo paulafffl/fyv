@@ -7,7 +7,7 @@ export const contentAdvent = [
             <div>
                 <p>
                     <span>
-                    Write down a list of at least 3 things you're grateful for yourself.             
+                    Write a list of at least 3 things you appreciate about yourself. 
                     </span>
                 </p>
                 <br />
