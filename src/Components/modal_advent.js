@@ -1,19 +1,8 @@
-import React, { useState } from "react";
+import React from "react";
 import logoInsta from "../Images/instagram_logo.svg";
 import iconSupport from "../Images/icon_support.svg";
 
-export const ModalAdvent = ({ content, selectedImg, setSelectedImg, prevAndNext = true }) => {
-	const [shownImg, setShownImg] = useState(content.imgList[0]);
-	const carousel = content.imgList.map((imgNo) => {
-		return (
-			<button
-				className={`modal__carousel ${shownImg === imgNo ? "modal__carousel--selected" : ""}`}
-				key={"carousel" + imgNo}
-				data-testid={`carousel-img-${imgNo}`}
-				onClick={() => setShownImg(imgNo)}
-			/>
-		);
-	});
+export const ModalAdvent = ({ content, selectedImg, setSelectedImg, prevAndNext = true, shownImg }) => {
 	return (
 		<>
 			<div className="modal__bckg" onClick={() => setSelectedImg("")}></div>
@@ -37,12 +26,10 @@ export const ModalAdvent = ({ content, selectedImg, setSelectedImg, prevAndNext 
 				<div className="modal__content">
 					<div className="modal__imgAdvent">
 						<img
-							src={require(`../Images/Posts/Advent/${shownImg}.png`)}
+							src={require(`../Images/Thumbnails/Advent/Released/${shownImg}.png`)}
 							data-testid={`modal__img-${shownImg}`}
 							alt={content.title}
 						/>
-
-						{content.imgList.length > 1 && <div display="flex">{carousel}</div>}
 					</div>
 					<div className="modal__textAdvent">
 						{content.content}

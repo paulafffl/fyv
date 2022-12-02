@@ -10,8 +10,6 @@ export const Advent = () => {
 
 	const thumbnailsMapped = contentAdvent.map((item, i) => {
 		const isPostReleased = item.releaseDate <= today;
-		// const [, ...lockedPosts] = item.imgList;
-		// const shownImgs = isPostReleased ? lockedPosts : item.imgList;
 		return (
 			<>
 				<img
@@ -19,17 +17,15 @@ export const Advent = () => {
 						isPostReleased 
 						? 
 						setSelectedImg(i) 
-						// alert(`🎄 It's live on our Instagram page! 🎄`)
 						: 
 						alert(`🎄 Coming on ${moment(item.releaseDate).format('MMMM Do YYYY')} 🎄`)
 					}
 					key={`thumbnail-${item.title}`}
 
 					className={'section__img section__img--advent'}
-					// src={require(`../Images/Thumbnails/Advent/${shownImgs[0]}.jpg`)}
-					src={require(`../Images/Thumbnails/Advent/${item.imgList[0]}.jpg`)}
+					src={require(`../Images/Thumbnails/Advent/Teaser/${i+1}.png`)}
 					alt={item.title}
-					data-testid={`section__img-${item.imgList[0]}`}
+					data-testid={`section__img-${i+1}`}
 				/>
 				{selectedImg === i && (
 					<ModalAdvent
@@ -37,6 +33,7 @@ export const Advent = () => {
 						setSelectedImg={setSelectedImg}
 						selectedImg={selectedImg}
 						prevAndNext={false}
+						shownImg={i+1}
 					/>
 				)}
 			</>
