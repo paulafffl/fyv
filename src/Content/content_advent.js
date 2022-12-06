@@ -108,13 +108,13 @@ export const contentAdvent = [
             <div>
                 <p>
                     <span>
-                    Self-hug may seem odd, but it has proven benefits! 
+                    Have you ever tuned in to how pleasurable it is the water touching your skin?
                     </span>
                 </p>
                 <br />
                 <p>
-                It relieves pain, increases sense of security and self-compassion, and improves your mood. Human touch, even your own, releases oxytocin (aka love hormone) and lowers cortisol (aka stress hormone). What a powerful switch! So take a whole 1min. today to self-hug.
-                 </p>
+                That flowing stream is a pouring pleasure that goes unnoticed most of the time. Today when you shower, immerse in the experience of feeling the water caressing your whole body. Feel its warmth spreading on your skin.
+                </p>
             </div>,
     },
     {
@@ -158,12 +158,12 @@ export const contentAdvent = [
             <div>
                 <p>
                     <span>
-                    Have you ever tuned in to how pleasurable it is the water touching your skin?
+                    Self-hug may seem odd, but it has proven benefits! 
                     </span>
                 </p>
                 <br />
                 <p>
-                That flowing stream is a pouring pleasure that goes unnoticed most of the time. Today when you shower, immerse in the experience of feeling the water caressing your whole body. Feel its warmth spreading on your skin.
+                It relieves pain, increases sense of security and self-compassion, and improves your mood. Human touch, even your own, releases oxytocin (aka love hormone) and lowers cortisol (aka stress hormone). What a powerful switch! So take a whole 1min. today to self-hug.
                 </p>
             </div>,
     },
@@ -197,7 +197,7 @@ export const contentAdvent = [
                 </p>
                 <br />
                 <p>
-                Gaze at yourself while saying positive affirmations such as "I am at home in my body". The first times can be triggering, so be kind with yourself and see this as expelling external judgement that has been infected on you. Once this is cleared out, you’ll see the perfectly gorgeous being that you are.
+                Gaze at yourself while saying positive affirmations such as "I am at home in my body". The first times can be triggering, so be kind to yourself and see this as expelling external judgement that has been infected on you. Once this is cleared out, you’ll see the perfectly gorgeous being that you are.
                 </p>
             </div>,
     },
