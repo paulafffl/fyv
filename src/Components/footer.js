@@ -13,14 +13,14 @@ export const Footer = () => {
 					target={"blank"}
 				>
 					<img src={logoInsta} className="footer__icons" alt="logoInstagram" />
-					Follow us 
+					Follow 
 				</a>
 				<a
 					href="https://www.buymeacoffee.com/freeyourvulva"
 					target={"blank"}
 				>
 					<img src={iconSupport} className="footer__icons" alt="iconSupport" />
-					Support us 
+					Support 
 				</a>
 			</div>
 			<div>
