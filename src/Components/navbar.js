@@ -34,7 +34,7 @@ export const Navbar = () => {
 					<Link to="/advent"
 						onClick={() => { setMenuOpen(false); setActive("manifesto") }}
 						className={`navbar__route ${active === "manifesto" ? "navbar__route--active" : ""}`}>
-						🎄ADVENT
+						PLEASURE & SELF-LOVE
 					</Link>
 					<Link to="/posts"
 						onClick={() => { setMenuOpen(false); setActive("posts") }}
