@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Trispace:wght@300;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Figtree:wght@300;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
 
 $color-brown: #84614f;
 $color-sand: #DDA479;
@@ -36,8 +37,37 @@ body {
         }
     }
 
+    h2 {
+        font-family: 'Figtree', sans-serif;
+        margin-block-start: 0;
+        margin-block-end: 0;
+        font-size: 4vmin;
+        color: $color-brown;
+    }
+
     h3 {
         font-family: 'Trispace', sans-serif;
+    }
+
+    h4 {
+        font-family: 'Figtree', sans-serif;
+        margin-top: 4vmin;
+        margin-bottom: 2vmin;
+        font-size: calc(10px + 1vmin);
+        color: $color-sand;
+    }
+
+    h5 {
+        font-family: 'Passion One', cursive;
+        right: 0;
+        margin: 0;
+        margin-right: 11.5vw;
+        margin-top: -5vh;
+        font-size: 40vh;
+        font-weight: 400;
+        color: rgba($color-pink, 0.4);
+        position: absolute;
+        z-index: 0;
     }
 
     p {
@@ -60,7 +90,7 @@ body {
     z-index: 3;
     background-color: $color-brown;
     color: $color-pink;
-    height: 7vh;
+    height: 8vh;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -189,6 +219,7 @@ body {
         }
         &--advent {
             grid-template-columns: auto auto auto auto auto;
+            padding-top: 3vw;
             @media only screen and (max-width: $breakpoint-small) {
                 grid-template-columns: auto;
                 justify-items: center;
@@ -218,7 +249,6 @@ body {
         box-shadow: 1vh 1vh white;
 
         &--advent {
-            max-width: 12vw;
             min-width: 14vw;
             min-height: 14vw;
             max-width: 14vw;
@@ -294,7 +324,7 @@ body {
     &__box {
         position: fixed;
         z-index: 5;
-        top: 7vh;
+        top: 8vh;
         overflow: auto;
         display: block;
         padding: 1vw 2vw 4vw 2vw;
@@ -312,8 +342,10 @@ body {
 
         &--advent {
             width: 60vw;
+            height: 80vh;
             @media only screen and (max-width: $breakpoint-small) {
                 width: 80vw;
+                height: 85vh;
             }
         }
     }
@@ -370,6 +402,8 @@ body {
 
         &--advent {
             img {    
+                width: 100%;
+                height: 70vh;
                 @media only screen and (max-width: $breakpoint-large) {
                     width: 30vh;
                     height: 30vh;
@@ -447,6 +481,80 @@ body {
     }
 }
 
+.bodywork {
+    padding: 5vw 11.5vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: rgba(white, 0.5);
+    p {
+        margin-top: 0;
+        margin-bottom: 3vh;
+    }
+
+    @media only screen and (max-width: $breakpoint-small) {
+        flex-direction: column;
+        align-items: center;
+        font-size: 3vmin;
+    }
+
+    h1 {
+        font-size: calc(2rem + 4vmin);
+        margin-bottom: 6vmin;
+        margin-top: -2vmin;
+    }
+
+    h2 {
+        margin-bottom: 3rem;
+        font-size: calc(2rem + 4vmin);
+        font-weight: 100;
+    }
+    
+    h3 {
+        font-size: 1.5rem;
+        font-style: italic;
+        font-weight: 100;
+        color: $color-brown;
+        margin-block-start: 0;
+        margin-bottom: 0;
+    }
+
+    &__boxArea {
+        padding: 5vw 8vw;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        background-color: rgba(white, 0.7);
+        border-bottom: 0.4vh solid rgba($color-sand, 0.5);
+        margin: 3vh 0 1vh 0;
+    }
+
+    &__col-narrow {
+        width: 20vw;
+
+        @media only screen and (max-width: $breakpoint-small) {
+            width: 65vw;
+        }
+    }
+
+    &__col {
+        width: 24.5vw;
+        @media only screen and (max-width: $breakpoint-small) {
+            width: 65vw;
+        }
+    }
+
+    &__col-grid-2 {
+        column-count: 2;
+        column-gap: 6vw;
+        @media only screen and (max-width: $breakpoint-small) {
+            column-count: 1;
+        }
+    }
+}
+
 .about {
     padding: 5vw 11.5vw;
     display: flex;
@@ -502,7 +610,7 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    margin-top: 7vh;
+    margin-top: 8vh;
     padding: 4vh 9vw;
 
     @media only screen and (max-width: $breakpoint-small) {

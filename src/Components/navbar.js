@@ -31,10 +31,15 @@ export const Navbar = () => {
 					</Link>
 				}
 				<div className={`navbar__routes ${menuOpen ? "navbar__routes--expanded" : ""}`}>
-					<Link to="/advent"
-						onClick={() => { setMenuOpen(false); setActive("manifesto") }}
-						className={`navbar__route ${active === "manifesto" ? "navbar__route--active" : ""}`}>
-						PLEASURE & SELF-LOVE
+					<Link to="/self-work"
+						onClick={() => { setMenuOpen(false); setActive("self-work") }}
+						className={`navbar__route ${active === "self-work" ? "navbar__route--active" : ""}`}>
+						SELF-WORK
+					</Link>
+                    <Link to="/bodywork"
+						onClick={() => { setMenuOpen(false); setActive("bodywork") }}
+						className={`navbar__route ${active === "bodywork" ? "navbar__route--active" : ""}`}>
+						BODYWORK
 					</Link>
 					<Link to="/posts"
 						onClick={() => { setMenuOpen(false); setActive("posts") }}
