@@ -57,7 +57,9 @@ export const Bodywork = () => {
                 </div>
                 <div className="bodywork__boxArea">
                     <div className="bodywork__col-grid-2">
-                        <h1>what's in it for me?</h1>
+                        <h1>
+                            what's in it <br></br>for me?
+                        </h1>
                         <p>
                             I always felt a deep level of empathy and only found
                             as an adult that I’m a highly sensitive person.
@@ -206,9 +208,9 @@ export const Bodywork = () => {
                 <h1>testimonials</h1>
                 <div className="bodywork__boxArea">
                     <h4>
-                        Each body will have a unique experience. So I usually
-                        refrain from sharing personal testimonials as it can
-                        create misleading expectations. Hence,{" "}
+                        I usually refrain from sharing personal testimonials as
+                        it can create misleading expectations. Each body will
+                        have a unique experience. So,{" "}
                         <span>
                             I advise you to not read this section before your
                             session.
