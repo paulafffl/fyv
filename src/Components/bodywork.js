@@ -96,7 +96,9 @@ export const Bodywork = () => {
                 </div>
             </div>
             <div className="bodywork">
-                <h1>what's in it for you?</h1>
+                <div>
+                    <h1>what's in it for you?</h1>
+                </div>
                 <div className="bodywork__col-grid-2">
                     <h3>more independence</h3>
                     <br></br>
@@ -202,6 +204,40 @@ export const Bodywork = () => {
             </div>
             <div className="bodywork">
                 <h1>testimonials</h1>
+                <div className="bodywork__boxArea">
+                    <h4>
+                        Each body will have a unique experience. So I usually
+                        refrain from sharing personal testimonials as it can
+                        create misleading expectations. Hence,{" "}
+                        <span>
+                            I advise you to not read this section before your
+                            session.
+                        </span>{" "}
+                        However, I know that this is beneficial for some women
+                        to feel safe embarking on this journey - and this is the
+                        only reason why I share it.
+                    </h4>
+                </div>
+                <br></br>
+                <br></br>
+                <br></br>
+                <br></br>
+                <div>
+                    <br></br>
+                    <h5>”</h5>
+                    <p>
+                        It was pure expansion. And a cleanse. I felt so light
+                        and so much love. Happy moments of my life kept popping
+                        up in my mind. I accessed places that I didn't even
+                        remember, and others that I didn't even know existed.
+                        For a while, I completely forgot where I was. And I know
+                        this didn’t make sense because I was sober, but
+                        afterwards, I felt completely high
+                        <h4>- Bruna Christo</h4>
+                    </p>
+                </div>
+                <br></br>
+                <br></br>
                 <div>
                     <h5>”</h5>
                     <p>
@@ -229,7 +265,7 @@ export const Bodywork = () => {
                         more relaxed and unconcerned, and I remember thinking,
                         now that the session is over. It was already quite
                         surprising given that I think it was the first time I
-                        had 2 orgasms. But as the music changed I realized that
+                        had 2 orgasms. But as the music changed I realised that
                         it didn't stop there. I genuinely thought that my body
                         had already given everything it had to give, but after a
                         few minutes when the music and the sensations came
@@ -281,32 +317,34 @@ export const Bodywork = () => {
             <div className="bodywork">
                 <h1>faq</h1>
                 <div>
-                    <h4>What happens in a Sensory Bodywork?</h4>
+                    <h4>What happens exactly?</h4>
                     <p>
-                        It takes place in an optimal environment where all of
-                        your senses are looked after. I'll explain during the
-                        session how smell, vision, sound and taste will be
-                        stimulated. I'm aware though that touch is what raises
-                        more questions, so here is what happens in this sense:
-                        you’ll first experience a subtle touch to awaken your
-                        whole body. Then a massage to activate your pelvic area.
-                        Last but not least, I will massage and stimulate your
-                        vulva (the external parts of a woman's genitalia) and if
-                        you’re receptive to this, I can also stimulate your
-                        vagina (the internal part). For this reason, you’ll be
-                        fully naked. You’ll be in full control of the situation.
-                        Your consent can be withdrawn at any time and I’ll cease
-                        to touch you as soon as you wish.
+                        This Sensory Bodywork takes place in an optimal
+                        environment where all of your senses are looked after.
+                        I'll explain during the session how smell, vision, sound
+                        and taste will be stimulated. I'm aware though that
+                        touch is what raises more questions, so here is what
+                        happens in this sense: you’ll first experience a subtle
+                        touch to awaken your whole body. Then a massage to
+                        activate your pelvic area. Last but not least, I will
+                        massage and stimulate your vulva (the external parts of
+                        a woman's genitalia) and if you’re receptive to this, I
+                        can also stimulate your vagina (the internal part). For
+                        this reason, you’ll be fully naked. You’ll be in full
+                        control of the situation. Your consent can be withdrawn
+                        at any time and I’ll cease to touch you as soon as you
+                        tell me so.
                     </p>
-                    <h4>Who can receive a Sensory Bodywork?</h4>
+                    <h4>Who can receive it?</h4>
                     <p>
-                        I only see women who are vulva owners. I would love to
-                        extend it to women with a penis, but currently, my level
-                        of knowledge for this genitalia is not enough as most of
-                        my learnings have been focused on vulvas. As for men, I
-                        understand they also need healing from all the toxic
-                        masculinity and pressure that society has imposed on
-                        them. But as long as the striking{" "}
+                        I only offer this Sensory Bodywork to women who are
+                        vulva owners. I'd love to extend it to women with a
+                        penis, but currently, my level of knowledge for this
+                        genitalia is not enough as most of my learnings have
+                        been focused on vulvas. As for men, I understand they
+                        also need healing from all the toxic masculinity and
+                        pressure that society has imposed on them. But as long
+                        as the striking{" "}
                         <a
                             href="https://www.instagram.com/p/Cg_fHVgNl45/"
                             target="_blank"
@@ -316,33 +354,34 @@ export const Bodywork = () => {
                         </a>{" "}
                         is a reality, I’ll prioritise women.
                     </p>
-                    <h4>When can a Sensory Bodywork happen?</h4>
+                    <h4>When can it happen?</h4>
                     <p>
-                        You must send me an Instagram direct message (or email)
-                        so we can find a time for you. The sessions happen in
-                        the night and it’s not advisable that you plan anything
-                        afterwards, aside from time to integrate and rest.
-                        Please note that the waiting list can be from weeks to
-                        months. It’s the most rewarding work I have ever done,
-                        but it’s also very draining for me - emotionally,
-                        physically and spiritually. And this is not my job, I
-                        only do it to empower women, not to make money. So
-                        because of that, I have a very limited amount of time.
+                        The Sensory Bodywork happens during night time and it’s
+                        not advisable that you plan anything afterwards, aside
+                        from time to integrate and rest. You must send me an
+                        Instagram direct message (or email) so we can schedule a
+                        session. Please note that the waiting list can be from
+                        weeks to months. It’s the most rewarding work I have
+                        ever done, but it’s also very draining for me -
+                        emotionally, physically and spiritually. And this is not
+                        my job, I only do it to empower women, not to make
+                        money. So because of that, I have a very limited amount
+                        of time available.
                     </p>
 
-                    <h4>Where does a Sensory Bodywork place?</h4>
+                    <h4>Where does it take place?</h4>
                     <p>
                         Although I understand that some people would rather have
                         this in the comfort of their homes, I cannot guarantee
                         to deliver the same level of experience in different and
-                        unknown spaces. The session takes place in an optimal
-                        environment where all of your senses are looked after.
-                        And for security reasons, I only share the exact
+                        unknown spaces. The Sensory Bodywork takes place in an
+                        optimal environment where all of your senses are looked
+                        after. And for security reasons, I only share the exact
                         location after we have an initial 10min video call so we
                         can both feel safe embarking on this experience
                         together. The area is East London.
                     </p>
-                    <h4>Why would I want a Sensory Bodywork?</h4>
+                    <h4>Why would I want this?</h4>
                     <p>
                         To extend your capacity to experience pleasure and
                         unlock your full innate power through your pussy. To
@@ -351,20 +390,21 @@ export const Bodywork = () => {
                         with pleasure. To embrace more independence, self-love,
                         awareness, and spirituality into your life.
                     </p>
-                    <h4>How long does a Sensory Bodywork last?</h4>
+                    <h4>How long does it last?</h4>
                     <p>
-                        The whole session takes around 2,5 hours. The first
-                        30min will be a conversation to understand a bit of your
-                        history, needs and expectations. I'll explain everything
-                        that will happen in more detail and share some key
-                        learnings to help you connect with the experience. Then
-                        there will be a 60-90min full body massage - each person
-                        has their own pace and this is what defines the length
-                        of this phase. It ends with 30min for integration, where
-                        you'll be able to process this experience on your time,
-                        aside from taking a shower if you wish so.
+                        A Sensory Bodywork session takes around 2,5 hours. The
+                        first 30min will be a conversation to understand a bit
+                        of your history, needs and expectations. I'll explain
+                        everything that will happen in more detail and share
+                        some key learnings to help you connect with the
+                        experience. Then there will be a 60-90min full body
+                        massage - each person has their own pace and this is
+                        what defines the length of this phase. It ends with
+                        30min for integration, where you'll be able to process
+                        this experience on your time, aside from taking a shower
+                        if you wish so.
                     </p>
-                    <h4>How much does a Sensory Bodywork cost?</h4>
+                    <h4>How much does it cost?</h4>
                     <p>
                         I believe all women deserve access to self-love and
                         their own power, so I offer this Sensory Bodywork on a
@@ -372,35 +412,36 @@ export const Bodywork = () => {
                         to sustain myself. However, that means that my
                         availability to offer this is quite limited. So for
                         people who can afford and wish to support me
-                        financially, similar bodywork in London would cost from
-                        £240 - £400. I accept and appreciate any contributions
-                        as this could allow me one day to reduce my working
-                        hours to allocate more time for this.
+                        financially, similar bodywork in London costs from
+                        £240-£400. I accept and appreciate any contributions as
+                        this could allow me to reduce my working hours to
+                        allocate more time for this.
                     </p>
-                    <h4>How to prepare for a Sensory Bodywork?</h4>
+                    <h4>How to prepare for it?</h4>
                     <p>
                         It’s advisable that you don’t consume alcohol or any
-                        drugs so you can be fully present. Fasting is not
-                        advisable unless you’re used to it - you don’t want to
-                        get distracted by hunger mid-way through. You should eat
-                        in the same way you would before doing an exercise.
+                        drugs before this Sensory Bodywork so you can be fully
+                        present. Fasting is not advisable unless you’re used to
+                        it - you don’t want to get distracted by hunger mid-way
+                        through. You should eat in the same way you would before
+                        doing an exercise.
                     </p>
                     <h4>
                         Are people who experienced sexual trauma or abuse
-                        suitable for a Sensory Bodywork ?
+                        suitable for this?
                     </h4>
                     <p>
-                        This can be extremely healing for people who experienced
-                        sexual trauma and abuse. However, if this is your case,
-                        I don’t advise doing it without a professional therapist
-                        to support you afterwards. To treat wounds, they need to
-                        be brought to the surface. And this Sensory Bodywork has
-                        the power to unlock profound and deeply blocked
-                        memories. I’m a certified Mental Health First Aider, so
-                        I’ll be equipped to support you during the session. But
-                        afterwards, you might need to be accompanied by therapy
-                        to be able to process and integrate everything you
-                        experienced.
+                        This Sensory Bodywork can be extremely healing for
+                        people who experienced sexual trauma and abuse. However,
+                        if this is your case, I don’t advise doing it without a
+                        professional therapist to support you afterwards. To
+                        treat wounds, they need to be brought to the surface.
+                        And this Sensory Bodywork has the power to unlock
+                        profound and deeply blocked memories. I’m a certified
+                        Mental Health First Aider, so I’ll be equipped to
+                        support you during the session. But afterwards, you
+                        might need to be accompanied by therapy to be able to
+                        process and integrate everything you experienced.
                     </p>
                 </div>
                 <br></br> <br></br>
