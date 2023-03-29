@@ -8,7 +8,7 @@ export const About = () => {
 			<h1 className="section__title">{"about"}</h1>
 			<div className="about">
 				<div className="about__photo">
-					<img src={require(`../Images/paula_headshot.jpg`)} alt={"img-about-Paula"} />
+					<img src={require(`../Images/paula_headshot_new.jpg`)} alt={"img-about-Paula"} />
 					<p>
 						<span>Pleasure to meet you, I'm P!</span> 
 						<br></br>
