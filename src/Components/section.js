@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Modal } from "./modal";
 import { Thumbnail } from "./thumbnail";
 
-export const Section = ({ content, title, advent = false }) => {
+export const Section = ({ content, title, advent = false, posts = false }) => {
     const [selectedImg, setSelectedImg] = useState("");
 
     const thumbnailsMapped = content.map((item, i) => (
@@ -52,6 +52,19 @@ export const Section = ({ content, title, advent = false }) => {
             >
                 {thumbnailsMapped}
             </div>
+            {posts && (
+                <div style={{ textAlign: "center", paddingBottom: "5vw" }}>
+                    <h3>
+                        + more posts on{" "}
+                        <a
+                            href="https://www.instagram.com/freeyourvulva/"
+                            target={"blank"}
+                        >
+                            Instagram
+                        </a>
+                    </h3>
+                </div>
+            )}
             {selectedImg !== "" && (
                 <Modal
                     content={content[selectedImg]}
