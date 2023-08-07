@@ -315,6 +315,36 @@ export const Bodywork = () => {
                         <h4>- Ellie Wintram</h4>
                     </p>
                 </div>
+                <br></br>
+                <br></br>
+                <div>
+                    <h5>”</h5>
+                    <p>
+                        Thank you again for the most incredible experience
+                        tonight ❤ As soon as I arrived I was totally immersed by
+                        the music, lighting, set-up of the bed, perfect
+                        temperature and scent of coconut - it was already
+                        magical. The context at the start of the session was so
+                        heartfelt and I was blown away by your words, I loved
+                        hearing about why this is so important to you and it
+                        made it even more special. The experience itself
+                        exceeded all expectations - even though I tried to have
+                        no expectations at all so that I could be completely
+                        present, but after getting over my own insecurities that
+                        arose at the beginning I felt so connected to you and
+                        the respectful, considerate, loving experience that you
+                        created. I'm completely floored by your selflessness and
+                        the level of care and time you put into giving me such a
+                        mind-blowing spiritual experience. I definitely do liken
+                        it to the mushroom trip that you also selflessly guided
+                        me through and I really can't thank you enough for both
+                        experiences. I really felt like I went on a journey with
+                        my body, from shame to acceptance, to completely
+                        embracing pleasure and letting go of my ego. Thank you
+                        for your care, time, effort, and love.
+                        <h4>- Heather B.</h4>
+                    </p>
+                </div>
             </div>
             <div className="bodywork">
                 <h1>faq</h1>

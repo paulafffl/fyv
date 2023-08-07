@@ -83,6 +83,7 @@ body {
     p {
         margin-bottom: 10px;
         font-family: 'Trispace', sans-serif;
+        font-size: 3.5vmin;
     }
 
     span {
@@ -380,6 +381,7 @@ body {
 
         p {
             margin-block-start: 0px;
+            margin-bottom: 3vmin;
         }
 
         @media only screen and (max-width: $breakpoint-small) {
