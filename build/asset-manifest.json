@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.67aa81cb.css",
-    "main.js": "/static/js/main.fab2bba1.js",
+    "main.css": "/static/css/main.d1ffa17e.css",
+    "main.js": "/static/js/main.c3df67c9.js",
     "static/js/787.5f63606c.chunk.js": "/static/js/787.5f63606c.chunk.js",
     "static/media/4.gif": "/static/media/4.01c12515d749f277229f.gif",
     "static/media/20.gif": "/static/media/20.8b93353ad6604e51b1de.gif",
@@ -137,6 +137,7 @@
     "static/media/4.png": "/static/media/4.ffd3eef36edaca06f4b6.png",
     "static/media/24.png": "/static/media/24.f19ee0317c4a52704e54.png",
     "static/media/20.png": "/static/media/20.63c991698384aa2866ff.png",
+    "static/media/website_thumbnail.png": "/static/media/website_thumbnail.b1738e2c75de8406b445.png",
     "static/media/15.png": "/static/media/15.007fd837774c69089309.png",
     "static/media/8.png": "/static/media/8.ad3e2008dfdb537c7284.png",
     "static/media/17.png": "/static/media/17.7328669d0cf81b86cd50.png",
@@ -231,14 +232,14 @@
     "static/media/instagram_post_9.png": "/static/media/instagram_post_9.2e83fabb82091bd4cb28.png",
     "static/media/25.gif": "/static/media/25.0bcab05495b29ddefb2a.gif",
     "static/media/instagram_logo.svg": "/static/media/instagram_logo.7a29772d55776b9f8f99f89ef90dc930.svg",
-    "static/media/icon_support.svg": "/static/media/icon_support.1ec014abfadf9bad769d76508165473c.svg",
     "index.html": "/index.html",
-    "main.67aa81cb.css.map": "/static/css/main.67aa81cb.css.map",
-    "main.fab2bba1.js.map": "/static/js/main.fab2bba1.js.map",
+    "static/media/icon_support.svg": "/static/media/icon_support.1ec014abfadf9bad769d76508165473c.svg",
+    "main.d1ffa17e.css.map": "/static/css/main.d1ffa17e.css.map",
+    "main.c3df67c9.js.map": "/static/js/main.c3df67c9.js.map",
     "787.5f63606c.chunk.js.map": "/static/js/787.5f63606c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.67aa81cb.css",
-    "static/js/main.fab2bba1.js"
+    "static/css/main.d1ffa17e.css",
+    "static/js/main.c3df67c9.js"
   ]
 }
