@@ -242,6 +242,10 @@ body {
                 justify-items: center;
             }
         }
+        &--header {
+            gap: 0;
+            padding: 4vw 11.5vw;
+        }
     }
 
     &__title {
@@ -256,6 +260,7 @@ body {
         p {
             text-align: center;
             margin-block-end: 0;
+            font-size: 2.5vmin;
         }
     }
 

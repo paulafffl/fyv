@@ -20,27 +20,28 @@ export const Section = ({ content, title, advent = false, posts = false }) => {
         <>
             <h1 className="section__title">{title}</h1>
             {advent && (
-                <div className="section__container">
+                <div className="section__container section__container--header">
                     <div className="section__description">
                         <p>
-                            <span>24 simple yet powerful ways</span>
+                            <span>24 simple yet powerful&nbsp;ways</span>
                             <br></br>to expand your capacity<br></br>of
                             experiencing pleasure<br></br>and self-love.
                         </p>
                     </div>
                     <div className="section__description">
                         <p>
-                            <span>Awaken your 5 senses</span>
-                            <br></br>to unlock new levels of body<br></br>
+                            <span>Awaken your 5&nbsp;senses</span>
+                            <br></br>to unlock new levels&nbsp;of&nbsp;body
+                            <br></br>
                             stimulation, awareness<br></br>and satisfaction
                         </p>
                     </div>
                     <div className="section__description">
                         <p>
-                            <span>All you'll need is yourself!</span>
+                            <span>All you'll need is&nbsp;yourself!</span>
                             <br></br>
                             So follow these delicious<br></br>daily invitations
-                            to treat<br></br>your body and soul.
+                            to&nbsp;treat<br></br>your body and soul.
                         </p>
                     </div>
                 </div>
