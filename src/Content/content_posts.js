@@ -4,9 +4,7 @@ export const contentPosts = [
     //     imgList: [143, 144, 145, 146],
     //     content: (
     //         <div>
-    //             <p>
-    //                 <span>My first talk - “A Case for Body Neutrality”</span>
-    //             </p>
+    //             <h4>My first talk - “A Case for Body Neutrality”</h4>
     //             <br />
     //             <p>
     //                 Earlier this year, I had the pleasure and privilege to do my
@@ -69,9 +67,7 @@ export const contentPosts = [
         imgList: [138, 139, 140, 141, 142],
         content: (
             <div>
-                <p>
-                    <span>Brain-rewiring with art</span>
-                </p>
+                <h4>Brain-rewiring with art</h4>
                 <br />
                 <p>
                     Rewiring negative associations with our bodies can come from
@@ -109,13 +105,11 @@ export const contentPosts = [
         ),
     },
     {
-        title: "Pride",
+        title: "From shame to Pride",
         imgList: [137],
         content: (
             <div>
-                <p>
-                    <span>Pride</span>
-                </p>
+                <h4>🌈 From shame to Pride </h4>
                 <br />
                 <p>
                     There are way better-equipped people to talk about Pride in
@@ -175,9 +169,7 @@ export const contentPosts = [
         imgList: [133, 134, 135],
         content: (
             <div>
-                <p>
-                    <span>Vulva Ceramics</span>
-                </p>
+                <h4>Vulva Ceramics</h4>
                 <br />
                 <p>
                     I want to paint the wall above my bed with, no wonder, a
@@ -197,9 +189,7 @@ export const contentPosts = [
         imgList: [132],
         content: (
             <div>
-                <p>
-                    <span>Lady Phyll</span>
-                </p>
+                <h4>Lady Phyll</h4>
                 <br />
                 <p>
                     Earlier this year, I became the Women’s Network chair at the
@@ -249,9 +239,7 @@ export const contentPosts = [
         imgList: [131],
         content: (
             <div>
-                <p>
-                    <span>International Women's Day</span>
-                </p>
+                <h4>International Women's Day</h4>
                 <br />
                 <p>
                     "Imagine a gender equal world. A world free of bias,
@@ -284,9 +272,7 @@ export const contentPosts = [
         imgList: [130],
         content: (
             <div>
-                <p>
-                    <span>Vulversary</span>
-                </p>
+                <h4>Vulversary</h4>
                 <br />
                 <p>
                     Last weekend I celebrated the day I fell in love with my
@@ -342,9 +328,7 @@ export const contentPosts = [
         imgList: [129],
         content: (
             <div>
-                <p>
-                    <span>What the future holds</span>
-                </p>
+                <h4>What the future holds</h4>
                 <br />
                 <p>
                     We've been taking some needed time to recharge and
@@ -390,9 +374,7 @@ export const contentPosts = [
         imgList: [126, 127, 128],
         content: (
             <div>
-                <p>
-                    <span>TIME TO CELEBRATE THE SH*T OUT OF OUR VULVAS!</span>
-                </p>
+                <h4>TIME TO CELEBRATE THE SH*T OUT OF OUR VULVAS!</h4>
                 <br />
                 <p>
                     @eloinaaart is back with another edition of High Steaks,
@@ -433,9 +415,7 @@ export const contentPosts = [
         imgList: [113, 114, 115, 116, 117],
         content: (
             <div>
-                <p>
-                    <span>We have a gift for you!</span>
-                </p>
+                <h4>We have a gift for you!</h4>
                 <br />
                 <p>
                     This December, Free Your Vulva brings to you a... (vulva
@@ -475,11 +455,7 @@ export const contentPosts = [
         imgList: [111, 112],
         content: (
             <div>
-                <p>
-                    <span>
-                        We’re celebrating 6 months of Free Your Vulva! 🎉
-                    </span>
-                </p>
+                <h4>We’re celebrating 6 months of Free Your Vulva! 🎉</h4>
                 <br />
                 <p>
                     These pics are from when we launched the project to some of
@@ -509,9 +485,7 @@ export const contentPosts = [
         imgList: [110],
         content: (
             <div>
-                <p>
-                    <span>To Go - Barbican</span>
-                </p>
+                <h4>To Go - Barbican</h4>
                 <br />
                 <p>
                     The Barbican is one of the UK’s architectural treasures.
@@ -573,9 +547,7 @@ export const contentPosts = [
         imgList: [108, 109],
         content: (
             <div>
-                <p>
-                    <span>High Steaks</span>
-                </p>
+                <h4>High Steaks</h4>
                 <br />
                 <p>
                     Last summer, @eloinaaart was looking for women to be
@@ -612,9 +584,7 @@ export const contentPosts = [
         imgList: [103, 104, 105, 106, 107],
         content: (
             <div>
-                <p>
-                    <span>Rupi Kaur</span>
-                </p>
+                <h4>Rupi Kaur</h4>
                 <br />
                 <p>
                     I am a big fan of poetry (Be). When I was a child, I loved
@@ -654,9 +624,7 @@ export const contentPosts = [
         imgList: [97, 98, 99, 100, 101, 102],
         content: (
             <div>
-                <p>
-                    <span>Feminine Power - The divine to the demonic</span>
-                </p>
+                <h4>Feminine Power - The divine to the demonic</h4>
                 <br />
                 <p>
                     We were delighted to visit an impressive exhibition called
@@ -710,9 +678,7 @@ export const contentPosts = [
         imgList: [89, 90, 91, 92, 93, 94, 95, 96],
         content: (
             <div>
-                <p>
-                    <span>The Vulva Gallery</span>
-                </p>
+                <h4>The Vulva Gallery</h4>
                 <br />
                 <p>
                     Celebrating vulva diversity, @the.vulva.gallery is a page
@@ -745,9 +711,7 @@ export const contentPosts = [
         imgList: [83, 84, 85, 86, 87],
         content: (
             <div>
-                <p>
-                    <span>Festivals, body positivity & liberation</span>
-                </p>
+                <h4>Festivals, body positivity & liberation</h4>
                 <br />
                 <p>
                     Last month, Paula had the privilege of attending
@@ -800,9 +764,7 @@ export const contentPosts = [
         imgList: [79, 80, 81, 82],
         content: (
             <div>
-                <p>
-                    <span>Erika Lourenço</span>
-                </p>
+                <h4>Erika Lourenço</h4>
                 <br />
                 <p>
                     @erika.lourencoo is an artist and illustrator, and she is
@@ -825,9 +787,7 @@ export const contentPosts = [
         imgList: [77, 78],
         content: (
             <div>
-                <p>
-                    <span>Free Your Vulva at a Festival</span>
-                </p>
+                <h4>Free Your Vulva at a Festival</h4>
                 <br />
                 <p>
                     {" "}
@@ -875,12 +835,9 @@ export const contentPosts = [
         imgList: [73, 74, 75, 76],
         content: (
             <div>
-                <p>
-                    <span>Female Orgasm Day</span>
-                </p>
+                <h4>Female Orgasm Day</h4>
                 <br />
                 <p>
-                    {" "}
                     Today is Female Orgasm Day and as much as we’d like to be
                     only celebrating what our powerful vulvas can do for us, we
                     must raise awareness of orgasm inequality. According to the
@@ -954,9 +911,7 @@ export const contentPosts = [
         imgList: [63, 64, 65, 66, 67, 68, 69, 70, 71, 72],
         content: (
             <div>
-                <p>
-                    <span>Laurie Melia Ceramics</span>
-                </p>
+                <h4>Laurie Melia Ceramics</h4>
                 <br />
                 <p>
                     We’re delighted to find this unique artwork from
@@ -974,11 +929,7 @@ export const contentPosts = [
         imgList: [57, 58, 59, 60, 61, 62],
         content: (
             <div>
-                <p>
-                    <span>
-                        It’s orgasm day! The big O. La petit mort. The climax!
-                    </span>
-                </p>
+                <h4>It’s orgasm day! The big O. La petit mort. The climax!</h4>
                 <br />
                 <p>
                     I bet you didn’t know some juicy facts about orgasms that we
@@ -1041,9 +992,7 @@ export const contentPosts = [
         imgList: [52, 53, 55, 56],
         content: (
             <div>
-                <p>
-                    <span>Vegan Vulva Raises £2.6 for charity</span>
-                </p>
+                <h4>Vegan Vulva Raises £2.6 for charity</h4>
                 <br />
                 <p>
                     Paula not only organised a Bake Off at her work to raise
@@ -1077,9 +1026,7 @@ export const contentPosts = [
         imgList: [45, 46, 47, 48, 49, 50, 51],
         content: (
             <div>
-                <p>
-                    <span>To go: Vagina Museum</span>
-                </p>
+                <h4>To go: Vagina Museum</h4>
                 <br />
                 <p>
                     Any plans for the weekend? If you stay in London, why not
@@ -1128,9 +1075,7 @@ export const contentPosts = [
         imgList: [44],
         content: (
             <div>
-                <p>
-                    <span>Come Curious</span>
-                </p>
+                <h4>Come Curious</h4>
                 <br />
                 <p>
                     Looking for more open conversations about s3x? We highly
@@ -1182,9 +1127,7 @@ export const contentPosts = [
         imgList: [43],
         content: (
             <div>
-                <p>
-                    <span>Sexual orientation VS gender identification</span>
-                </p>
+                <h4>Sexual orientation VS gender identification</h4>
                 <br />
                 <p>
                     Understanding a person’s sexual orientation and gender
@@ -1221,9 +1164,7 @@ export const contentPosts = [
         imgList: [42],
         content: (
             <div>
-                <p>
-                    <span>To watch: Good Luck to You, Leo Grande</span>
-                </p>
+                <h4>To watch: Good Luck to You, Leo Grande</h4>
                 <br />
                 <p>
                     We just went to the cinema to watch Good Luck to You, Leo
@@ -1255,9 +1196,7 @@ export const contentPosts = [
         imgList: [41],
         content: (
             <div>
-                <p>
-                    <span>40% of Britons mislabel the clitoris</span>
-                </p>
+                <h4>40% of Britons mislabel the clitoris</h4>
                 <br />
                 <p>
                     It’s no shame if you don’t know exactly where the clit is
@@ -1297,9 +1236,7 @@ export const contentPosts = [
         imgList: [35, 36, 37, 38, 39, 40],
         content: (
             <div>
-                <p>
-                    <span>Viva la Vulva</span>
-                </p>
+                <h4>Viva la Vulva</h4>
                 <br />
                 <p>
                     There’s a false image about what a vulva should look like.
@@ -1347,12 +1284,10 @@ export const contentPosts = [
         imgList: [32, 33, 34],
         content: (
             <div>
-                <p>
-                    <span>
-                        "No one calls the mouth a throat. So don't call the
-                        vulva a vagina"
-                    </span>
-                </p>
+                <h4>
+                    "No one calls the mouth a throat. So don't call the vulva a
+                    vagina"
+                </h4>
                 <br />
                 <p>
                     We must know the right terms to take full ownership of our
@@ -1400,9 +1335,7 @@ export const contentPosts = [
         imgList: [30, 31],
         content: (
             <div>
-                <p>
-                    <span>The Feminists - On Netflix</span>
-                </p>
+                <h4>The Feminists - On Netflix</h4>
                 <br />
                 <p>
                     This Netflix film covers a multitude of topics from
@@ -1431,9 +1364,7 @@ export const contentPosts = [
         imgList: [29],
         content: (
             <div>
-                <p>
-                    <span>🌈 It’s PRIDE month!</span>
-                </p>
+                <h4>🌈 It’s PRIDE month!</h4>
                 <br />
                 <p>A month about acceptance. about equality.</p>
                 <p>A month about being proud of our truest selves.</p>
@@ -1460,9 +1391,7 @@ export const contentPosts = [
         imgList: [25, 26, 27, 28],
         content: (
             <div>
-                <p>
-                    <span>The Vagina Festival</span>
-                </p>
+                <h4>The Vagina Festival</h4>
                 <br />
                 <p>
                     Created by Ellamae AKA @vavawomb_ and Emilie AKA
@@ -1493,9 +1422,7 @@ export const contentPosts = [
         imgList: [23, 24],
         content: (
             <div>
-                <p>
-                    <span>Self-pleasure is self CARE.</span>
-                </p>
+                <h4>Self-pleasure is self CARE.</h4>
                 <br />
                 <p>
                     To celebrate the International Masturb@tion Day, here are
@@ -1541,9 +1468,7 @@ export const contentPosts = [
         imgList: [22],
         content: (
             <div>
-                <p>
-                    <span>Can porn be ethical?</span>
-                </p>
+                <h4>Can porn be ethical?</h4>
                 <br />
                 <p>
                     Yes! We’re not talking about the stereotypical mainstream
@@ -1579,17 +1504,16 @@ export const contentPosts = [
         imgList: [20, 21],
         content: (
             <div>
-                <p>
-                    <span>
-                        As long as we live in a society where there is scarcity
-                        and repression of pleasure, sexual health and well-being
-                        will continue to be overlooked and undermined. But the
-                        good news is that we live in times when we already have
-                        the validation of its importance by authorities like the
-                        World Health Organisation:
-                    </span>
-                </p>
+                <h4>Sexual Health</h4>
                 <br />
+                <p>
+                    As long as we live in a society where there is scarcity and
+                    repression of pleasure, sexual health and well-being will
+                    continue to be overlooked and undermined. But the good news
+                    is that we live in times when we already have the validation
+                    of its importance by authorities like the World Health
+                    Organisation:
+                </p>
                 <p>
                     “Sexual health is fundamental to the overall health and
                     well-being of individuals, couples and families, and the
@@ -1632,9 +1556,7 @@ export const contentPosts = [
         imgList: [15, 16, 17, 18, 19],
         content: (
             <div>
-                <p>
-                    <span>To watch: Principles of Pleasure</span>
-                </p>
+                <h4>To watch: Principles of Pleasure</h4>
                 <br />
                 <p>
                     We hope this Netflix series has gone mainstream already, but
@@ -1674,12 +1596,10 @@ export const contentPosts = [
         imgList: [14],
         content: (
             <div>
-                <p>
-                    <span>
-                        Vulva fact: the labia minora can vary in width and
-                        length from woman to woman and that’s totally normal!{" "}
-                    </span>
-                </p>
+                <h4>
+                    Vulva fact: the labia minora can vary in width and length
+                    from woman to woman and that’s totally normal!{" "}
+                </h4>
                 <br />
                 <p>
                     They range from 1–5 centimetres wide and the shape also
@@ -1706,9 +1626,7 @@ export const contentPosts = [
         imgList: [13],
         content: (
             <div>
-                <p>
-                    <span>Vulva Casting by Vulvarium</span>
-                </p>
+                <h4>Vulva Casting by Vulvarium</h4>
                 <br />
                 <p>
                     Viktoria Krug is the brilliant austrian artist behind the

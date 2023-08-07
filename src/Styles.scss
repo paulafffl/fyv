@@ -59,11 +59,15 @@ body {
         font-family: 'Figtree', sans-serif;
         margin-top: 4vmin;
         margin-bottom: 2vmin;
-        font-size: calc(10px + 1vmin);
+        font-size: 2.5vmin;
         color: $color-sand;
         span {
             font-style: italic;
             text-decoration: underline;
+        }
+        @media only screen and (max-width: $breakpoint-small) {
+            margin-top: 6vmin;
+            font-size: 4.5vmin;
         }
     }
 
@@ -83,7 +87,9 @@ body {
     p {
         margin-bottom: 10px;
         font-family: 'Trispace', sans-serif;
-        font-size: 3.5vmin;
+        @media only screen and (max-width: $breakpoint-small) {
+            font-size: 4vmin;
+        }
     }
 
     span {
@@ -249,7 +255,6 @@ body {
     &__description {
         p {
             text-align: center;
-            font-size: calc(10px + 1vmin);
             margin-block-end: 0;
         }
     }
@@ -384,15 +389,17 @@ body {
             margin-bottom: 3vmin;
         }
 
+        h4 {
+            margin-block-start: 0px;
+        }
+
         @media only screen and (max-width: $breakpoint-small) {
             padding: 7vw;
             overflow: auto;
-            font-size: 3vmin;
         }
     
         &--advent {
             padding-right: 2rem;
-            font-size: 3vmin;
         }
 
     }
@@ -514,7 +521,6 @@ body {
     @media only screen and (max-width: $breakpoint-small) {
         flex-direction: column;
         align-items: center;
-        font-size: 3vmin;
     }
 
     h1 {
@@ -589,7 +595,6 @@ body {
     @media only screen and (max-width: $breakpoint-small) {
         flex-direction: column;
         align-items: center;
-        font-size: 3vmin;
     }
 
     &__text {

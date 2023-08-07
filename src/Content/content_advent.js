@@ -5,12 +5,10 @@ export const contentAdvent = [
         releaseDate: "2022-12-01",
         content: (
             <div>
-                <p>
-                    <span>
-                        Write a list of at least 3 things you appreciate about
-                        yourself.
-                    </span>
-                </p>
+                <h4>
+                    Write a list of at least 3 things you appreciate about
+                    yourself.
+                </h4>
                 <br />
                 <p>
                     Choose a keyword for each and read it out loud, starting
@@ -28,11 +26,7 @@ export const contentAdvent = [
         releaseDate: "2022-12-02",
         content: (
             <div>
-                <p>
-                    <span>
-                        When was the last time you had a good BELLY laugh?
-                    </span>
-                </p>
+                <h4>When was the last time you had a good BELLY laugh?</h4>
                 <br />
                 <p>
                     Laughter enhances oxygen intake and increases the release of
@@ -50,11 +44,7 @@ export const contentAdvent = [
         releaseDate: "2022-12-03",
         content: (
             <div>
-                <p>
-                    <span>
-                        Foot massage can be extremely pleasurable and relaxing.
-                    </span>
-                </p>
+                <h4>Foot massage can be extremely pleasurable and relaxing.</h4>
                 <br />
                 <p>
                     And the best part, is you don't need to have a partner or a
@@ -72,12 +62,10 @@ export const contentAdvent = [
         releaseDate: "2022-12-04",
         content: (
             <div>
-                <p>
-                    <span>
-                        Eat your favourite meal of the day with no rush and
-                        without any distractions.
-                    </span>
-                </p>
+                <h4>
+                    Eat your favourite meal of the day with no rush and without
+                    any distractions.
+                </h4>
                 <br />
                 <p>
                     And if you’re going to cook today, do it mindfully. As if
@@ -95,11 +83,7 @@ export const contentAdvent = [
         releaseDate: "2022-12-05",
         content: (
             <div>
-                <p>
-                    <span>
-                        Set 15 min. to rejoice in your happiest memories.
-                    </span>
-                </p>
+                <h4>Set 15 min. to rejoice in your happiest memories.</h4>
                 <br />
                 <p>
                     Scroll through your camera roll looking for moments when
@@ -117,9 +101,7 @@ export const contentAdvent = [
         releaseDate: "2022-12-06",
         content: (
             <div>
-                <p>
-                    <span>Inhale pleasure every chance you can.</span>
-                </p>
+                <h4>Inhale pleasure every chance you can.</h4>
                 <br />
                 <p>
                     Before putting on a perfume or a scented moisturising cream,
@@ -137,12 +119,10 @@ export const contentAdvent = [
         releaseDate: "2022-12-07",
         content: (
             <div>
-                <p>
-                    <span>
-                        Have you ever tuned in to how pleasurable it is the
-                        water touching your skin?
-                    </span>
-                </p>
+                <h4>
+                    Have you ever tuned in to how pleasurable it is the water
+                    touching your skin?
+                </h4>
                 <br />
                 <p>
                     That flowing stream is a pouring pleasure that goes
@@ -159,11 +139,7 @@ export const contentAdvent = [
         releaseDate: "2022-12-08",
         content: (
             <div>
-                <p>
-                    <span>
-                        Take a moment to admire the full moon and stars.
-                    </span>
-                </p>
+                <h4>Take a moment to admire the full moon and stars.</h4>
                 <br />
                 <p>
                     Connect with our ancient women that were guided by the full
@@ -181,11 +157,9 @@ export const contentAdvent = [
         releaseDate: "2022-12-09",
         content: (
             <div>
-                <p>
-                    <span>
-                        You don't need to sound good to feel good when you sing!
-                    </span>
-                </p>
+                <h4>
+                    You don't need to sound good to feel good when you sing!
+                </h4>
                 <br />
                 <p>
                     Studies show it relieves stress and pain, boosts energy and
@@ -203,11 +177,7 @@ export const contentAdvent = [
         releaseDate: "2022-12-10",
         content: (
             <div>
-                <p>
-                    <span>
-                        Self-hug may seem odd, but it has proven benefits!
-                    </span>
-                </p>
+                <h4>Self-hug may seem odd, but it has proven benefits!</h4>
                 <br />
                 <p>
                     It relieves pain, increases sense of security and
@@ -225,12 +195,10 @@ export const contentAdvent = [
         releaseDate: "2022-12-11",
         content: (
             <div>
-                <p>
-                    <span>
-                        Audio can give you the same level of immersion and
-                        engagement as a visual stimulus.
-                    </span>
-                </p>
+                <h4>
+                    Audio can give you the same level of immersion and
+                    engagement as a visual stimulus.
+                </h4>
                 <br />
                 <p>
                     Plus, it leaves room for your imagination to fill the gaps
@@ -247,11 +215,7 @@ export const contentAdvent = [
         releaseDate: "2022-12-12",
         content: (
             <div>
-                <p>
-                    <span>
-                        Mirror work is a powerful way to cultivate self-love.
-                    </span>
-                </p>
+                <h4>Mirror work is a powerful way to cultivate self-love.</h4>
                 <br />
                 <p>
                     Gaze at yourself while saying positive affirmations such as
@@ -270,9 +234,7 @@ export const contentAdvent = [
         releaseDate: "2022-12-13",
         content: (
             <div>
-                <p>
-                    <span>Read it more on</span>
-                </p>
+                <h4>Read it more on</h4>
                 <br />
                 <p>
                     <a
@@ -291,9 +253,7 @@ export const contentAdvent = [
         releaseDate: "2022-12-14",
         content: (
             <div>
-                <p>
-                    <span>Read it more on</span>
-                </p>
+                <h4>Read it more on</h4>
                 <br />
                 <p>
                     <a
@@ -312,9 +272,7 @@ export const contentAdvent = [
         releaseDate: "2022-12-15",
         content: (
             <div>
-                <p>
-                    <span>Read it more on</span>
-                </p>
+                <h4>Read it more on</h4>
                 <br />
                 <p>
                     <a
@@ -333,9 +291,7 @@ export const contentAdvent = [
         releaseDate: "2022-12-16",
         content: (
             <div>
-                <p>
-                    <span>Read it more on</span>
-                </p>
+                <h4>Read it more on</h4>
                 <br />
                 <p>
                     <a
@@ -354,9 +310,7 @@ export const contentAdvent = [
         releaseDate: "2022-12-17",
         content: (
             <div>
-                <p>
-                    <span>Read it more on</span>
-                </p>
+                <h4>Read it more on</h4>
                 <br />
                 <p>
                     <a
@@ -375,9 +329,7 @@ export const contentAdvent = [
         releaseDate: "2022-12-18",
         content: (
             <div>
-                <p>
-                    <span>Read it more on</span>
-                </p>
+                <h4>Read it more on</h4>
                 <br />
                 <p>
                     <a
@@ -396,9 +348,7 @@ export const contentAdvent = [
         releaseDate: "2022-12-19",
         content: (
             <div>
-                <p>
-                    <span>Read it more on</span>
-                </p>
+                <h4>Read it more on</h4>
                 <br />
                 <p>
                     <a
@@ -417,9 +367,7 @@ export const contentAdvent = [
         releaseDate: "2022-12-20",
         content: (
             <div>
-                <p>
-                    <span>Read it more on</span>
-                </p>
+                <h4>Read it more on</h4>
                 <br />
                 <p>
                     <a
@@ -438,9 +386,7 @@ export const contentAdvent = [
         releaseDate: "2022-12-21",
         content: (
             <div>
-                <p>
-                    <span>Read it more on</span>
-                </p>
+                <h4>Read it more on</h4>
                 <br />
                 <p>
                     <a
@@ -459,9 +405,7 @@ export const contentAdvent = [
         releaseDate: "2022-12-22",
         content: (
             <div>
-                <p>
-                    <span>Read it more on</span>
-                </p>
+                <h4>Read it more on</h4>
                 <br />
                 <p>
                     <a
@@ -480,9 +424,7 @@ export const contentAdvent = [
         releaseDate: "2022-12-23",
         content: (
             <div>
-                <p>
-                    <span>Read it more on</span>
-                </p>
+                <h4>Read it more on</h4>
                 <br />
                 <p>
                     <a
@@ -501,9 +443,7 @@ export const contentAdvent = [
         releaseDate: "2022-12-24",
         content: (
             <div>
-                <p>
-                    <span>Read it more on</span>
-                </p>
+                <h4>Read it more on</h4>
                 <br />
                 <p>
                     <a
@@ -522,9 +462,7 @@ export const contentAdvent = [
         releaseDate: "2022-12-25",
         content: (
             <div>
-                <p>
-                    <span>Read it more on</span>
-                </p>
+                <h4>Read it more on</h4>
                 <br />
                 <p>
                     <a
