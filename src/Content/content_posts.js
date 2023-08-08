@@ -854,12 +854,10 @@ export const contentPosts = [
                     to every single cause, which is even more validation of the
                     importance of our work.
                 </p>
-                <br />
                 <p>
                     And the great news is that this is one inequality that you
                     can fight against with pleasure! According to the study,
                     women who orgasmed more frequently were more likely to:
-                    <br />
                     <br />
                     -Receive more oral s3x
                     <br />
@@ -885,7 +883,6 @@ export const contentPosts = [
                     <br />
                     -Express love during s3x
                 </p>
-                <br />
                 <p>
                     A lot of the items listed in the study involve being with a
                     partner, but believe us when we say that nobody can please
@@ -897,7 +894,6 @@ export const contentPosts = [
                     orgasm at a time. 💦 *We recommend at least 20 minutes,
                     we’ll explain why in future posts 👀
                 </p>
-                <br />
                 <p>
                     Sources: https://tinyurl.com/studyOnOrgasmFrequency
                     https://tinyurl.com/psychologyTodayOrgasmGap
@@ -988,11 +984,11 @@ export const contentPosts = [
         ),
     },
     {
-        title: "Vegan Vulva Raises £2.6 for charity",
+        title: "Vegan vulva raises £2.6 for charity",
         imgList: [52, 53, 55, 56],
         content: (
             <div>
-                <h4>Vegan Vulva Raises £2.6 for charity</h4>
+                <h4>Vegan vulva raises £2.6 for charity</h4>
                 <br />
                 <p>
                     Paula not only organised a Bake Off at her work to raise
@@ -1345,7 +1341,6 @@ export const contentPosts = [
                     we felt they did a beautiful job of sharing light on
                     feminist awakening.
                 </p>
-                <br />
                 <p>
                     It’s inspiring to see women taking responsibility for
                     themselves.

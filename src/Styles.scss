@@ -402,9 +402,16 @@ body {
             padding: 7vw;
             overflow: auto;
         }
-    
         &--advent {
             padding-right: 2rem;
+
+            @media only screen and (min-width: $breakpoint-small) {
+                font-size: 3vmin;
+                h4 {
+                    font-size: 3.2vmin;
+                }
+            }
+        
         }
 
     }
