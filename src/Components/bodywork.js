@@ -369,14 +369,14 @@ export const Bodywork = () => {
                     </p>
                     <h4>Who can receive it?</h4>
                     <p>
-                        I only offer this Sensory Bodywork to women who are
-                        vulva owners. I'd love to extend it to women with a
-                        penis, but currently, my level of knowledge for this
-                        genitalia is not enough as most of my learnings have
-                        been focused on vulvas. As for men, I understand they
-                        also need healing from all the toxic masculinity and
-                        pressure that society has imposed on them. But as long
-                        as the striking{" "}
+                        I offer this Sensory Bodywork any woman that owns a
+                        vulva (not limited to cisgender). I'd love to extend it
+                        to women with a penis, but currently, my level of
+                        knowledge for this genitalia is not enough as most of my
+                        learnings have been focused on vulvas. As for men, I
+                        understand they also need healing from all the toxic
+                        masculinity and pressure that society has imposed on
+                        them. But as long as the striking{" "}
                         <a
                             href="https://www.instagram.com/p/Cg_fHVgNl45/"
                             target="_blank"
@@ -440,14 +440,14 @@ export const Bodywork = () => {
                     <p>
                         I believe all women deserve access to self-love and
                         their own power, so I offer this Sensory Bodywork on a
-                        Pay What You Can basis. I’m privileged to have a day job
-                        to sustain myself. However, that means that my
-                        availability to offer this is quite limited. So for
-                        people who can afford and wish to support me
-                        financially, similar bodywork in London costs from
-                        £240-£400. I accept and appreciate any contributions as
-                        this could allow me to reduce my working hours to
-                        allocate more time for this.
+                        Pay What You Can basis. But as long as I cannot sustain
+                        myself with this, my availability will be quite limited.
+                        So for people who can and wish to support me
+                        financially, contributions will allow me to allocate
+                        more time for this work - and help women who cannot
+                        afford it. Similar bodywork in London costs from £240
+                        upwards, but I accept and appreciate any amount you can
+                        contribute with.
                     </p>
                     <h4>How to prepare for it?</h4>
                     <p>
