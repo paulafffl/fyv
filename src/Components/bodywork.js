@@ -105,102 +105,104 @@ export const Bodywork = () => {
                     <h3>more independence</h3>
                     <br></br>
                     <p>
-                        I believe the most basic human need is feeling loved.
-                        And we are all taught, even if unwillingly, the
-                        importance of pleasing others. But only a few of us
+                        I believe the most fundamental human need is to feel
+                        loved. And we are all taught, even if unwillingly, the
+                        importance of pleasing others. Yet, only a few of us
                         learn how to please and love ourselves.
                         <span>
                             {" "}
                             Society does not teach us that self-love is the only
                             one that we truly need. And as long as we depend on
-                            anyone’s love and acceptance aside from our own, we
+                            anyone’s love and acceptance besides our own, we
                             can’t be completely fulfilled.{" "}
                         </span>
-                        I believe that learning how to please yourself is an
-                        essential step to reaching this level of independence.
-                        And with that, life becomes so much simpler and happier.
+                        I believe that learning how to please yourself is a
+                        crucial step in reaching this level of independence,
+                        which leads to a much happier and uncomplicated life.
                         And even though you’ll be receiving pleasure from
-                        someone else in this bodywork, all that I’ll be doing is
-                        showing your own natural potency. Anything that you’ll
+                        someone else in this bodywork, all I’ll be doing is
+                        revealing your own natural potency. Anything that you’ll
                         experience has always been within you. I’m just showing
-                        you the door and then it’s up to you to go through it
-                        and integrate what you learned. But it’ll always be
+                        you the door, and then it’s up to you to walk through it
+                        and integrate what you've learned. It’ll always be
                         within your reach.
                     </p>
                     <br></br>
+                    <h3>more awareness</h3>
+                    <br></br>
+                    <p>
+                        What we’ll do is to enhance your natural orgasmic
+                        potency. Orgasmic potency is our capacity to accumulate
+                        tension before releasing it in the form of an orgasm.
+                        You can see it as a rollercoaster: the higher the
+                        tension, the higher the release will be. And when you
+                        achieve this greater level of release, your brain
+                        reaches an altered state of consciousness where
+                        wonderful experiences can happen.
+                        <span>
+                            {" "}
+                            It has the power to magnify pleasure in all aspects
+                            of your life - by unlocking a heightened receptivity
+                            to all your five senses and all the pleasures they
+                            provide. And you might find yourself more creative
+                            or even seeing things more clearly afterwards.{" "}
+                        </span>
+                        That’s the result of becoming more aware and in tune
+                        with yourself, ultimately leading to a fuller life.
+                        Libido is a form of vital energy, not limited to the
+                        sexual realm alone.
+                    </p>
                     <h3>more self-love</h3>
                     <br></br>
                     <p>
                         I learned to love myself completely once I started to
-                        embrace my physical body as a vehicle. A vehicle for
-                        both physical and emotional health. The importance of
-                        looking after our bodies for our well-being is
-                        well-known. But there isn’t enough light on how a
-                        profound orgasm is a powerful means to the same end.
+                        embrace my physical body as a vehicle, a vehicle for
+                        both physical and emotional health. While the importance
+                        of looking after our bodies for well-being is
+                        well-known, there isn't enough light on how an orgasm
+                        can be a powerful means to the same end. We are finally
+                        seeing studies that prove its health benefits. But
+                        beyond that,
                         <span>
                             {" "}
-                            It’s an orgasm that teaches you to worship your body
-                            for its potency and not its appearance.
-                            Independently of how we look, our bodies are
-                            biologically designed to feel pleasure.{" "}
+                            a truly profound orgasm teaches you to appreciate
+                            your body for its potency rather than its
+                            appearance. Independently of how we look, our bodies
+                            are biologically designed to feel pleasure.{" "}
                         </span>
-                        Every single cell of our skin is a receptor. By learning
-                        how to activate all of those cells and have the
-                        foundation on how to process this experience, you can
-                        reach a truly transformative orgasm. And once you
+                        Every single cell in our skin is a receptor. By learning
+                        how to activate all of these cells and having the
+                        foundation to process this experience, you can achieve
+                        this profound and transformative orgasm. And once you
                         witness where your body can take you, physically,
                         emotionally and spiritually, you naturally reach another
                         level of self-love.
-                    </p>
-                    <h3>more awareness</h3>
-                    <br></br>
-                    <p>
-                        What we’ll do is enhance your natural orgasmic potency.
-                        Orgasmic potency is our capacity to support tension
-                        before releasing it in the form of an orgasm. You can
-                        see it as a rollercoaster: the bigger the tension, the
-                        bigger the release will be. And when you have this
-                        higher level of release, your brain reaches an altered
-                        state of consciousness where wonderful things can
-                        happen.
-                        <span>
-                            {" "}
-                            It has the power to maximise the amount of pleasure
-                            in your whole life. Libido is vital energy, not just
-                            sexual. So it can unlock an openness to all of your
-                            five senses and all the pleasures that they provide
-                            you.{" "}
-                        </span>
-                        You might even find yourself more creative or even
-                        seeing things more clearly afterwards. That’s the result
-                        of becoming more aware and in tune with yourself, which
-                        leads to a fuller life.
                     </p>
                     <br></br>
                     <h3>more spirituality</h3>
                     <br></br>
                     <p>
-                        Orgasm in French is called La Petite Mort, which means
-                        “little death”. I feel it’s a very accurate term to
-                        describe that moment in time when your ego and who you
-                        think you are cease to exist - and you just be. You feel
-                        completely in the present. Completely fulfilled. This is
-                        what meditation is all about, to achieve this level of
-                        presence. It just might take years of dedication to
-                        reach that. But
+                        Orgasm in French is called 'La Petite Mort,' which means
+                        'little death.' I find this to be a very accurate term
+                        to describe that moment when your ego (and who you think
+                        you are) temporarily cease to exist, and you just be.
+                        Existing purely in the present, feeling completely
+                        fulfilled. A state that can be achieved through
+                        meditation alone, but it might take years of dedication
+                        to reach that. But
                         <span>
                             {" "}
-                            vulva owners are blessed with a “divine sacred
-                            portal” - which is the meaning of Yoni, the Sanskrit
-                            word for a woman’s sexual organ. So in that sense, I
-                            like to see orgasm as a faster and more accessible
-                            way to sneak peek into enlightenment.{" "}
+                            vulva owners are blessed with a 'divine sacred
+                            portal' - the meaning of Yoni, the Sanskrit word for
+                            the female sexual organs. So in this sense, I like
+                            to see orgasm as a faster and more accessible way to
+                            sneak peek into enlightenment.{" "}
                         </span>
                         Independently of what spiritual work means to you, I
-                        believe that it’s impossible to not feel connected with
-                        something bigger than yourself when you reach these
-                        different planes of consciousness through orgasm. You’ll
-                        see your body as the temple that it truly is.
+                        believe that it’s impossible not to feel connected with
+                        something greater than yourself when you reach these
+                        different planes of consciousness through orgasm. And to
+                        see your body as the temple it truly is.
                     </p>
                 </div>
             </div>
