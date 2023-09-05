@@ -259,7 +259,8 @@ export const contentPosts = [
                 <p>
                     <a
                         href="https://www.internationalwomensday.com/"
-                        target="blank"
+                        target="_blank"
+                        rel="noreferrer"
                     >
                         By International Women's Day
                     </a>
@@ -442,7 +443,8 @@ export const contentPosts = [
                     <br />
                     <a
                         href="https://freeyourvulva.com/self-work"
-                        target="blank"
+                        target="_blank"
+                        rel="noreferrer"
                     >
                         https://freeyourvulva.com/self-work
                     </a>
@@ -497,7 +499,8 @@ export const contentPosts = [
                 <p>
                     <a
                         href="https://www.barbican.org.uk/whats-on/2022/event/carolee-schneemann-body-politics"
-                        target="blank"
+                        target="_blank"
+                        rel="noreferrer"
                     >
                         Exhibition: Carolee Schneemann, Body Politics
                     </a>
@@ -522,7 +525,8 @@ export const contentPosts = [
                 <p>
                     <a
                         href="https://www.barbican.org.uk/whats-on/2022/event/soheila-sokhanvari-rebel-rebel"
-                        target="blank"
+                        target="_blank"
+                        rel="noreferrer"
                     >
                         Exhibition: Soheila Sokhanvari, Rebel Rebel
                     </a>
@@ -611,7 +615,8 @@ export const contentPosts = [
                     Check her work and itinerary here:{" "}
                     <a
                         href="https://rupikaur.com/pages/world-tour"
-                        target="blank"
+                        target="_blank"
+                        rel="noreferrer"
                     >
                         https://rupikaur.com/pages/world-tour
                     </a>
@@ -663,7 +668,8 @@ export const contentPosts = [
                     goddesses. And{" "}
                     <a
                         href="https://www.britishmuseum.org/exhibitions/feminine-power-divine-demonic"
-                        target="blank"
+                        target="_blank"
+                        rel="noreferrer"
                     >
                         get your tickets
                     </a>{" "}
@@ -697,7 +703,8 @@ export const contentPosts = [
                     personal favourites, but do also check their{" "}
                     <a
                         href="https://www.thevulvagallery.com/webshop"
-                        target="blank"
+                        target="_blank"
+                        rel="noreferrer"
                     >
                         store
                     </a>{" "}
@@ -961,21 +968,24 @@ export const contentPosts = [
                     Sources:{" "}
                     <a
                         href="https://www.cosmopolitan.com/sex-love/a21937483/female-orgasm-facts/"
-                        target="blank"
+                        target="_blank"
+                        rel="noreferrer"
                     >
                         Fact 1 to 3
                     </a>{" "}
                     /{" "}
                     <a
                         href="https://www.elle.com.au/health-fitness/orgasm-facts-19725"
-                        target="blank"
+                        target="_blank"
+                        rel="noreferrer"
                     >
                         Fact 4
                     </a>{" "}
                     /{" "}
                     <a
                         href="https://www.independent.co.uk/news/health/marijuana-sex-women-weed-cannabis-smoke-orgasm-a8867756.html"
-                        target="blank"
+                        target="_blank"
+                        rel="noreferrer"
                     >
                         Fact 5
                     </a>
@@ -1101,7 +1111,8 @@ export const contentPosts = [
                     Available on{" "}
                     <a
                         href="https://open.spotify.com/show/4nQnVqQcEn4ptshlKjtdqo"
-                        target="blank"
+                        target="_blank"
+                        rel="noreferrer"
                     >
                         {" "}
                         Spotify
@@ -1109,7 +1120,8 @@ export const contentPosts = [
                     and{" "}
                     <a
                         href="https://open.spotify.com/show/https://podcasts.apple.com/gb/podcast/f-ks-given-by-comecurious/id1444176549"
-                        target="blank"
+                        target="_blank"
+                        rel="noreferrer"
                     >
                         {" "}
                         Apple
@@ -1146,7 +1158,11 @@ export const contentPosts = [
                     about them, check out the cool infographic, the Gender
                     Unicorn, created by Trans Student Educational Resources,
                     2015{" "}
-                    <a href="http://www.transstudent.org/gender" target="blank">
+                    <a
+                        href="http://www.transstudent.org/gender"
+                        target="_blank"
+                        rel="noreferrer"
+                    >
                         {" "}
                         “The Gender Unicorn”
                     </a>
@@ -1217,7 +1233,8 @@ export const contentPosts = [
                     holes are located?), check this{" "}
                     <a
                         href="https://www.theguardian.com/lifeandstyle/2021/may/30/most-britons-cannot-name-parts-vulva-survey?CMP=Share_iOSApp_Other"
-                        target="blank"
+                        target="_blank"
+                        rel="noreferrer"
                     >
                         {" "}
                         article
@@ -1265,7 +1282,8 @@ export const contentPosts = [
                     campaign in full{" "}
                     <a
                         href="https://tinyurl.com/watchvivalavulva"
-                        target="blank"
+                        target="_blank"
+                        rel="noreferrer"
                     >
                         {" "}
                         here

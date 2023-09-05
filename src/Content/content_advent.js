@@ -339,7 +339,8 @@ export const contentAdvent = [
                 <p>
                     <a
                         href="https://www.instagram.com/freeyourvulva"
-                        target="blank"
+                        target="_blank"
+                        rel="noreferrer"
                     >
                         our Instagram page!
                     </a>
@@ -544,7 +545,8 @@ export const contentAdvent = [
                     Let us know which ones were your favourites{" "}
                     <a
                         href="https://www.instagram.com/freeyourvulva"
-                        target="blank"
+                        target="_blank"
+                        rel="noreferrer"
                     >
                         our Instagram page!
                     </a>
