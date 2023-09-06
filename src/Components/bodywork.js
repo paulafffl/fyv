@@ -37,22 +37,22 @@ export const Bodywork = () => {
                 <div className="bodywork__col">
                     <p>
                         This form of bodywork is the compilation of the
-                        learnings I had on Sexological Bodywork, Tantric Massage
-                        and Terapia Orgástica. I named what I do Sensory
+                        knowledge I gained on Sexological Bodywork, Tantric
+                        Massage and Terapia Orgástica. I named what I do Sensory
                         Bodywork because this goes beyond sex or orgasms. And
                         also to refrain from this being associated with the
-                        endless and unfortunate deturbations of ancient sexual
+                        endless and unfortunate distortions of ancient sexual
                         knowledge. Unfortunately, there have been too many cases
                         of abuse and exploitation of vulnerable people under
                         those premises, even to the point of creating cults such
                         as the OneTaste Orgasmic Meditation.
                     </p>
                     <p>
-                        This isn't to say that there aren’t amazing
-                        professionals following these practices. But many women
+                        This isn't to say that there aren't amazing
+                        professionals following these practices. But many people
                         cannot afford them. So I offer this Sensory Bodywork on
-                        a <span>Pay What You Can</span> basis, as all women
-                        deserve access to self-love and their own power.
+                        a <span>Pay What You Can</span> basis, as all deserve
+                        access to self-love and their own power.
                     </p>
                 </div>
                 <div className="bodywork__boxArea">
@@ -66,13 +66,13 @@ export const Bodywork = () => {
                             Maybe because of that, I’m very passionate about
                             helping others. This led me to a wide variety of
                             volunteering work - with animal shelters, elderly
-                            care, organic farms and soup kitchens. I’m also the
-                            chair of the Corporate Social Responsibility
-                            Committee and Women’s Network in the company I for.
-                            And even though I see value in every single
-                            experience I had, the most impactful way I gave back
-                            to people, without doubt, is through this Sensory
-                            Bodywork.
+                            care, organic farms and soup kitchens. I was also
+                            the chair of the Women’s Network and the Corporate
+                            Social Responsibility Committee during 5 years in my
+                            latest job. And even though I see value in every
+                            single experience I had, the most impactful way I
+                            gave back to people, without doubt, is through this
+                            Sensory Bodywork.
                         </p>
                         <p>
                             There is so much untouched potential in most of our
@@ -84,9 +84,9 @@ export const Bodywork = () => {
                             didn’t match any description I’d seen. I’m offering
                             this experience because I know I wasn’t the only one
                             feeling this way. I do this because I fear that most
-                            women have only glimpsed the transformative power of
-                            being in touch with their bodies. And ultimately, I
-                            do this because I know it’s hard to be invested in
+                            people have only glimpsed the transformative power
+                            of being in touch with their bodies. And ultimately,
+                            I do this because I know it’s hard to be invested in
                             pursuing something you’re yet to experience and
                             therefore is beyond your comprehension. I hope to
                             share a light into your consciousness and show you a
@@ -192,7 +192,7 @@ export const Bodywork = () => {
                         to reach that. But
                         <span>
                             {" "}
-                            vulva owners are blessed with a 'divine sacred
+                            people with vulvas are blessed with a 'divine sacred
                             portal' - the meaning of Yoni, the Sanskrit word for
                             the female sexual organs. So in this sense, I like
                             to see orgasm as a faster and more accessible way to
@@ -210,16 +210,16 @@ export const Bodywork = () => {
                 <h1>testimonials</h1>
                 <div className="bodywork__boxArea">
                     <h4>
-                        I usually refrain from sharing personal testimonials as
-                        it can create misleading expectations. Each body will
-                        have a unique experience. So,{" "}
+                        I'd rather refrain from sharing personal testimonials as
+                        it can create misleading expectations. So,{" "}
                         <span>
-                            I advise you to not read this section before your
+                            I advise to not read this section before your
                             session.
                         </span>{" "}
-                        However, I know that this is beneficial for some women
-                        to feel safe embarking on this journey - and this is the
-                        only reason why I share it.
+                        I only share it for people who need this to feel safe to
+                        embark on this journey. If that's your case, please read
+                        it bearing in mind that each body will have a unique
+                        experience.
                     </h4>
                 </div>
                 <br></br>
@@ -371,14 +371,14 @@ export const Bodywork = () => {
                     </p>
                     <h4>Who can receive it?</h4>
                     <p>
-                        I offer this Sensory Bodywork any woman that owns a
-                        vulva (not limited to cisgender). I'd love to extend it
-                        to women with a penis, but currently, my level of
-                        knowledge for this genitalia is not enough as most of my
-                        learnings have been focused on vulvas. As for men, I
-                        understand they also need healing from all the toxic
-                        masculinity and pressure that society has imposed on
-                        them. But as long as the striking{" "}
+                        I offer this Sensory Bodywork to anyone that has a vulva
+                        (not limited to cisgender). I'd love to extend it to
+                        women with a penis, but currently, my level of knowledge
+                        for this genitalia is not enough as most of my learnings
+                        have been focused on vulvas. As for men, I understand
+                        they also need healing from all the toxic masculinity
+                        and pressure that society has imposed on them. But as
+                        long as the striking{" "}
                         <a
                             href="https://www.instagram.com/p/Cg_fHVgNl45/"
                             target="_blank"
@@ -386,19 +386,19 @@ export const Bodywork = () => {
                         >
                             orgasm gap
                         </a>{" "}
-                        is a reality, I’ll prioritise women.
+                        is a reality, I’ll not offer this to men.
                     </p>
                     <h4>When can it happen?</h4>
                     <p>
-                        The Sensory Bodywork happens during night time and it’s
-                        not advisable that you plan anything afterwards, aside
-                        from time to integrate and rest. You must send me an
+                        The Sensory Bodywork takes place at night and it’s not
+                        advisable that you plan anything afterwards, aside from
+                        time to integrate and rest. You must send me an
                         Instagram direct message (or email) so we can schedule a
                         session. Please note that the waiting list can be from
                         weeks to months. It’s the most rewarding work I have
                         ever done, but it’s also very draining for me -
                         emotionally, physically and spiritually. And this is not
-                        my job, I only do it to empower women, not to make
+                        my job, I only do it to empower others, not to make
                         money. So because of that, I have a very limited amount
                         of time available.
                     </p>
@@ -410,10 +410,10 @@ export const Bodywork = () => {
                         to deliver the same level of experience in different and
                         unknown spaces. The Sensory Bodywork takes place in an
                         optimal environment where all of your senses are looked
-                        after. And for security reasons, I only share the exact
-                        location after we have an initial 10min video call so we
-                        can both feel safe embarking on this experience
-                        together. The area is East London.
+                        after. The location is in East London. For security
+                        reasons, I only share the exact address after we have an
+                        initial conversation so we can both feel safe embarking
+                        on this experience together.
                     </p>
                     <h4>Why would I want this?</h4>
                     <p>
@@ -431,25 +431,25 @@ export const Bodywork = () => {
                         of your history, needs and expectations. I'll explain
                         everything that will happen in more detail and share
                         some key learnings to help you connect with the
-                        experience. Then there will be a 60-90min full body
+                        experience. Then there will be a 60-90min full-body
                         massage - each person has their own pace and this is
                         what defines the length of this phase. It ends with
                         30min for integration, where you'll be able to process
                         this experience on your time, aside from taking a shower
-                        if you wish so.
+                        if you wish.
                     </p>
                     <h4>How much does it cost?</h4>
                     <p>
-                        I believe all women deserve access to self-love and
-                        their own power, so I offer this Sensory Bodywork on a
-                        Pay What You Can basis. But as long as I cannot sustain
-                        myself with this, my availability will be quite limited.
-                        So for people who can and wish to support me
-                        financially, contributions will allow me to allocate
-                        more time for this work - and help women who cannot
-                        afford it. Similar bodywork in London costs from £240
-                        upwards, but I accept and appreciate any amount you can
-                        contribute with.
+                        I believe all deserve access to self-love and their own
+                        power, so I offer this Sensory Bodywork on a Pay What
+                        You Can basis. But as long as I cannot sustain myself
+                        with this, my availability will be quite limited. So for
+                        people who can and wish to support me financially,
+                        contributions will allow me to allocate more time for
+                        this work - and help others who cannot afford it.
+                        Similar bodywork in London costs from £240 upwards, but
+                        I accept and appreciate any amount you can contribute
+                        with.
                     </p>
                     <h4>How to prepare for it?</h4>
                     <p>

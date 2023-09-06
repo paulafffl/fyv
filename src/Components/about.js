@@ -46,7 +46,7 @@ export const About = () => {
                     <p>
                         Coming from a place of nonexistent self-esteem, this
                         journey took me a huge investment of time, energy and
-                        money. One that is not available to most women. But I
+                        money. One that is not available to most people. But I
                         believe all deserve access to this knowledge and power.
                         And because I know so many that desperately need it, I'm
                         committed to sharing all that I learned in the most
