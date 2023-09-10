@@ -426,17 +426,15 @@ export const Bodywork = () => {
                     </p>
                     <h4>How long does it last?</h4>
                     <p>
-                        A Sensory Bodywork session takes around 2,5 hours. The
-                        first 30min will be a conversation to understand a bit
-                        of your history, needs and expectations. I'll explain
-                        everything that will happen in more detail and share
-                        some key learnings to help you connect with the
-                        experience. Then there will be a 60-90min full-body
-                        massage - each person has their own pace and this is
-                        what defines the length of this phase. It ends with
-                        30min for integration, where you'll be able to process
-                        this experience on your time, aside from taking a shower
-                        if you wish.
+                        A Sensory Bodywork session takes between 2,5h to 3h.
+                        During the first 30-60min, I'll share key learnings to
+                        help you connect with the experience and beyond, explain
+                        everything that will happen and give you the space to
+                        express your needs and expectations. Then there will be
+                        a 90min full-body massage, followed by 30min for
+                        integration - when you'll be able to process this
+                        experience on your time, aside from taking a shower if
+                        you wish.
                     </p>
                     <h4>How much does it cost?</h4>
                     <p>
