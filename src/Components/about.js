@@ -13,11 +13,10 @@ export const About = () => {
                         alt={"img-about-Paula"}
                     />
                     <p>
-                        <span>Pleasure to meet you, I'm P!</span> It comes from
-                        Paula (she/her), but it also stands for the core values
-                        of this passion project: "Pussy, Pleasure & Power".
-                        Besides, it's easier to get it right than the Brazilian
-                        pronunciation of my name.
+                        <span>Pleasure to meet you,<br />I'm P! </span> (she/her)
+                        <br />
+                        <br />But you can also call me by my name, Paula - even if you are unsure about its Brazilian pronunciation.
+                        <br />I do love "P" though, because I feel it also stands for the core values of this passion project: Pussy, Pleasure & Power.
                     </p>
                 </div>
                 <div className="about__text">
