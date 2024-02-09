@@ -1,5 +1,15 @@
 {
   "projects": {
     "default": "free-your-vulva"
-  }
+  },
+  "targets": {
+    "free-your-vulva": {
+      "hosting": {
+        "free-your-vulva": [
+          "freeyourvulva.com"
+        ]
+      }
+    }
+  },
+  "etags": {}
 }
