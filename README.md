@@ -1,25 +1,11 @@
-In the project directory, you can run:
+# Front-End React Application
+This is a website for a passion project, entirely designed and coded by myself.
 
-### `npm start`
+## Installation
+1. Run `npm install` to install dependencies
+1. Run `npm start` to launch a local environment
+1. The website will be served at `http://localhost:3000`, but the website it's also live at http://www.freeyourvulva.com
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-The build is minified and the filenames include the hashes.\
-
-### `firebase deploy`
-
-It will automatically run the `npm run build` script and then deploy.
-If it's the first time deploying from a new machine, you must first run `firebase init` and have the permission to deploy the project.
+## Deployment
+1. Run `firebase init` if it's the first time deploying from a new machine.
+1. Run `npm run build` to build the app for production and deploy it (this script will automatically run `firebase deploy`)
