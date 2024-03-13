@@ -8,7 +8,7 @@ export const Advent = () => {
             title={'self-work'}
             content={contentAdvent}
             advent
-            initialDisplay={5}
+            initialDisplay={4}
         />
     );
 };
