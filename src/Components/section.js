@@ -1,20 +1,55 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Modal } from './modal';
 import { Thumbnail } from './thumbnail';
 
-export const Section = ({ content, title, advent = false, posts = false }) => {
+export const Section = ({
+    content,
+    title,
+    advent = false,
+    posts = false,
+    displayPerLoad,
+}) => {
     const [selectedImg, setSelectedImg] = useState('');
+    const [displayLimit, setDisplayLimit] = useState(displayPerLoad);
 
-    const thumbnailsMapped = content.map((item, i) => (
-        <Thumbnail
-            onClick={() => setSelectedImg(i)}
-            key={`thumbnail-${item.title}`}
-            title={item.title}
-            imgList={item.imgList}
-            selectedImg={i + 1}
-            advent={advent}
-        />
-    ));
+    useEffect(() => {
+        window.addEventListener('scroll', handleScroll);
+        return () => {
+            window.removeEventListener('scroll', handleScroll);
+        };
+    });
+
+    const handleScroll = () => {
+        if (
+            window.innerHeight + window.scrollY >=
+                // Adding a buffer of 50 pixels to improve reliability
+                document.documentElement.offsetHeight - 50 &&
+            displayLimit < content.length
+        ) {
+            loadMorePosts();
+        }
+    };
+
+    const loadMorePosts = () => {
+        const newLimit = Math.min(
+            displayLimit + displayPerLoad,
+            content.length,
+        );
+        setDisplayLimit(newLimit);
+    };
+
+    const thumbnailsMapped = content
+        .slice(0, displayLimit)
+        .map((item, i) => (
+            <Thumbnail
+                onClick={() => setSelectedImg(i)}
+                key={`thumbnail-${item.title}`}
+                title={item.title}
+                imgList={item.imgList}
+                selectedImg={i + 1}
+                advent={advent}
+            />
+        ));
 
     return (
         <>
