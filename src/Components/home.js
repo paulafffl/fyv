@@ -1,6 +1,6 @@
-import "../Styles.scss";
-import { Header } from "./header";
-import { Manifesto } from "./manifesto";
+import '../Styles.scss';
+import { Header } from './header';
+import { Manifesto } from './manifesto';
 
 export const Home = () => {
     return (
@@ -9,4 +9,4 @@ export const Home = () => {
             <Manifesto />
         </>
     );
-}
+};

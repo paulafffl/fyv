@@ -1,8 +1,8 @@
 export const contentAdvent = [
     {
-        title: "F.Y.V. Advent Calendar",
+        title: 'F.Y.V. Advent Calendar',
         imgList: [1],
-        releaseDate: "2022-12-01",
+        releaseDate: '2022-12-01',
         content: (
             <div>
                 <h4>
@@ -16,7 +16,7 @@ export const contentAdvent = [
                 </p>
                 <p>
                     Then write it anywhere you'll see at least once a day - it
-                    can even be with lipstick on your mirror.{" "}
+                    can even be with lipstick on your mirror.{' '}
                 </p>
                 <p>
                     Or if you want a free personalised wallpaper, just like and
@@ -26,9 +26,9 @@ export const contentAdvent = [
         ),
     },
     {
-        title: "F.Y.V. Advent Calendar",
+        title: 'F.Y.V. Advent Calendar',
         imgList: [2],
-        releaseDate: "2022-12-02",
+        releaseDate: '2022-12-02',
         content: (
             <div>
                 <h4>When was the last time you had a good BELLY laugh?</h4>
@@ -47,9 +47,9 @@ export const contentAdvent = [
         ),
     },
     {
-        title: "F.Y.V. Advent Calendar",
+        title: 'F.Y.V. Advent Calendar',
         imgList: [3],
-        releaseDate: "2022-12-03",
+        releaseDate: '2022-12-03',
         content: (
             <div>
                 <h4>Foot massage can be extremely pleasurable and relaxing.</h4>
@@ -67,9 +67,9 @@ export const contentAdvent = [
         ),
     },
     {
-        title: "F.Y.V. Advent Calendar",
+        title: 'F.Y.V. Advent Calendar',
         imgList: [4],
-        releaseDate: "2022-12-04",
+        releaseDate: '2022-12-04',
         content: (
             <div>
                 <h4>
@@ -88,9 +88,9 @@ export const contentAdvent = [
         ),
     },
     {
-        title: "F.Y.V. Advent Calendar",
+        title: 'F.Y.V. Advent Calendar',
         imgList: [5],
-        releaseDate: "2022-12-05",
+        releaseDate: '2022-12-05',
         content: (
             <div>
                 <h4>Set 15 min. to rejoice in your happiest memories.</h4>
@@ -111,16 +111,16 @@ export const contentAdvent = [
         ),
     },
     {
-        title: "F.Y.V. Advent Calendar",
+        title: 'F.Y.V. Advent Calendar',
         imgList: [6],
-        releaseDate: "2022-12-06",
+        releaseDate: '2022-12-06',
         content: (
             <div>
                 <h4>Inhale pleasure every chance you can.</h4>
                 <br />
                 <p>
                     Before putting on a perfume or a scented moisturising cream,
-                    set 5 min. to immerse yourself in that smell.{" "}
+                    set 5 min. to immerse yourself in that smell.{' '}
                 </p>
                 <p>
                     If you don't have either, make an aromatic drink (e.g. tea,
@@ -131,9 +131,9 @@ export const contentAdvent = [
         ),
     },
     {
-        title: "F.Y.V. Advent Calendar",
+        title: 'F.Y.V. Advent Calendar',
         imgList: [7],
-        releaseDate: "2022-12-07",
+        releaseDate: '2022-12-07',
         content: (
             <div>
                 <h4>
@@ -154,9 +154,9 @@ export const contentAdvent = [
         ),
     },
     {
-        title: "F.Y.V. Advent Calendar",
+        title: 'F.Y.V. Advent Calendar',
         imgList: [8],
-        releaseDate: "2022-12-08",
+        releaseDate: '2022-12-08',
         content: (
             <div>
                 <h4>Take a moment to admire the full moon and stars.</h4>
@@ -177,9 +177,9 @@ export const contentAdvent = [
         ),
     },
     {
-        title: "F.Y.V. Advent Calendar",
+        title: 'F.Y.V. Advent Calendar',
         imgList: [9],
-        releaseDate: "2022-12-09",
+        releaseDate: '2022-12-09',
         content: (
             <div>
                 <h4>
@@ -197,9 +197,9 @@ export const contentAdvent = [
         ),
     },
     {
-        title: "F.Y.V. Advent Calendar",
+        title: 'F.Y.V. Advent Calendar',
         imgList: [10],
-        releaseDate: "2022-12-10",
+        releaseDate: '2022-12-10',
         content: (
             <div>
                 <h4>Self-hug may seem odd, but it has proven benefits!</h4>
@@ -210,7 +210,7 @@ export const contentAdvent = [
                 </p>
                 <p>
                     Human touch, even your own, releases oxytocin (aka love
-                    hormone) and lowers cortisol (aka stress hormone).{" "}
+                    hormone) and lowers cortisol (aka stress hormone).{' '}
                 </p>
                 <p>
                     What a powerful switch! So take a whole 1min. today to
@@ -220,9 +220,9 @@ export const contentAdvent = [
         ),
     },
     {
-        title: "F.Y.V. Advent Calendar",
+        title: 'F.Y.V. Advent Calendar',
         imgList: [11],
-        releaseDate: "2022-12-11",
+        releaseDate: '2022-12-11',
         content: (
             <div>
                 <h4>
@@ -243,9 +243,9 @@ export const contentAdvent = [
         ),
     },
     {
-        title: "F.Y.V. Advent Calendar",
+        title: 'F.Y.V. Advent Calendar',
         imgList: [12],
-        releaseDate: "2022-12-12",
+        releaseDate: '2022-12-12',
         content: (
             <div>
                 <h4>Try on outfits that make you feel sexy.</h4>
@@ -263,9 +263,9 @@ export const contentAdvent = [
         ),
     },
     {
-        title: "F.Y.V. Advent Calendar",
+        title: 'F.Y.V. Advent Calendar',
         imgList: [13],
-        releaseDate: "2022-12-13",
+        releaseDate: '2022-12-13',
         content: (
             <div>
                 <h4>
@@ -287,9 +287,9 @@ export const contentAdvent = [
         ),
     },
     {
-        title: "F.Y.V. Advent Calendar",
+        title: 'F.Y.V. Advent Calendar',
         imgList: [14],
-        releaseDate: "2022-12-14",
+        releaseDate: '2022-12-14',
         content: (
             <div>
                 <h4>Mirror work is a powerful way to cultivate self-love.</h4>
@@ -308,9 +308,9 @@ export const contentAdvent = [
         ),
     },
     {
-        title: "F.Y.V. Advent Calendar",
+        title: 'F.Y.V. Advent Calendar',
         imgList: [15],
-        releaseDate: "2022-12-15",
+        releaseDate: '2022-12-15',
         content: (
             <div>
                 <h4>Make time to smell the flowers today.</h4>
@@ -329,9 +329,9 @@ export const contentAdvent = [
         ),
     },
     {
-        title: "F.Y.V. Advent Calendar",
+        title: 'F.Y.V. Advent Calendar',
         imgList: [16],
-        releaseDate: "2022-12-16",
+        releaseDate: '2022-12-16',
         content: (
             <div>
                 <h4>Read it on</h4>
@@ -349,9 +349,9 @@ export const contentAdvent = [
         ),
     },
     {
-        title: "F.Y.V. Advent Calendar",
+        title: 'F.Y.V. Advent Calendar',
         imgList: [17],
-        releaseDate: "2022-12-17",
+        releaseDate: '2022-12-17',
         content: (
             <div>
                 <h4>Feel the delicious pleasure of a sweet taste</h4>
@@ -370,9 +370,9 @@ export const contentAdvent = [
         ),
     },
     {
-        title: "F.Y.V. Advent Calendar",
+        title: 'F.Y.V. Advent Calendar',
         imgList: [18],
-        releaseDate: "2022-12-18",
+        releaseDate: '2022-12-18',
         content: (
             <div>
                 <h4>
@@ -390,9 +390,9 @@ export const contentAdvent = [
         ),
     },
     {
-        title: "F.Y.V. Advent Calendar",
+        title: 'F.Y.V. Advent Calendar',
         imgList: [19],
-        releaseDate: "2022-12-19",
+        releaseDate: '2022-12-19',
         content: (
             <div>
                 <h4>Play a sexy song and put on a show to yourself.</h4>
@@ -410,9 +410,9 @@ export const contentAdvent = [
         ),
     },
     {
-        title: "F.Y.V. Advent Calendar",
+        title: 'F.Y.V. Advent Calendar',
         imgList: [20],
-        releaseDate: "2022-12-20",
+        releaseDate: '2022-12-20',
         content: (
             <div>
                 <h4>Don’t limit this stimulation to your taste only.</h4>
@@ -433,9 +433,9 @@ export const contentAdvent = [
         ),
     },
     {
-        title: "F.Y.V. Advent Calendar",
+        title: 'F.Y.V. Advent Calendar',
         imgList: [21],
-        releaseDate: "2022-12-21",
+        releaseDate: '2022-12-21',
         content: (
             <div>
                 <h4>
@@ -456,9 +456,9 @@ export const contentAdvent = [
         ),
     },
     {
-        title: "F.Y.V. Advent Calendar",
+        title: 'F.Y.V. Advent Calendar',
         imgList: [22],
-        releaseDate: "2022-12-22",
+        releaseDate: '2022-12-22',
         content: (
             <div>
                 <h4>Yes, you heard it right.</h4>
@@ -479,9 +479,9 @@ export const contentAdvent = [
         ),
     },
     {
-        title: "F.Y.V. Advent Calendar",
+        title: 'F.Y.V. Advent Calendar',
         imgList: [23],
-        releaseDate: "2022-12-23",
+        releaseDate: '2022-12-23',
         content: (
             <div>
                 <h4>
@@ -505,9 +505,9 @@ export const contentAdvent = [
         ),
     },
     {
-        title: "F.Y.V. Advent Calendar",
+        title: 'F.Y.V. Advent Calendar',
         imgList: [24],
-        releaseDate: "2022-12-24",
+        releaseDate: '2022-12-24',
         content: (
             <div>
                 <h4>Humans have benefited from aromas since ancient times.</h4>
@@ -530,9 +530,9 @@ export const contentAdvent = [
         ),
     },
     {
-        title: "F.Y.V. Advent Calendar",
+        title: 'F.Y.V. Advent Calendar',
         imgList: [25],
-        releaseDate: "2022-12-25",
+        releaseDate: '2022-12-25',
         content: (
             <div>
                 <h4>We hope you enjoyed these...</h4>
@@ -542,7 +542,7 @@ export const contentAdvent = [
                     experiencing pleasure and self-love.
                 </p>
                 <p>
-                    Let us know which ones were your favourites{" "}
+                    Let us know which ones were your favourites{' '}
                     <a
                         href="https://www.instagram.com/freeyourvulva"
                         target="_blank"

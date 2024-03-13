@@ -1,9 +1,9 @@
-import React, { useState } from "react";
-import { Modal } from "./modal";
-import { Thumbnail } from "./thumbnail";
+import React, { useState } from 'react';
+import { Modal } from './modal';
+import { Thumbnail } from './thumbnail';
 
 export const Section = ({ content, title, advent = false, posts = false }) => {
-    const [selectedImg, setSelectedImg] = useState("");
+    const [selectedImg, setSelectedImg] = useState('');
 
     const thumbnailsMapped = content.map((item, i) => (
         <Thumbnail
@@ -25,7 +25,8 @@ export const Section = ({ content, title, advent = false, posts = false }) => {
                         <p>
                             <span>24 simple yet powerful&nbsp;ways</span>
                             <br></br>to expand your capacity<br></br>of
-                            experiencing pleasure<br></br>and self-love.
+                            experiencing pleasure
+                            <br></br>and self-love.
                         </p>
                     </div>
                     <div className="section__description">
@@ -41,32 +42,33 @@ export const Section = ({ content, title, advent = false, posts = false }) => {
                             <span>All you'll need is&nbsp;yourself!</span>
                             <br></br>
                             So follow these delicious<br></br>daily invitations
-                            to&nbsp;treat<br></br>your body and soul.
+                            to&nbsp;treat
+                            <br></br>your body and soul.
                         </p>
                     </div>
                 </div>
             )}
             <div
                 className={`section__container ${
-                    advent ? "section__container--advent" : ""
+                    advent ? 'section__container--advent' : ''
                 }`}
             >
                 {thumbnailsMapped}
             </div>
             {posts && (
-                <div style={{ textAlign: "center", paddingBottom: "5vw" }}>
+                <div style={{ textAlign: 'center', paddingBottom: '5vw' }}>
                     <h3>
-                        + more posts on{" "}
+                        + more posts on{' '}
                         <a
                             href="https://www.instagram.com/freeyourvulva/"
-                            target={"blank"}
+                            target={'blank'}
                         >
                             Instagram
                         </a>
                     </h3>
                 </div>
             )}
-            {selectedImg !== "" && (
+            {selectedImg !== '' && (
                 <Modal
                     content={content[selectedImg]}
                     setSelectedImg={setSelectedImg}

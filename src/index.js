@@ -1,15 +1,15 @@
-import React from "react";
-import ReactDOM from "react-dom/client";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { Layout } from "./Components/layout";
-import { Home } from "./Components/home";
-import { Advent } from "./Components/advent";
-import { Posts } from "./Components/posts";
-import { About } from "./Components/about";
-import reportWebVitals from "./reportWebVitals";
-import ScrollToTop from "./scrollToTop";
-import "./index.css";
-import { Bodywork } from "./Components/bodywork";
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { Layout } from './Components/layout';
+import { Home } from './Components/home';
+import { Advent } from './Components/advent';
+import { Posts } from './Components/posts';
+import { About } from './Components/about';
+import reportWebVitals from './reportWebVitals';
+import ScrollToTop from './scrollToTop';
+import './index.css';
+import { Bodywork } from './Components/bodywork';
 
 function App() {
     return (
@@ -28,11 +28,11 @@ function App() {
     );
 }
 
-const root = ReactDOM.createRoot(document.getElementById("root"));
+const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
     <React.StrictMode>
         <App />
-    </React.StrictMode>
+    </React.StrictMode>,
 );
 
 // If you want to start measuring performance in your app, pass a function

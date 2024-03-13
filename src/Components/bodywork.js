@@ -1,10 +1,10 @@
-import React from "react";
-import "../Styles.scss";
+import React from 'react';
+import '../Styles.scss';
 
 export const Bodywork = () => {
     return (
         <>
-            <h1 className="section__title">{"bodywork"}</h1>
+            <h1 className="section__title">{'bodywork'}</h1>
             <div className="bodywork">
                 <div className="bodywork__col-narrow">
                     <h1>Sensory Bodywork</h1>
@@ -110,11 +110,11 @@ export const Bodywork = () => {
                         importance of pleasing others. Yet, only a few of us
                         learn how to please and love ourselves.
                         <span>
-                            {" "}
+                            {' '}
                             Society does not teach us that self-love is the only
                             one that we truly need. And as long as we depend on
                             anyone’s love and acceptance besides our own, we
-                            can’t be completely fulfilled.{" "}
+                            can’t be completely fulfilled.{' '}
                         </span>
                         I believe that learning how to please yourself is a
                         crucial step in reaching this level of independence,
@@ -140,12 +140,12 @@ export const Bodywork = () => {
                         reaches an altered state of consciousness where
                         wonderful experiences can happen.
                         <span>
-                            {" "}
+                            {' '}
                             It has the power to magnify pleasure in all aspects
                             of your life - by unlocking a heightened receptivity
                             to all your five senses and all the pleasures they
                             provide. And you might find yourself more creative
-                            or even seeing things more clearly afterwards.{" "}
+                            or even seeing things more clearly afterwards.{' '}
                         </span>
                         That’s the result of becoming more aware and in tune
                         with yourself, ultimately leading to a fuller life.
@@ -164,11 +164,11 @@ export const Bodywork = () => {
                         seeing studies that prove its health benefits. But
                         beyond that,
                         <span>
-                            {" "}
+                            {' '}
                             a truly profound orgasm teaches you to appreciate
                             your body for its potency rather than its
                             appearance. Independently of how we look, our bodies
-                            are biologically designed to feel pleasure.{" "}
+                            are biologically designed to feel pleasure.{' '}
                         </span>
                         Every single cell in our skin is a receptor. By learning
                         how to activate all of these cells and having the
@@ -191,12 +191,12 @@ export const Bodywork = () => {
                         meditation alone, but it might take years of dedication
                         to reach that. But
                         <span>
-                            {" "}
+                            {' '}
                             people with vulvas are blessed with a 'divine sacred
                             portal' - the meaning of Yoni, the Sanskrit word for
                             the female sexual organs. So in this sense, I like
                             to see orgasm as a faster and more accessible way to
-                            sneak peek into enlightenment.{" "}
+                            sneak peek into enlightenment.{' '}
                         </span>
                         Independently of what spiritual work means to you, I
                         believe that it’s impossible not to feel connected with
@@ -211,11 +211,11 @@ export const Bodywork = () => {
                 <div className="bodywork__boxArea">
                     <h4>
                         I'd rather refrain from sharing personal testimonials as
-                        it can create misleading expectations. So,{" "}
+                        it can create misleading expectations. So,{' '}
                         <span>
                             I advise to not read this section before your
                             session.
-                        </span>{" "}
+                        </span>{' '}
                         I only share it for people who need this to feel safe to
                         embark on this journey. If that's your case, please read
                         it bearing in mind that each body will have a unique
@@ -323,8 +323,8 @@ export const Bodywork = () => {
                     <h5>”</h5>
                     <p>
                         Thank you again for the most incredible experience
-                        tonight ❤ As soon as I arrived I was totally immersed by
-                        the music, lighting, set-up of the bed, perfect
+                        tonight ❤ As soon as I arrived I was totally immersed
+                        by the music, lighting, set-up of the bed, perfect
                         temperature and scent of coconut - it was already
                         magical. The context at the start of the session was so
                         heartfelt and I was blown away by your words, I loved
@@ -378,14 +378,14 @@ export const Bodywork = () => {
                         have been focused on vulvas. As for men, I understand
                         they also need healing from all the toxic masculinity
                         and pressure that society has imposed on them. But as
-                        long as the striking{" "}
+                        long as the striking{' '}
                         <a
                             href="https://www.instagram.com/p/Cg_fHVgNl45/"
                             target="_blank"
                             rel="noreferrer"
                         >
                             orgasm gap
-                        </a>{" "}
+                        </a>{' '}
                         is a reality, I’ll not offer this to men.
                     </p>
                     <h4>When can it happen?</h4>

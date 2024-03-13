@@ -1,4 +1,4 @@
-import React from "react";
+import React from 'react';
 
 export const Thumbnail = ({
     title,
@@ -13,7 +13,7 @@ export const Thumbnail = ({
     return (
         <img
             onClick={onClick}
-            className={`section__img ${advent ? "section__img--advent" : ""}`}
+            className={`section__img ${advent ? 'section__img--advent' : ''}`}
             src={imgPath}
             alt={title}
             data-testid={`section__img-${imgList[0]}`}
