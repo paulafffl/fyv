@@ -11,6 +11,7 @@ export const Section = ({
 }) => {
     const [selectedImg, setSelectedImg] = useState('');
     const [displayLimit, setDisplayLimit] = useState(displayPerLoad);
+    const [isLoading, setIsLoading] = useState(false);
 
     useEffect(() => {
         window.addEventListener('scroll', handleScroll);
@@ -31,11 +32,15 @@ export const Section = ({
     };
 
     const loadMorePosts = () => {
+        setIsLoading(true);
         const newLimit = Math.min(
             displayLimit + displayPerLoad,
             content.length,
         );
-        setDisplayLimit(newLimit);
+        setTimeout(() => {
+            setDisplayLimit(newLimit);
+            setIsLoading(false);
+        }, 500);
     };
 
     const thumbnailsMapped = content
@@ -90,6 +95,11 @@ export const Section = ({
             >
                 {thumbnailsMapped}
             </div>
+            {isLoading && (
+                <div className="loader-container">
+                    <div className="loader"></div>
+                </div>
+            )}
             {posts && (
                 <div style={{ textAlign: 'center', paddingBottom: '5vw' }}>
                     <h3>
