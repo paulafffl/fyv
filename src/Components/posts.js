@@ -8,7 +8,7 @@ export const Posts = () => {
             title={'posts'}
             content={contentPosts}
             posts
-            displayPerLoad={6}
+            initialDisplay={6}
         />
     );
 };

@@ -7,10 +7,10 @@ export const Section = ({
     title,
     advent = false,
     posts = false,
-    displayPerLoad,
+    initialDisplay,
 }) => {
     const [selectedImg, setSelectedImg] = useState('');
-    const [displayLimit, setDisplayLimit] = useState(displayPerLoad);
+    const [displayLimit, setDisplayLimit] = useState(initialDisplay);
     const [isLoading, setIsLoading] = useState(false);
 
     useEffect(() => {
@@ -33,10 +33,8 @@ export const Section = ({
 
     const loadMorePosts = () => {
         setIsLoading(true);
-        const newLimit = Math.min(
-            displayLimit + displayPerLoad,
-            content.length,
-        );
+        const displayNext = initialDisplay !== 0 ? initialDisplay : 3;
+        const newLimit = Math.min(displayLimit + displayNext, content.length);
         setTimeout(() => {
             setDisplayLimit(newLimit);
             setIsLoading(false);
