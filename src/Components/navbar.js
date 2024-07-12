@@ -15,14 +15,16 @@ export const Navbar = () => {
                         <img
                             src={logoInner}
                             className="navbar__logo--small"
-                            alt="logoOuter"
+                            aria-hidden
                         />
                         FREE YOUR VULVA
                     </Link>
                 )}
                 <div
                     onClick={() => setMenuOpen(!menuOpen)}
-                    className={`navbar__button ${menuOpen ? 'navbar__button--expanded' : ''}`}
+                    className={`navbar__button ${
+                        menuOpen ? 'navbar__button--expanded' : ''
+                    }`}
                 >
                     {menuOpen ? (
                         <svg
@@ -45,12 +47,14 @@ export const Navbar = () => {
                         <img
                             src={logoMain}
                             className="navbar__logo--large"
-                            alt="logo"
+                            alt="FYV Homepage"
                         />
                     </Link>
                 )}
                 <div
-                    className={`navbar__routes ${menuOpen ? 'navbar__routes--expanded' : ''}`}
+                    className={`navbar__routes ${
+                        menuOpen ? 'navbar__routes--expanded' : ''
+                    }`}
                 >
                     <Link
                         to="/self-work"
@@ -58,7 +62,11 @@ export const Navbar = () => {
                             setMenuOpen(false);
                             setActive('self-work');
                         }}
-                        className={`navbar__route ${active === 'self-work' ? 'navbar__route--active' : ''}`}
+                        className={`navbar__route ${
+                            active === 'self-work'
+                                ? 'navbar__route--active'
+                                : ''
+                        }`}
                     >
                         SELF-WORK
                     </Link>
@@ -68,7 +76,9 @@ export const Navbar = () => {
                             setMenuOpen(false);
                             setActive('bodywork');
                         }}
-                        className={`navbar__route ${active === 'bodywork' ? 'navbar__route--active' : ''}`}
+                        className={`navbar__route ${
+                            active === 'bodywork' ? 'navbar__route--active' : ''
+                        }`}
                     >
                         BODYWORK
                     </Link>
@@ -78,7 +88,9 @@ export const Navbar = () => {
                             setMenuOpen(false);
                             setActive('posts');
                         }}
-                        className={`navbar__route ${active === 'posts' ? 'navbar__route--active' : ''}`}
+                        className={`navbar__route ${
+                            active === 'posts' ? 'navbar__route--active' : ''
+                        }`}
                     >
                         POSTS
                     </Link>
@@ -88,7 +100,9 @@ export const Navbar = () => {
                             setMenuOpen(false);
                             setActive('about');
                         }}
-                        className={`navbar__route ${active === 'about' ? 'navbar__route--active' : ''}`}
+                        className={`navbar__route ${
+                            active === 'about' ? 'navbar__route--active' : ''
+                        }`}
                     >
                         ABOUT
                     </Link>

@@ -16,7 +16,9 @@ export const Modal = ({
     const carousel = content.imgList.map((imgNo) => {
         return (
             <button
-                className={`modal__carousel ${shownImg === imgNo ? 'modal__carousel--selected' : ''}`}
+                className={`modal__carousel ${
+                    shownImg === imgNo ? 'modal__carousel--selected' : ''
+                }`}
                 key={'carousel' + imgNo}
                 data-testid={`carousel-img-${imgNo}`}
                 onClick={() => setShownImg(imgNo)}
@@ -59,7 +61,9 @@ export const Modal = ({
                 </div>
                 <div className="modal__content">
                     <div
-                        className={`modal__img ${advent ? 'modal__img--advent' : ''}`}
+                        className={`modal__img ${
+                            advent ? 'modal__img--advent' : ''
+                        }`}
                     >
                         <img
                             src={imgPath}
@@ -72,7 +76,9 @@ export const Modal = ({
                         )}
                     </div>
                     <div
-                        className={`modal__text ${advent ? 'modal__text--advent' : ''}`}
+                        className={`modal__text ${
+                            advent ? 'modal__text--advent' : ''
+                        }`}
                     >
                         {content.content}
                     </div>
@@ -82,14 +88,14 @@ export const Modal = ({
                         href="https://www.instagram.com/freeyourvulva/"
                         target={'blank'}
                     >
-                        <img src={logoInsta} alt="logoInstagram" />
+                        <img src={logoInsta} aria-hidden />
                         Follow
                     </a>
                     <a
                         href="https://www.buymeacoffee.com/freeyourvulva"
                         target={'blank'}
                     >
-                        <img src={iconSupport} alt="iconSupport" />
+                        <img src={iconSupport} aria-hidden />
                         Support
                     </a>
                 </div>

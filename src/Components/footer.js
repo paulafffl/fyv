@@ -15,7 +15,7 @@ export const Footer = () => {
                     <img
                         src={logoInsta}
                         className="footer__icons"
-                        alt="logoInstagram"
+                        aria-hidden
                     />
                     Follow
                 </a>
@@ -26,7 +26,7 @@ export const Footer = () => {
                     <img
                         src={iconSupport}
                         className="footer__icons"
-                        alt="iconSupport"
+                        aria-hidden
                     />
                     Support
                 </a>
@@ -37,11 +37,7 @@ export const Footer = () => {
                     href="mailto:freeyourvulva@gmail.com?subject=Mail from Our Site"
                     target={'blank'}
                 >
-                    <img
-                        src={logoOuter}
-                        className="footer__logo"
-                        alt="logoOuter"
-                    />
+                    <img src={logoOuter} className="footer__logo" aria-hidden />
                 </a>
             </div>
         </div>
