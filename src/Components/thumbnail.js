@@ -11,12 +11,18 @@ export const Thumbnail = ({
         ? require(`../Images/Thumbnails/Advent/Animated/${selectedImg}.gif`)
         : require(`../Images/Thumbnails/instagram_post_${imgList[0]}.png`);
     return (
-        <img
+        <button
+            className="button-reset-styles"
             onClick={onClick}
-            className={`section__img ${advent ? 'section__img--advent' : ''}`}
-            src={imgPath}
-            alt={title}
             data-testid={`section__img-${imgList[0]}`}
-        />
+        >
+            <img
+                className={`section__img ${
+                    advent ? 'section__img--advent' : ''
+                }`}
+                src={imgPath}
+                alt={title}
+            />
+        </button>
     );
 };

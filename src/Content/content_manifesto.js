@@ -1,6 +1,6 @@
 export const contentManifesto = [
     {
-        title: 'F.Y.V. Manifesto',
+        title: '1. Praise vulva diversity by ending shame and insecurity',
         imgList: [12],
         content: (
             <div>
@@ -36,7 +36,7 @@ export const contentManifesto = [
         ),
     },
     {
-        title: 'F.Y.V. Manifesto',
+        title: '2. Honour women’s sexuality by revealing our innate potency',
         imgList: [11],
         content: (
             <div>
@@ -77,7 +77,7 @@ export const contentManifesto = [
         ),
     },
     {
-        title: 'F.Y.V. Manifesto',
+        title: '3. Spark Societal Liberation by advocating empowerment & self-love',
         imgList: [10],
         content: (
             <div>
