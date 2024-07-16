@@ -316,6 +316,10 @@ body {
         background-color: $color-pink;
         border-radius: 100%;
         fill: $color-brown;
+        cursor: pointer;
+        border: none;
+        padding: 0;
+        line-height: 0rem;
 
         &--previous {
             left: 0;
@@ -433,12 +437,13 @@ body {
 
     &__close {
         text-align: right;
-        color: $color-sand;
-        font-size: 2rem;
         margin-right: 1rem;
-        font-weight: bold;
+        margin-top: 1rem;
 
-        span {
+        button {
+            color: $color-sand;
+            font-size: 2rem;
+            font-weight: bold;
             &:hover {
                 cursor: pointer;
                 color: $color-brown;
@@ -731,6 +736,7 @@ body {
     margin: 0;
     padding: 0;
     font-size: 1rem;
+    font-family: 'Figtree', sans-serif;
     line-height: 0rem;
     background: transparent;
     -webkit-appearance: none;

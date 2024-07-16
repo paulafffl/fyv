@@ -37,27 +37,30 @@ export const Modal = ({
                 onClick={() => setSelectedImg('')}
             ></div>
             {selectedImg > 0 && (
-                <svg
+                <button
                     className="modal__button modal__button--previous"
+                    aria-label="Previous"
                     onClick={() => {
                         setSelectedImg(selectedImg - 1);
                     }}
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 48 48"
                 >
-                    <path d="M28.05 36 16 23.95 28.05 11.9l2.15 2.15-9.9 9.9 9.9 9.9Z" />
-                </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+                        <path d="M28.05 36 16 23.95 28.05 11.9l2.15 2.15-9.9 9.9 9.9 9.9Z" />
+                    </svg>
+                </button>
             )}
             <div className={`modal__box ${advent ? 'modal__box--advent' : ''}`}>
                 <div className="modal__close">
-                    <span
+                    <button
+                        className="button-reset-styles"
+                        aria-label="Close"
                         onClick={(e) => {
                             e.stopPropagation();
                             setSelectedImg('');
                         }}
                     >
                         &times;
-                    </span>
+                    </button>
                 </div>
                 <div className="modal__content">
                     <div
@@ -101,16 +104,17 @@ export const Modal = ({
                 </div>
             </div>
             {selectedImg < range && (
-                <svg
+                <button
                     className="modal__button modal__button--next"
+                    aria-label="Next"
                     onClick={() => {
                         setSelectedImg(selectedImg + 1);
                     }}
-                    xmlns="http://www.w3.org/2000/svg"
-                    viewBox="0 0 48 48"
                 >
-                    <path d="m18.75 36-2.15-2.15 9.9-9.9-9.9-9.9 2.15-2.15L30.8 23.95Z" />
-                </svg>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+                        <path d="m18.75 36-2.15-2.15 9.9-9.9-9.9-9.9 2.15-2.15L30.8 23.95Z" />
+                    </svg>
+                </button>
             )}
         </div>
     );
