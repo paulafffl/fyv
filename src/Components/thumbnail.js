@@ -14,7 +14,7 @@ export const Thumbnail = ({
         <button
             className="button-reset-styles"
             onClick={onClick}
-            data-testid={`section__img-${imgList[0]}`}
+            data-cy={`section__img-${imgList[0]}`}
         >
             <img
                 className={`section__img ${

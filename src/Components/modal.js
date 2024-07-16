@@ -20,7 +20,7 @@ export const Modal = ({
                     shownImg === imgNo ? 'modal__carousel--selected' : ''
                 }`}
                 key={'carousel' + imgNo}
-                data-testid={`carousel-img-${imgNo}`}
+                data-cy={`carousel-img-${imgNo}`}
                 onClick={() => setShownImg(imgNo)}
             />
         );
@@ -40,6 +40,7 @@ export const Modal = ({
                 <button
                     className="modal__button modal__button--previous"
                     aria-label="Previous"
+                    data-cy="Previous"
                     onClick={() => {
                         setSelectedImg(selectedImg - 1);
                     }}
@@ -54,6 +55,7 @@ export const Modal = ({
                     <button
                         className="button-reset-styles"
                         aria-label="Close"
+                        data-cy="Close"
                         onClick={(e) => {
                             e.stopPropagation();
                             setSelectedImg('');
@@ -70,7 +72,7 @@ export const Modal = ({
                     >
                         <img
                             src={imgPath}
-                            data-testid={`modal__img-${shownImg}`}
+                            data-cy={`modal__img-${shownImg}`}
                             alt={content.title}
                         />
 
@@ -107,6 +109,7 @@ export const Modal = ({
                 <button
                     className="modal__button modal__button--next"
                     aria-label="Next"
+                    data-cy="Next"
                     onClick={() => {
                         setSelectedImg(selectedImg + 1);
                     }}

@@ -5,12 +5,14 @@ context('Modals', () => {
         cy.visit('');
     });
     it('should open and close the modal', () => {
-        cy.get("[data-testid='section__img-15']").click();
-        cy.get("[class='modal__close']").find('span').click();
+        cy.get("[data-cy='section__img-11']").click();
+        cy.get("[data-cy='Close']").click({ force: true });
     });
     it('should open the modal and change carousel image', () => {
-        cy.get("[data-testid='section__img-15']").click();
-        cy.get("[data-testid='carousel-img-16']").click();
-        cy.get("[data-testid='modal__img-16']").should('be.visible');
+        cy.get("[data-cy='section__img-11']").click();
+        cy.get("[data-cy='Next']").click();
+        cy.get("[data-cy='modal__img-10']").should('be.visible');
+        cy.get("[data-cy='Previous']").click();
+        cy.get("[data-cy='modal__img-11']").should('be.visible');
     });
 });
