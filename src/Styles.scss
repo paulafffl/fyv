@@ -647,29 +647,21 @@ body {
         display: flex;
         align-items: center;
 
-        h3 {
-            font-size: calc(10px + 1vmin);
-            margin: 2vh;
-        }
-
         @media only screen and (max-width: $breakpoint-small) {
             flex-direction: column;
         }
     }
 
     a {
-        display: hidden;
         font-family: 'Trispace', sans-serif;
         text-decoration: none;
-        font-weight: bold;
-        color: $color-sand;
+        color: $color-brown;
         display: flex;
         align-items: center;
         margin-right: 3vh;
 
         &:hover {
-            color: $color-brown;
-            display: normal;
+            color: $color-sand;
         }
 
         @media only screen and (max-width: $breakpoint-small) {
@@ -678,8 +670,16 @@ body {
         }
     }
 
+    &__contact {
+        font-style: italic;
+        @media only screen and (max-width: $breakpoint-small) {
+            margin-top: 2.5vh;
+        }
+    }
+
     &__logo {
         height: 10vh;
+        margin: 1vh;
         animation: footer__logo-spin infinite 20s linear;
 
         &:hover {

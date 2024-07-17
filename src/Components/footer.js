@@ -27,14 +27,14 @@ export const Footer = () => {
                     Support
                 </a>
             </div>
-            <div>
-                <h3>share my wisdom with F.Y.V.</h3>
+            <div className="footer__contact">
                 <a
                     href="mailto:freeyourvulva@gmail.com?subject=Mail from Our Site"
                     target="_blank"
                     rel="noreferrer"
                     aria-label="Share my wisdom - Open mail to page in a new window"
                 >
+                    share my wisdom with F.Y.V.
                     <img src={logoOuter} className="footer__logo" alt="" />
                 </a>
             </div>
