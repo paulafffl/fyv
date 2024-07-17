@@ -11,11 +11,15 @@ export const Navbar = () => {
         <>
             <div className={`navbar ${menuOpen ? 'navbar--expanded' : ''}`}>
                 {!menuOpen && (
-                    <Link to="/" onClick={() => setMenuOpen(false)}>
+                    <Link
+                        to="/"
+                        onClick={() => setMenuOpen(false)}
+                        aria-label="Free Your Vulva Homepage"
+                    >
                         <img
                             src={logoInner}
                             className="navbar__logo--small"
-                            aria-hidden
+                            alt=""
                         />
                         FREE YOUR VULVA
                     </Link>

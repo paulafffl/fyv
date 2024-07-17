@@ -91,16 +91,18 @@ export const Modal = ({
                 <div className="modal__follow">
                     <a
                         href="https://www.instagram.com/freeyourvulva/"
-                        target={'blank'}
+                        target="_blank"
+                        aria-label="Follow - Open Instagram page in a new window"
                     >
-                        <img src={logoInsta} aria-hidden />
+                        <img src={logoInsta} alt="" />
                         Follow
                     </a>
                     <a
                         href="https://www.buymeacoffee.com/freeyourvulva"
-                        target={'blank'}
+                        target="_blank"
+                        aria-label="Support - Open BuyMeACoffee page in a new window"
                     >
-                        <img src={iconSupport} aria-hidden />
+                        <img src={iconSupport} alt="" />
                         Support
                     </a>
                 </div>

@@ -104,7 +104,9 @@ export const Section = ({
                         + more posts on{' '}
                         <a
                             href="https://www.instagram.com/freeyourvulva/"
-                            target={'blank'}
+                            target="_blank"
+                            rel="noreferrer"
+                            aria-label="Open Instagram page in a new window"
                         >
                             Instagram
                         </a>

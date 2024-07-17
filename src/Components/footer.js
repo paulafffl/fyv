@@ -10,24 +10,20 @@ export const Footer = () => {
             <div>
                 <a
                     href="https://www.instagram.com/freeyourvulva/"
-                    target={'blank'}
+                    target="_blank"
+                    rel="noreferrer"
+                    aria-label="Follow - Open Instagram page in a new window"
                 >
-                    <img
-                        src={logoInsta}
-                        className="footer__icons"
-                        aria-hidden
-                    />
+                    <img src={logoInsta} className="footer__icons" alt="" />
                     Follow
                 </a>
                 <a
                     href="https://www.buymeacoffee.com/freeyourvulva"
-                    target={'blank'}
+                    target="_blank"
+                    rel="noreferrer"
+                    aria-label="Support - Open BuyMeACoffee page in a new window"
                 >
-                    <img
-                        src={iconSupport}
-                        className="footer__icons"
-                        aria-hidden
-                    />
+                    <img src={iconSupport} className="footer__icons" alt="" />
                     Support
                 </a>
             </div>
@@ -35,9 +31,11 @@ export const Footer = () => {
                 <h3>share my wisdom with F.Y.V.</h3>
                 <a
                     href="mailto:freeyourvulva@gmail.com?subject=Mail from Our Site"
-                    target={'blank'}
+                    target="_blank"
+                    rel="noreferrer"
+                    aria-label="Share my wisdom - Open mail to page in a new window"
                 >
-                    <img src={logoOuter} className="footer__logo" aria-hidden />
+                    <img src={logoOuter} className="footer__logo" alt="" />
                 </a>
             </div>
         </div>
