@@ -11,5 +11,7 @@ This is a website for a passion project, entirely designed and coded by myself.
 ## Deployment
 
 1. Run `firebase init` if it's the first time deploying from a new machine.
+
+Run `npm run deploy` - this script will execute:
 1. Run `npm run build` to build the app for production.
 1. Run `firebase deploy` to deploy
