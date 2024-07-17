@@ -209,12 +209,20 @@ body {
 }
 
 .header {
+    align-content: center;
     img {
         top: 0px;
         position: relative;
         width: 100%;
         margin-top: 8vh;
         margin-bottom: 2vh;
+    }
+    &__shimmer {
+        height: 90vh;
+
+        @media only screen and (max-width: $breakpoint-small) {
+            height: 35vh;
+        }
     }
 }
 
