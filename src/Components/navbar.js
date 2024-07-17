@@ -9,7 +9,7 @@ export const Navbar = () => {
     const [menuOpen, setMenuOpen] = useState(false);
     return (
         <>
-            <div className={`navbar ${menuOpen ? 'navbar--expanded' : ''}`}>
+            <nav className={`navbar ${menuOpen ? 'navbar--expanded' : ''}`}>
                 {!menuOpen && (
                     <Link
                         to="/"
@@ -111,7 +111,7 @@ export const Navbar = () => {
                         ABOUT
                     </Link>
                 </div>
-            </div>
+            </nav>
             <Outlet />
         </>
     );

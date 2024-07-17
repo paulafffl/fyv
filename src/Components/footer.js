@@ -6,7 +6,7 @@ import iconSupport from '../Images/icon_support.svg';
 
 export const Footer = () => {
     return (
-        <div className="footer">
+        <footer className="footer">
             <div>
                 <a
                     href="https://www.instagram.com/freeyourvulva/"
@@ -38,6 +38,6 @@ export const Footer = () => {
                     <img src={logoOuter} className="footer__logo" alt="" />
                 </a>
             </div>
-        </div>
+        </footer>
     );
 };

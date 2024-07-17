@@ -3,8 +3,8 @@ import '../Styles.scss';
 
 export const Header = () => {
     return (
-        <div className="header">
+        <header className="header">
             <img src={require(`../Images/fyv_hero_front.png`)} alt="" />
-        </div>
+        </header>
     );
 };
