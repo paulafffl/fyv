@@ -1,6 +1,6 @@
 import React from 'react';
 import '../Styles.scss';
-import logoOuter from '../Images/fyv_logo_outer.png';
+import logoOuter from '../Images/fyv_logo_outer.avif';
 import logoInsta from '../Images/instagram_logo.svg';
 import iconSupport from '../Images/icon_support.svg';
 

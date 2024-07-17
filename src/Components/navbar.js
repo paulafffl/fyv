@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Outlet, Link } from 'react-router-dom';
-import logoInner from '../Images/fyv_logo_inner.png';
-import logoMain from '../Images/fyv_logo_Outline_Pink.png';
+import logoInner from '../Images/fyv_logo_inner.avif';
+import logoMain from '../Images/fyv_logo_Outline_Pink.avif';
 import '../Styles.scss';
 
 export const Navbar = () => {
