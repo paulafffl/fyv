@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import logoInsta from '../Images/instagram_logo.svg';
-import iconSupport from '../Images/icon_support.svg';
 
 export const Modal = ({
     content,
@@ -92,18 +91,11 @@ export const Modal = ({
                     <a
                         href="https://www.instagram.com/freeyourvulva/"
                         target="_blank"
+                        rel="noreferrer"
                         aria-label="Follow - Open Instagram page in a new window"
                     >
                         <img src={logoInsta} alt="" />
                         Follow
-                    </a>
-                    <a
-                        href="https://www.buymeacoffee.com/freeyourvulva"
-                        target="_blank"
-                        aria-label="Support - Open BuyMeACoffee page in a new window"
-                    >
-                        <img src={iconSupport} alt="" />
-                        Support
                     </a>
                 </div>
             </div>
