@@ -8,7 +8,7 @@ const useHeroImageLoaded = () => {
         img.onload = () => {
             setLoaded(true);
         };
-        img.src = require('../Images/fyv_hero_front.png');
+        img.src = require('../Images/fyv_hero_front.avif');
     }, []);
 
     return () => loaded;
