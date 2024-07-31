@@ -23,8 +23,8 @@ export const Section = ({
     const handleScroll = () => {
         if (
             window.innerHeight + window.scrollY >=
-                // Adding a buffer of 50 pixels to improve reliability
-                document.documentElement.offsetHeight - 50 &&
+                // Adding a buffer of 400 pixels to improve reliability
+                document.documentElement.offsetHeight - 400 &&
             displayLimit < content.length
         ) {
             loadMorePosts();

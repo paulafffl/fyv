@@ -380,7 +380,7 @@ body {
 
     &__content {
         display: flex;
-        padding: 1vw 1vw;
+        padding: 1.3rem;
         height: 60vh;
 
         @media only screen and (max-width: $breakpoint-small) {
@@ -759,12 +759,12 @@ body {
 }
 
 ::-webkit-scrollbar {
-    height: 6px;
-    width: 6px;
-    background-color: white;
+    height: 7px;
+    width: 6rem;
+    background-color: $color-grey-light;
 
     @media (min-width: 640px) {
-        width: 8px;
+        width: 7px;
     }
 }
 
