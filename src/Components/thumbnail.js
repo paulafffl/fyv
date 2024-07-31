@@ -9,7 +9,7 @@ export const Thumbnail = ({
 }) => {
     const imgPath = advent
         ? require(`../Images/Thumbnails/Advent/Animated/${selectedImg}.gif`)
-        : require(`../Images/Thumbnails/instagram_post_${imgList[0]}.png`);
+        : require(`../Images/Thumbnails/instagram_post_${imgList[0]}.avif`);
     return (
         <button
             className="button-reset-styles"
