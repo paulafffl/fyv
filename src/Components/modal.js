@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import logoInsta from '../Images/instagram_logo.svg';
 
 export const Modal = ({
     content,
@@ -86,17 +85,6 @@ export const Modal = ({
                     >
                         {content.content}
                     </div>
-                </div>
-                <div className="modal__follow">
-                    <a
-                        href="https://www.instagram.com/freeyourvulva/"
-                        target="_blank"
-                        rel="noreferrer"
-                        aria-label="Follow - Open Instagram page in a new window"
-                    >
-                        <img src={logoInsta} alt="" />
-                        Follow
-                    </a>
                 </div>
             </div>
             {selectedImg < range && (

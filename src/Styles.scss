@@ -358,9 +358,9 @@ body {
 
         @media only screen and (max-width: $breakpoint-small) {
             display: block;
-            width: 80vw;
-            height: 85vh;
-            padding: 1vw;
+            width: 82vw;
+            height: 87vh;
+            padding: 0;
             overflow: auto;
         }
 
@@ -381,7 +381,9 @@ body {
 
         @media only screen and (max-width: $breakpoint-small) {
             flex-direction: column;
-            height: 70.5vh;
+            padding: 0;
+            height: 78vh;
+            border-bottom: 2px solid $color-pink;
         }
     }
 
@@ -401,7 +403,8 @@ body {
         }
 
         @media only screen and (max-width: $breakpoint-small) {
-            padding: 7vw;
+            box-shadow: 0 -10px 10px rgba($color-pink, 0.2) inset;
+            padding: 9vw;
             overflow: auto;
         }
         &--advent {
@@ -749,4 +752,19 @@ body {
     line-height: 0rem;
     background: transparent;
     -webkit-appearance: none;
+}
+
+::-webkit-scrollbar {
+    height: 6px;
+    width: 6px;
+    background-color: white;
+
+    @media (min-width: 640px) {
+        width: 8px;
+    }
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 9999px;
+    background-color: $color-sand;
 }
