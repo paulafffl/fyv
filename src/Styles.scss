@@ -116,7 +116,6 @@ body {
     width: 100%;
     font-family: 'Figtree', sans-serif;
     letter-spacing: 0.3rem;
-    font-size: calc(2.5vmin);
 
     &--expanded {
         height: 100vh;
@@ -128,9 +127,11 @@ body {
         position: relative;
 
         &--small {
-            min-height: 2vw;
-            max-height: 3.5vh;
-            margin: 2.5vw;
+            height: 4.5vmin;
+            margin: 2vmin;
+            @media (max-width: $breakpoint-small) {
+                height: 7vmin;
+            }
         }
 
         &--large {
@@ -262,7 +263,10 @@ body {
         p {
             text-align: center;
             margin-block-end: 0;
-            font-size: 2.5vmin;
+            margin-top: 5vmin;
+            @media only screen and (min-width: $breakpoint-large) {
+                font-size: 2.5vmin;
+            }
         }
     }
 
