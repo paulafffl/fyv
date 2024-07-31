@@ -20,6 +20,8 @@ export const Thumbnail = ({
                 className={`section__img ${
                     advent ? 'section__img--advent' : ''
                 }`}
+                width={500}
+                height={500}
                 src={imgPath}
                 alt={title}
             />
