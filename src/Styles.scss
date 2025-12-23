@@ -56,12 +56,14 @@ body {
         margin-bottom: 0;
     }
 
-    h4 {
+    h4,
+    aside {
         font-family: 'Figtree', sans-serif;
         margin-top: 4vmin;
         margin-bottom: 2vmin;
         font-size: 2.5vmin;
         color: $color-sand;
+        font-weight: bold;
         span {
             font-style: italic;
             text-decoration: underline;
@@ -85,12 +87,27 @@ body {
         z-index: 0;
     }
 
-    p {
+    p,
+    blockquote {
         margin-bottom: 10px;
         font-family: 'Trispace', sans-serif;
         @media only screen and (max-width: $breakpoint-small) {
             font-size: 4vmin;
         }
+    }
+
+    blockquote {
+        margin: 2rem 0;
+        margin-bottom: 1rem;
+    }
+
+    cite {
+        font-family: 'Figtree', sans-serif;
+        margin-top: 4vmin;
+        margin-bottom: 2vmin;
+        font-size: 2.5vmin;
+        color: $color-sand;
+        font-weight: bold;
     }
 
     span {
@@ -225,6 +242,13 @@ body {
         max-width: 100%;
         height: auto;
     }
+}
+
+section {
+    break-inside: avoid;
+    page-break-inside: avoid;
+    -webkit-column-break-inside: avoid;
+    margin-bottom: 8vh;
 }
 
 .section {
@@ -381,7 +405,7 @@ body {
     &__content {
         display: flex;
         padding: 1.3rem;
-        height: 60vh;
+        height: 60svh;
 
         @media only screen and (max-width: $breakpoint-small) {
             flex-direction: column;
@@ -527,7 +551,7 @@ body {
     background-color: rgba(white, 0.5);
     p {
         margin-top: 0;
-        margin-bottom: 3vh;
+        margin-bottom: 1.5rem;
     }
 
     div {
@@ -541,16 +565,11 @@ body {
         align-items: center;
     }
 
-    h1 {
+    h2 {
         font-size: calc(2rem + 4vmin);
         margin-bottom: 6vmin;
         margin-top: -2vmin;
-    }
-
-    h2 {
-        margin-bottom: 3rem;
-        font-size: calc(2rem + 4vmin);
-        font-weight: 100;
+        color: $color-sand;
     }
 
     h3 {
@@ -559,7 +578,15 @@ body {
         font-weight: 100;
         color: $color-brown;
         margin-block-start: 0;
-        margin-bottom: 0;
+        margin-bottom: 1rem;
+    }
+
+    h4 {
+        margin-block-start: 0;
+        margin-bottom: 3rem;
+        font-size: calc(2rem + 4vmin);
+        font-weight: 100;
+        color: $color-brown;
     }
 
     &__boxArea {
@@ -759,13 +786,9 @@ body {
 }
 
 ::-webkit-scrollbar {
-    height: 7px;
-    width: 6rem;
+    height: 0.3rem;
+    width: 0.3rem;
     background-color: $color-grey-light;
-
-    @media (min-width: 640px) {
-        width: 7px;
-    }
 }
 
 ::-webkit-scrollbar-thumb {
