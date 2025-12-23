@@ -1,5 +1,6 @@
 {
     "hosting": {
+        "site": "free-your-vulva",
         "public": "build",
         "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
         "rewrites": [
