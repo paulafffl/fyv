@@ -28,6 +28,11 @@ export const Modal = ({
         setShownImg(content.imgList[0]);
     }, [content, selectedImg]);
 
+    const scrollContentToTop = () => {
+        const el = document.querySelector('.modal__text');
+        el?.scrollTo({ top: 0, behavior: 'auto' });
+    };
+
     return (
         <div className="modal">
             <div
@@ -40,6 +45,7 @@ export const Modal = ({
                     aria-label="Previous"
                     data-cy="Previous"
                     onClick={() => {
+                        scrollContentToTop();
                         setSelectedImg(selectedImg - 1);
                     }}
                 >
@@ -93,6 +99,7 @@ export const Modal = ({
                     aria-label="Next"
                     data-cy="Next"
                     onClick={() => {
+                        scrollContentToTop();
                         setSelectedImg(selectedImg + 1);
                     }}
                 >
