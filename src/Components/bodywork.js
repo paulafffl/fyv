@@ -7,9 +7,9 @@ export const Bodywork = () => {
             <h1 className="section__title">{'bodywork'}</h1>
             <div className="bodywork">
                 <div className="bodywork__col-narrow">
-                    <h1>Sensory Bodywork</h1>
+                    <h2>Sensory Bodywork</h2>
                     <h3>for your</h3>
-                    <h2>pussy, pleasure & power</h2>
+                    <h4>pussy, pleasure & power</h4>
                 </div>
                 <div className="bodywork__col">
                     <p>
@@ -57,9 +57,9 @@ export const Bodywork = () => {
                 </div>
                 <div className="bodywork__boxArea">
                     <div className="bodywork__col-grid-2">
-                        <h1>
+                        <h2>
                             what's in it <br></br>for me?
-                        </h1>
+                        </h2>
                         <p>
                             I always felt a deep level of empathy and only found
                             as an adult that I’m a highly sensitive person.
@@ -99,117 +99,123 @@ export const Bodywork = () => {
             </div>
             <div className="bodywork">
                 <div>
-                    <h1>what's in it for you?</h1>
+                    <h2>what's in it for you?</h2>
                 </div>
                 <div className="bodywork__col-grid-2">
-                    <h3>more independence</h3>
-                    <br></br>
-                    <p>
-                        I believe the most fundamental human need is to feel
-                        loved. And we are all taught, even if unwillingly, the
-                        importance of pleasing others. Yet, only a few of us
-                        learn how to please and love ourselves.
-                        <span>
-                            {' '}
-                            Society does not teach us that self-love is the only
-                            one that we truly need. And as long as we depend on
-                            anyone’s love and acceptance besides our own, we
-                            can’t be completely fulfilled.{' '}
-                        </span>
-                        I believe that learning how to please yourself is a
-                        crucial step in reaching this level of independence,
-                        which leads to a much happier and uncomplicated life.
-                        And even though you’ll be receiving pleasure from
-                        someone else in this bodywork, all I’ll be doing is
-                        revealing your own natural potency. Anything that you’ll
-                        experience has always been within you. I’m just showing
-                        you the door, and then it’s up to you to walk through it
-                        and integrate what you've learned. It’ll always be
-                        within your reach.
-                    </p>
-                    <br></br>
-                    <h3>more awareness</h3>
-                    <br></br>
-                    <p>
-                        What we’ll do is to enhance your natural orgasmic
-                        potency. Orgasmic potency is our capacity to accumulate
-                        tension before releasing it in the form of an orgasm.
-                        You can see it as a rollercoaster: the higher the
-                        tension, the higher the release will be. And when you
-                        achieve this greater level of release, your brain
-                        reaches an altered state of consciousness where
-                        wonderful experiences can happen.
-                        <span>
-                            {' '}
-                            It has the power to magnify pleasure in all aspects
-                            of your life - by unlocking a heightened receptivity
-                            to all your five senses and all the pleasures they
-                            provide. And you might find yourself more creative
-                            or even seeing things more clearly afterwards.{' '}
-                        </span>
-                        That’s the result of becoming more aware and in tune
-                        with yourself, ultimately leading to a fuller life.
-                        Libido is a form of vital energy, not limited to the
-                        sexual realm alone.
-                    </p>
-                    <h3>more self-love</h3>
-                    <br></br>
-                    <p>
-                        I learned to love myself completely once I started to
-                        embrace my physical body as a vehicle, a vehicle for
-                        both physical and emotional health. While the importance
-                        of looking after our bodies for well-being is
-                        well-known, there isn't enough light on how an orgasm
-                        can be a powerful means to the same end. We are finally
-                        seeing studies that prove its health benefits. But
-                        beyond that,
-                        <span>
-                            {' '}
-                            a truly profound orgasm teaches you to appreciate
-                            your body for its potency rather than its
-                            appearance. Independently of how we look, our bodies
-                            are biologically designed to feel pleasure.{' '}
-                        </span>
-                        Every single cell in our skin is a receptor. By learning
-                        how to activate all of these cells and having the
-                        foundation to process this experience, you can achieve
-                        this profound and transformative orgasm. And once you
-                        witness where your body can take you, physically,
-                        emotionally and spiritually, you naturally reach another
-                        level of self-love.
-                    </p>
-                    <br></br>
-                    <h3>more spirituality</h3>
-                    <br></br>
-                    <p>
-                        Orgasm in French is called 'La Petite Mort,' which means
-                        'little death.' I find this to be a very accurate term
-                        to describe that moment when your ego (and who you think
-                        you are) temporarily cease to exist, and you just be.
-                        Existing purely in the present, feeling completely
-                        fulfilled. A state that can be achieved through
-                        meditation alone, but it might take years of dedication
-                        to reach that. But
-                        <span>
-                            {' '}
-                            people with vulvas are blessed with a 'divine sacred
-                            portal' - the meaning of Yoni, the Sanskrit word for
-                            the female sexual organs. So in this sense, I like
-                            to see orgasm as a faster and more accessible way to
-                            sneak peek into enlightenment.{' '}
-                        </span>
-                        Independently of what spiritual work means to you, I
-                        believe that it’s impossible not to feel connected with
-                        something greater than yourself when you reach these
-                        different planes of consciousness through orgasm. And to
-                        see your body as the temple it truly is.
-                    </p>
+                    <section>
+                        <h3>more independence</h3>
+                        <p>
+                            I believe the most fundamental human need is to feel
+                            loved. And we are all taught, even if unwillingly,
+                            the importance of pleasing others. Yet, only a few
+                            of us learn how to please and love ourselves.
+                            <span>
+                                {' '}
+                                Society does not teach us that self-love is the
+                                only one that we truly need. And as long as we
+                                depend on anyone’s love and acceptance besides
+                                our own, we can’t be completely fulfilled.{' '}
+                            </span>
+                            I believe that learning how to please yourself is a
+                            crucial step in reaching this level of independence,
+                            which leads to a much happier and uncomplicated
+                            life. And even though you’ll be receiving pleasure
+                            from someone else in this bodywork, all I’ll be
+                            doing is revealing your own natural potency.
+                            Anything that you’ll experience has always been
+                            within you. I’m just showing you the door, and then
+                            it’s up to you to walk through it and integrate what
+                            you've learned. It’ll always be within your reach.
+                        </p>
+                    </section>
+                    <section>
+                        <h3>more awareness</h3>
+                        <p>
+                            What we’ll do is to enhance your natural orgasmic
+                            potency. Orgasmic potency is our capacity to
+                            accumulate tension before releasing it in the form
+                            of an orgasm. You can see it as a rollercoaster: the
+                            higher the tension, the higher the release will be.
+                            And when you achieve this greater level of release,
+                            your brain reaches an altered state of consciousness
+                            where wonderful experiences can happen.
+                            <span>
+                                {' '}
+                                It has the power to magnify pleasure in all
+                                aspects of your life - by unlocking a heightened
+                                receptivity to all your five senses and all the
+                                pleasures they provide. And you might find
+                                yourself more creative or even seeing things
+                                more clearly afterwards.{' '}
+                            </span>
+                            That’s the result of becoming more aware and in tune
+                            with yourself, ultimately leading to a fuller life.
+                            Libido is a form of vital energy, not limited to the
+                            sexual realm alone.
+                        </p>
+                    </section>
+                    <section>
+                        <h3>more self-love</h3>
+                        <p>
+                            I learned to love myself completely once I started
+                            to embrace my physical body as a vehicle, a vehicle
+                            for both physical and emotional health. While the
+                            importance of looking after our bodies for
+                            well-being is well-known, there isn't enough light
+                            on how an orgasm can be a powerful means to the same
+                            end. We are finally seeing studies that prove its
+                            health benefits. But beyond that,
+                            <span>
+                                {' '}
+                                a truly profound orgasm teaches you to
+                                appreciate your body for its potency rather than
+                                its appearance. Independently of how we look,
+                                our bodies are biologically designed to feel
+                                pleasure.{' '}
+                            </span>
+                            Every single cell in our skin is a receptor. By
+                            learning how to activate all of these cells and
+                            having the foundation to process this experience,
+                            you can achieve this profound and transformative
+                            orgasm. And once you witness where your body can
+                            take you, physically, emotionally and spiritually,
+                            you naturally reach another level of self-love.
+                        </p>
+                    </section>
+                    <section>
+                        <h3>more spirituality</h3>
+                        <p>
+                            Orgasm in French is called 'La Petite Mort,' which
+                            means 'little death.' I find this to be a very
+                            accurate term to describe that moment when your ego
+                            (and who you think you are) temporarily cease to
+                            exist, and you just be. Existing purely in the
+                            present, feeling completely fulfilled. A state that
+                            can be achieved through meditation alone, but it
+                            might take years of dedication to reach that. But
+                            <span>
+                                {' '}
+                                people with vulvas are blessed with a 'divine
+                                sacred portal' - the meaning of Yoni, the
+                                Sanskrit word for the female sexual organs. So
+                                in this sense, I like to see orgasm as a faster
+                                and more accessible way to sneak peek into
+                                enlightenment.{' '}
+                            </span>
+                            Independently of what spiritual work means to you, I
+                            believe that it’s impossible not to feel connected
+                            with something greater than yourself when you reach
+                            these different planes of consciousness through
+                            orgasm. And to see your body as the temple it truly
+                            is.
+                        </p>
+                    </section>
                 </div>
             </div>
             <div className="bodywork">
-                <h1>testimonials</h1>
+                <h2>testimonials</h2>
                 <div className="bodywork__boxArea">
-                    <h4>
+                    <aside>
                         I'd rather refrain from sharing personal testimonials as
                         it can create misleading expectations. So,{' '}
                         <span>
@@ -220,7 +226,7 @@ export const Bodywork = () => {
                         embark on this journey. If that's your case, please read
                         it bearing in mind that each body will have a unique
                         experience.
-                    </h4>
+                    </aside>
                 </div>
                 <br></br>
                 <br></br>
@@ -229,7 +235,7 @@ export const Bodywork = () => {
                 <div>
                     <br></br>
                     <h5>”</h5>
-                    <p>
+                    <blockquote>
                         It was pure expansion. And a cleanse. I felt so light
                         and so much love. Happy moments of my life kept popping
                         up in my mind. I accessed places that I didn't even
@@ -237,14 +243,14 @@ export const Bodywork = () => {
                         For a while, I completely forgot where I was. And I know
                         this didn’t make sense because I was sober, but
                         afterwards, I felt completely high
-                        <h4>- Bruna Christo</h4>
-                    </p>
+                    </blockquote>
+                    <cite>— Bruna Christo</cite>
                 </div>
                 <br></br>
                 <br></br>
                 <div>
                     <h5>”</h5>
-                    <p>
+                    <blockquote>
                         Night of 1000 suns. I walk home and I feel high,and it's
                         not because of the boots. I feel fast, and it's not
                         because of the scooter, I feel calm and strong. This is
@@ -285,14 +291,14 @@ export const Bodywork = () => {
                         released something and that with, a slightly different
                         version of me was born, who knows herself better and
                         carries courage in her womb.
-                        <h4>- Joana Carvalinho</h4>
-                    </p>
+                    </blockquote>
+                    <cite>— Joana Carvalinho</cite>
                 </div>
                 <br></br>
                 <br></br>
                 <div>
                     <h5>”</h5>
-                    <p>
+                    <blockquote>
                         You put me at ease more than I could have imagined and
                         made me feel comfortable in myself which really allowed
                         me to let go. I lost all sense of time with the eye mask
@@ -314,17 +320,17 @@ export const Bodywork = () => {
                         how you are expanding your mind and your experiences and
                         honoured that you want me and all your friends to share
                         in those experiences.
-                        <h4>- Ellie Wintram</h4>
-                    </p>
+                    </blockquote>
+                    <cite>— Ellie Wintram</cite>
                 </div>
                 <br></br>
                 <br></br>
                 <div>
                     <h5>”</h5>
-                    <p>
+                    <blockquote>
                         Thank you again for the most incredible experience
-                        tonight ❤ As soon as I arrived I was totally immersed
-                        by the music, lighting, set-up of the bed, perfect
+                        tonight ❤ As soon as I arrived I was totally immersed by
+                        the music, lighting, set-up of the bed, perfect
                         temperature and scent of coconut - it was already
                         magical. The context at the start of the session was so
                         heartfelt and I was blown away by your words, I loved
@@ -344,14 +350,14 @@ export const Bodywork = () => {
                         my body, from shame to acceptance, to completely
                         embracing pleasure and letting go of my ego. Thank you
                         for your care, time, effort, and love.
-                        <h4>- Heather B.</h4>
-                    </p>
+                    </blockquote>
+                    <cite>— Heather B.</cite>
                 </div>
             </div>
             <div className="bodywork">
-                <h1>faq</h1>
+                <h2>faq</h2>
                 <div>
-                    <h4>What happens exactly?</h4>
+                    <h3>What happens exactly?</h3>
                     <p>
                         This Sensory Bodywork takes place in an optimal
                         environment where all of your senses are looked after.
@@ -369,7 +375,7 @@ export const Bodywork = () => {
                         at any time and I’ll cease to touch you as soon as you
                         tell me so.
                     </p>
-                    <h4>Who can receive it?</h4>
+                    <h3>Who can receive it?</h3>
                     <p>
                         I offer this Sensory Bodywork to anyone that has a vulva
                         (not limited to cisgender). I'd love to extend it to
@@ -388,7 +394,7 @@ export const Bodywork = () => {
                         </a>{' '}
                         is a reality, I’ll not offer this to men.
                     </p>
-                    <h4>When can it happen?</h4>
+                    <h3>When can it happen?</h3>
                     <p>
                         The Sensory Bodywork takes place at night and it’s not
                         advisable that you plan anything afterwards, aside from
@@ -403,7 +409,7 @@ export const Bodywork = () => {
                         of time available.
                     </p>
 
-                    <h4>Where does it take place?</h4>
+                    <h3>Where does it take place?</h3>
                     <p>
                         Although I understand that some people would rather have
                         this in the comfort of their homes, I cannot guarantee
@@ -415,7 +421,7 @@ export const Bodywork = () => {
                         initial conversation so we can both feel safe embarking
                         on this experience together.
                     </p>
-                    <h4>Why would I want this?</h4>
+                    <h3>Why would I want this?</h3>
                     <p>
                         To extend your capacity to experience pleasure and
                         unlock your full innate power through your pussy. To
@@ -424,7 +430,7 @@ export const Bodywork = () => {
                         with pleasure. To embrace more independence, self-love,
                         awareness, and spirituality into your life.
                     </p>
-                    <h4>How long does it last?</h4>
+                    <h3>How long does it last?</h3>
                     <p>
                         A Sensory Bodywork session takes between 2,5h to 3h.
                         During the first 30-60min, I'll share key learnings to
@@ -436,7 +442,7 @@ export const Bodywork = () => {
                         experience on your time, aside from taking a shower if
                         you wish.
                     </p>
-                    <h4>How much does it cost?</h4>
+                    <h3>How much does it cost?</h3>
                     <p>
                         I believe all deserve access to self-love and their own
                         power, so I offer this Sensory Bodywork on a Pay What
@@ -449,7 +455,7 @@ export const Bodywork = () => {
                         I accept and appreciate any amount you can contribute
                         with.
                     </p>
-                    <h4>How to prepare for it?</h4>
+                    <h3>How to prepare for it?</h3>
                     <p>
                         It’s advisable that you don’t consume alcohol or any
                         drugs before this Sensory Bodywork so you can be fully
@@ -458,10 +464,10 @@ export const Bodywork = () => {
                         through. You should eat in the same way you would before
                         doing an exercise.
                     </p>
-                    <h4>
+                    <h3>
                         Are people who experienced sexual trauma or abuse
                         suitable for this?
-                    </h4>
+                    </h3>
                     <p>
                         This Sensory Bodywork can be extremely healing for
                         people who experienced sexual trauma and abuse. However,
