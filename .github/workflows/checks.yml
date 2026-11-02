@@ -1,0 +1,51 @@
+name: Checks
+
+on:
+    pull_request:
+    push:
+        branches: [main, master]
+    schedule:
+        - cron: '23 7 * * 1'
+    workflow_dispatch:
+
+permissions:
+    contents: read
+
+concurrency:
+    group: checks-${{ github.workflow }}-${{ github.ref }}
+    cancel-in-progress: true
+
+jobs:
+    verify:
+        runs-on: ubuntu-24.04
+        timeout-minutes: 20
+        steps:
+            - uses: actions/checkout@v6
+            - uses: actions/setup-node@v6
+              with:
+                  node-version-file: .nvmrc
+                  cache: npm
+            - run: npm ci
+            - run: npm run lint
+            - run: npm run test:cli
+            - run: npm audit --audit-level=low
+            - name: Install Chromium for pull requests and pushes
+              if: github.event_name != 'schedule' && github.event_name != 'workflow_dispatch'
+              run: npx playwright install --with-deps chromium
+            - name: Install all browsers for scheduled and manual checks
+              if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+              run: npx playwright install --with-deps chromium firefox webkit
+            - name: Desktop and mobile regression tests
+              if: github.event_name != 'schedule' && github.event_name != 'workflow_dispatch'
+              run: npm run test:e2e
+            - name: Cross-browser regression tests
+              if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+              run: npm run test:e2e:all
+            - uses: actions/upload-artifact@v5
+              if: ${{ !cancelled() }}
+              with:
+                  name: playwright-results
+                  path: |
+                      playwright-report/
+                      test-results/
+                  retention-days: 14

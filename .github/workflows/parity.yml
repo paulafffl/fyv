@@ -1,0 +1,41 @@
+name: Before and after comparison
+
+on:
+    workflow_dispatch:
+
+permissions:
+    contents: read
+
+jobs:
+    compare:
+        runs-on: ubuntu-24.04
+        timeout-minutes: 30
+        steps:
+            - uses: actions/checkout@v6
+              with:
+                  fetch-depth: 0
+            - uses: actions/setup-node@v6
+              with:
+                  node-version-file: .nvmrc
+                  cache: npm
+            - run: npm ci
+            - name: Install all comparison browsers
+              run: npx playwright install --with-deps chromium firefox webkit
+            - name: Rebuild the committed original website
+              run: npm run test:parity:prepare
+            - name: Compare original and migrated websites
+              run: npm run test:parity:all
+            - uses: actions/upload-artifact@v5
+              if: ${{ !cancelled() }}
+              with:
+                  name: before-after-comparison
+                  path: |
+                      parity-report/
+                      parity-results/
+                      .parity/baseline-provenance.json
+                      .parity/comparison-provenance.json
+                      .parity/asset-comparison.json
+                      .parity/animation-frames/manifest.json
+                      .parity/fonts/*.json
+                  include-hidden-files: true
+                  retention-days: 14

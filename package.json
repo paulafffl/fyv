@@ -2,47 +2,56 @@
     "name": "fyv",
     "version": "0.1.0",
     "private": true,
-    "dependencies": {
-        "@testing-library/jest-dom": "^5.16.4",
-        "@testing-library/react": "^13.3.0",
-        "@testing-library/user-event": "^13.5.0",
-        "@webassemblyjs/helper-wasm-section": "^1.11.6",
-        "cypress": "^10.1.0",
-        "moment": "^2.29.4",
-        "react": "^18.1.0",
-        "react-dom": "^18.1.0",
-        "react-scripts": "5.0.1",
-        "sass": "^1.52.3",
-        "web-vitals": "^2.1.4"
+    "engines": {
+        "node": "^24.22.0",
+        "npm": ">=11 <12"
     },
+    "packageManager": "npm@11.19.1",
     "scripts": {
-        "start": "react-scripts start",
-        "build": "react-scripts build",
-        "deploy": "react-scripts build && firebase deploy",
-        "test": "react-scripts test",
-        "eject": "react-scripts eject"
+        "postinstall": "node scripts/patch-minimatch.cjs",
+        "start": "vite --host 127.0.0.1 --port 3000",
+        "build": "vite build",
+        "preview": "vite preview",
+        "deploy": "npm run build && firebase deploy --only hosting",
+        "lint": "eslint . --max-warnings=0",
+        "test": "npm run test:e2e",
+        "test:e2e": "playwright test --project=chromium --project=mobile-chromium",
+        "test:e2e:all": "playwright test",
+        "test:e2e:ui": "playwright test --ui --project=chromium --project=mobile-chromium",
+        "test:e2e:report": "playwright show-report",
+        "test:cli": "node --test tests/*.test.cjs",
+        "test:parity:prepare": "node scripts/prepare-parity-baseline.mjs",
+        "test:parity": "playwright test --config playwright.parity.config.cjs --project=chromium-desktop --project=chromium-compact --project=chromium-mobile",
+        "test:parity:all": "playwright test --config playwright.parity.config.cjs",
+        "test:parity:report": "playwright show-report parity-report"
     },
-    "eslintConfig": {
-        "extends": [
-            "react-app",
-            "react-app/jest"
-        ]
-    },
-    "browserslist": {
-        "production": [
-            ">0.2%",
-            "not dead",
-            "not op_mini all"
-        ],
-        "development": [
-            "last 1 chrome version",
-            "last 1 firefox version",
-            "last 1 safari version"
-        ]
+    "dependencies": {
+        "react": "^18.3.1",
+        "react-dom": "^18.3.1",
+        "react-router-dom": "^7.18.5"
     },
     "devDependencies": {
-        "firebase": "^10.8.0",
-        "firebase-tools": "^13.2.1",
-        "react-router-dom": "^6.4.2"
+        "@eslint/js": "^10.0.1",
+        "@playwright/test": "^1.64.1",
+        "@vitejs/plugin-legacy": "8.2.3",
+        "@vitejs/plugin-react": "^6.1.2",
+        "autoprefixer": "10.6.2",
+        "eslint": "^10.13.0",
+        "eslint-plugin-react-hooks": "^7.1.1",
+        "firebase-tools": "^15.34.2",
+        "globals": "^17.13.0",
+        "sass": "^1.107.0",
+        "terser": "5.51.2",
+        "vite": "^8.3.5"
+    },
+    "overrides": {
+        "@google-cloud/pubsub": {
+            "@opentelemetry/core": "2.8.0"
+        },
+        "gaxios@6": {
+            "uuid": "11.1.1"
+        },
+        "glob@10": "14.0.3",
+        "minimatch": "11.0.3"
     }
 }

@@ -6,6 +6,11 @@
 
 # deployment
 .firebase/
+firebase-debug.log*
 
 # tests
-/cypress/videos
+/playwright-report/
+/test-results/
+/.parity/
+/parity-report/
+/parity-results/

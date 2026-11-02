@@ -1,0 +1,15 @@
+version: 2
+updates:
+    - package-ecosystem: npm
+      directory: /
+      schedule:
+          interval: weekly
+      groups:
+          react:
+              patterns: [react, react-dom, react-router-dom]
+          lint:
+              patterns: ['eslint*', '@eslint/*', globals]
+    - package-ecosystem: github-actions
+      directory: /
+      schedule:
+          interval: weekly
