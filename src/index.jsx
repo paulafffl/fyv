@@ -6,7 +6,6 @@ import { Home } from './Components/home';
 import { Advent } from './Components/advent';
 import { Posts } from './Components/posts';
 import { About } from './Components/about';
-import reportWebVitals from './reportWebVitals';
 import ScrollToTop from './scrollToTop';
 import './index.css';
 import { Bodywork } from './Components/bodywork';
@@ -34,8 +33,3 @@ root.render(
         <App />
     </React.StrictMode>,
 );
-
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();

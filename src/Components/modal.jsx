@@ -1,4 +1,5 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
+import { modalImageUrl } from '../galleryImages';
 
 export const Modal = ({
     content,
@@ -8,12 +9,13 @@ export const Modal = ({
     advent = false,
 }) => {
     const [shownImg, setShownImg] = useState(content?.imgList[0]);
-    const imgPath = advent
-        ? require(`../Images/Thumbnails/Advent/Released/${shownImg}.png`)
-        : require(`../Images/Thumbnails/instagram_post_${shownImg}.png`);
+    const imgPath = modalImageUrl(shownImg, advent);
     const carousel = content.imgList.map((imgNo) => {
         return (
             <button
+                type="button"
+                aria-label={`Show image ${imgNo}`}
+                aria-pressed={shownImg === imgNo}
                 className={`modal__carousel ${
                     shownImg === imgNo ? 'modal__carousel--selected' : ''
                 }`}

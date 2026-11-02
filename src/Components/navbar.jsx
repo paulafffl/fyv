@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import { Outlet, Link } from 'react-router-dom';
 import logoInner from '../Images/fyv_logo_inner.avif';
 import logoMain from '../Images/fyv_logo_Outline_Pink.avif';
@@ -24,7 +24,11 @@ export const Navbar = () => {
                         FREE YOUR VULVA
                     </Link>
                 )}
-                <div
+                <button
+                    type="button"
+                    aria-label={menuOpen ? 'Close menu' : 'Open menu'}
+                    aria-expanded={menuOpen}
+                    aria-controls="navigation-routes"
                     onClick={() => setMenuOpen(!menuOpen)}
                     className={`navbar__button ${
                         menuOpen ? 'navbar__button--expanded' : ''
@@ -45,7 +49,7 @@ export const Navbar = () => {
                             <path d="M6 36v-3h36v3Zm0-10.5v-3h36v3ZM6 15v-3h36v3Z" />
                         </svg>
                     )}
-                </div>
+                </button>
                 {menuOpen && (
                     <Link to="/" onClick={() => setMenuOpen(false)}>
                         <img
@@ -56,6 +60,7 @@ export const Navbar = () => {
                     </Link>
                 )}
                 <div
+                    id="navigation-routes"
                     className={`navbar__routes ${
                         menuOpen ? 'navbar__routes--expanded' : ''
                     }`}

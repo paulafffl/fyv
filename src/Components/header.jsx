@@ -1,4 +1,3 @@
-import React from 'react';
 import '../Styles.scss';
 import hero_image from '../Images/fyv_hero_front.avif';
 

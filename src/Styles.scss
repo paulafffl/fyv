@@ -4,6 +4,7 @@
 
 $color-brown: #84614f;
 $color-sand: #dda479;
+$color-border: rgba(221, 164, 120, 0.5);
 $color-pink: #f5cab7;
 $color-grey-light: #ddd;
 $color-grey-dark: #888;
@@ -159,6 +160,11 @@ body {
 
     &__button {
         display: none;
+        box-sizing: content-box;
+        border: 0;
+        margin: 0;
+        background: transparent;
+        cursor: pointer;
         position: relative;
         height: 5vw;
         width: 5vw;
@@ -279,7 +285,7 @@ section {
         text-align: left;
         padding-top: 6vw;
         padding-bottom: 1vw;
-        border-bottom: 0.4vh solid rgba($color-sand, 0.5);
+        border-bottom: 0.4vh solid $color-border;
         margin-left: 11.5vw;
     }
 
@@ -484,6 +490,9 @@ section {
             color: $color-sand;
             font-size: 2rem;
             font-weight: bold;
+            min-width: 2.75rem;
+            min-height: 2.75rem;
+            line-height: 1;
             &:hover {
                 cursor: pointer;
                 color: $color-brown;
@@ -596,7 +605,7 @@ section {
         justify-content: space-between;
         flex-wrap: wrap;
         background-color: rgba(white, 0.7);
-        border-bottom: 0.4vh solid rgba($color-sand, 0.5);
+        border-bottom: 0.4vh solid $color-border;
         margin: 3vh 0 1vh 0;
     }
 

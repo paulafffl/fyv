@@ -1,6 +1,7 @@
-import React from 'react';
 import '../Styles.scss';
 import { Manifesto } from './manifesto';
+import paulaPhoto from '../Images/paula_headshot_new.jpg';
+import beaPhoto from '../Images/bea_headshot.jpg';
 
 export const About = () => {
     return (
@@ -9,7 +10,7 @@ export const About = () => {
             <div className="about">
                 <div className="about__photo">
                     <img
-                        src={require(`../Images/paula_headshot_new.jpg`)}
+                        src={paulaPhoto}
                         alt={'img-about-Paula'}
                     />
                     <p>
@@ -77,7 +78,7 @@ export const About = () => {
             <div className="about">
                 <div className="about__photo">
                     <img
-                        src={require(`../Images/bea_headshot.jpg`)}
+                        src={beaPhoto}
                         alt={'img-about-Bea'}
                     />
                     <p>

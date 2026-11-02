@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import { useState, useEffect } from 'react';
 import { Modal } from './modal';
 import { Thumbnail } from './thumbnail';
 
@@ -7,46 +7,43 @@ export const Section = ({
     title,
     advent = false,
     posts = false,
-    initialDisplay,
+    initialDisplay = content.length,
 }) => {
     const [selectedImg, setSelectedImg] = useState('');
     const [displayLimit, setDisplayLimit] = useState(initialDisplay);
     const [isLoading, setIsLoading] = useState(false);
 
     useEffect(() => {
+        let loadTimeout;
+        const handleScroll = () => {
+            if (
+                !loadTimeout &&
+                window.innerHeight + window.scrollY >=
+                    document.documentElement.offsetHeight - 400 &&
+                displayLimit < content.length
+            ) {
+                setIsLoading(true);
+                loadTimeout = setTimeout(() => {
+                    setDisplayLimit((limit) =>
+                        Math.min(limit + (initialDisplay || 3), content.length),
+                    );
+                    setIsLoading(false);
+                }, 500);
+            }
+        };
         window.addEventListener('scroll', handleScroll);
         return () => {
             window.removeEventListener('scroll', handleScroll);
+            clearTimeout(loadTimeout);
         };
-    });
-
-    const handleScroll = () => {
-        if (
-            window.innerHeight + window.scrollY >=
-                // Adding a buffer of 400 pixels to improve reliability
-                document.documentElement.offsetHeight - 400 &&
-            displayLimit < content.length
-        ) {
-            loadMorePosts();
-        }
-    };
-
-    const loadMorePosts = () => {
-        setIsLoading(true);
-        const displayNext = initialDisplay !== 0 ? initialDisplay : 3;
-        const newLimit = Math.min(displayLimit + displayNext, content.length);
-        setTimeout(() => {
-            setDisplayLimit(newLimit);
-            setIsLoading(false);
-        }, 500);
-    };
+    }, [content.length, displayLimit, initialDisplay]);
 
     const thumbnailsMapped = content
         .slice(0, displayLimit)
         .map((item, i) => (
             <Thumbnail
                 onClick={() => setSelectedImg(i)}
-                key={`thumbnail-${item.title}`}
+                key={`thumbnail-${item.imgList[0]}`}
                 title={item.title}
                 imgList={item.imgList}
                 selectedImg={i + 1}

@@ -1,4 +1,4 @@
-import React from 'react';
+import { thumbnailUrl } from '../galleryImages';
 
 export const Thumbnail = ({
     title,
@@ -7,9 +7,7 @@ export const Thumbnail = ({
     selectedImg = null,
     advent = false,
 }) => {
-    const imgPath = advent
-        ? require(`../Images/Thumbnails/Advent/Animated/${selectedImg}.gif`)
-        : require(`../Images/Thumbnails/instagram_post_${imgList[0]}.avif`);
+    const imgPath = thumbnailUrl(advent ? selectedImg : imgList[0], advent);
     return (
         <button
             className="button-reset-styles"
