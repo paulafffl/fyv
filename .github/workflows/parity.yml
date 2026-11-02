@@ -25,7 +25,7 @@ jobs:
               run: npm run test:parity:prepare
             - name: Compare original and migrated websites
               run: npm run test:parity:all
-            - uses: actions/upload-artifact@v5
+            - uses: actions/upload-artifact@v7
               if: ${{ !cancelled() }}
               with:
                   name: before-after-comparison

@@ -41,7 +41,7 @@ jobs:
             - name: Cross-browser regression tests
               if: github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
               run: npm run test:e2e:all
-            - uses: actions/upload-artifact@v5
+            - uses: actions/upload-artifact@v7
               if: ${{ !cancelled() }}
               with:
                   name: playwright-results
